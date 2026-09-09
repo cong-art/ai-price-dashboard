@@ -1,0 +1,22 @@
+{
+  "_comment": "接入 OpenRouter 活数据前的画布静态快照（厂商官方口径）。seed-history.py 用它生成两个历史种子样本（约7天前/约30天前），用于首日即可展示「较上周/较上月」对比；随真实定时采样逐日积累，对比基准会自然切换为真实历史，种子最终被覆盖淘汰。",
+  "_seed_date": "2026-09-03",
+  "prices": {
+    "anthropic/claude-fable-5":      { "in": 10.00, "out": 50.00 },
+    "anthropic/claude-opus-5":       { "in": 5.00,  "out": 25.00 },
+    "openai/gpt-5.6-sol":            { "in": 4.00,  "out": 20.00 },
+    "moonshotai/kimi-k3":            { "in": 3.00,  "out": 15.00 },
+    "google/gemini-3.1-pro-preview": { "in": 2.00,  "out": 12.00 },
+    "openai/gpt-5.6-terra":          { "in": 2.00,  "out": 12.00 },
+    "anthropic/claude-sonnet-5":     { "in": 2.00,  "out": 10.00 },
+    "x-ai/grok-4.6":                 { "in": 2.00,  "out": 6.00 },
+    "qwen/qwen3.8-max":              { "in": 2.00,  "out": 6.00 },
+    "z-ai/glm-5.3":                  { "in": 1.40,  "out": 4.40 },
+    "anthropic/claude-haiku-4.5":    { "in": 1.00,  "out": 5.00 },
+    "deepseek/deepseek-v4-pro":      { "in": 1.32,  "out": 3.96 },
+    "google/gemini-3.8-flash":       { "in": 0.75,  "out": 3.75 },
+    "deepseek/deepseek-v4-flash":    { "in": 0.44,  "out": 1.32 },
+    "minimax/minimax-m3":            { "in": 0.30,  "out": 1.20 },
+    "openai/gpt-5.6-luna":           { "in": 0.20,  "out": 1.20 }
+  }
+}
