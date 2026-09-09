@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-09-09T08:41:14.598530+08:00",
+  "sources": [
+    "IT之家",
+    "量子位"
+  ],
+  "window": "回溯 2 天",
+  "count": 9,
+  "news": [
+    {
+      "category": "产业合作",
+      "date": "09-09",
+      "title": "Sonos 27 音频系统更新：配对增强环绕声道、预览外部 AI 接入等",
+      "desc": "Sonos 昨日（9 月 8 日）发布新闻稿，宣布通过苹果 App Store 应用商店渠道，更新 Sonos 27 音频系统，并向 Sonos S2 系列产品免费推送。产品命名方面，伴随着 Sonos Beam Ultra 回音壁、Sonos Ace Ultra 头戴式耳机两款新品…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/966.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-09",
+      "title": "苹果 2026 款 Apple TV 4K 曝光：升级 A19/Pro 芯片，支持 Siri AI",
+      "desc": "消息源亚伦 · 佩里斯（Aaron Perris）昨日（9 月 8 日）在 X 平台发布推文，通过挖掘 tvOS 27 Beta 更新代码，发现了 AppleTV18,1 硬件踪迹，预估是苹果新款 Apple TV 4K 硬件…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/963.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-09",
+      "title": "Claude 额度离奇消失，Anthropic 确认账号被黑客盗用",
+      "desc": "9 月 9 日，据 TechCrunch 报道，多名 Claude 用户近期发现，自己在没有使用服务的情况下，账号额度仍在快速消耗。Anthropic 调查后称，黑客利用窃取的 Claude 登录会话访问用户账号，并消耗其使用额度…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/962.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-09",
+      "title": "扎克伯格推进“个人超级智能”：Meta 发布其首款个人智能体 Muse，内部测试喜忧参半",
+      "desc": "北京时间 9 月 9 日，据路透社报道，Meta 周二正式发布了其长期宣传的 AI 助手，该助手可自主代表用户完成发送邮件、卖车及预订旅行等任务。不过，Meta 内部担忧这项技术在处理敏感个人数据的访问权限时存在管理不善的问题…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/960.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-09",
+      "title": "继 Claude 尝试攻克黎曼猜想后：OpenAI 宣布用 10000 个 AI 智能体 88 小时攻克千禧年大奖难题，陶哲轩既点赞又担忧",
+      "desc": "OpenAI 于当地时间 9 月 8 日宣布，其内部未公开的 AI 模型（性能远超最新发布的 GPT-6 Astra）已成功解决“纳维-斯托克斯存在性与光滑性问题”（Navier-Stokes existence and smoothness problem）…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/959.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-09",
+      "title": "OpenAI 最强 AI 生图模型：ChatGPT Images 2.5 登场，延迟降低 50%、新增 Sketch 草图",
+      "desc": "OpenAI 今天（9 月 9 日）官宣发布 ChatGPT Images 2.5，图像生成延迟最多降低 50%，并新增 Sketch 草图参考、模板库、图片内评论标注等实用功能，是该公司当前最先进的图像生成模型…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/956.htm"
+    },
+    {
+      "category": "AI 产业",
+      "date": "09-09",
+      "title": "DeepSeek 官宣明日 flash 系列 AI 模型降价：输出为每百万 Token 4 元",
+      "desc": "官方宣布将于北京时间明日（2026 年 9 月 10 日）12 时起执行新价格，调整 Flash 系列定价。根据明日调整的新价格：空闲时段：输入缓存命中价格为每百万 Token 0.02 元输入缓存未命中为每百万 Token 1 元输出为每百万 Token 4…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/953.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "09-08",
+      "title": "消息称 WhatsApp 将支持第三方 AI 智能体，顺应时代潮流",
+      "desc": "WhatsApp 即将支持第三方 AI 智能体。IT之家从原报道获悉，当 OpenClaw 等人工智能助手出现时，许多用户尝试将这些 AI 智能体当作机器人连接到 WhatsApp，但很多情况下都会导致封号…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/948.htm"
+    },
+    {
+      "category": "产业合作",
+      "date": "09-08",
+      "title": "达芬奇 DaVinci Resolve 21.1 发布，接入 Claude Code、ChatGPT Codex 等 AI 助手",
+      "desc": "Blackmagic Design 今天发布视频剪辑软件 DaVinci Resolve 21.1，接入多个人工智能助手。据介绍，本次更新将支持 Claude、Claude Code 和 ChatGPT Codex 等 AI 助手，使用户能够使用自然语言分析项目、整理媒体、调整设置和批量渲染…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/0/999/945.htm"
+    }
+  ]
+}
