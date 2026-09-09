@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="Fi2Smt5eUQYPVIMiYR2H7E">
+<head data-page-node-id="WweF6irGhqTvdCz2ggEeGs">
+<meta charset="UTF-8" data-page-node-id="z4s6vnu213iCm0x3a68OFq" />
+<meta name="viewport" content="width=1440" data-page-node-id="15qgbIAQbvUYwjgVS0FW9G" />
+<title>大模型 API 价格对比看板 · 模型价格台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" data-page-node-id="PZpOUJAiAEFu6GvHb3g3Sm" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-page-node-id="rbZ3j2haxWDcVCOKqxt8hu" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" data-page-node-id="tq4HVnd6yuTPUEH6yZy3iz" />
+<style>
+  :root{
+    --ink:#1D1D1F;
+    --ink-muted:#7A7A7A;
+    --hairline:#E0E0E0;
+    --hairline-soft:#E4E4E8;
+    --parchment:#F5F5F7;
+    --pearl:#FAFAFC;
+    --canvas:#FFFFFF;
+    --row-sep:#F0F0F0;
+    --tile-dark:#272729;
+    --news-card:#2A2A2C;
+    --on-dark:#FFFFFF;
+    --on-dark-sub:#CCCCCC;
+    --on-dark-body:#A1A1A6;
+    --on-dark-src:#6E6E73;
+    --nav-dim:#CCCCCC;
+    --nav-time:#8A8A8E;
+    --blue:#0066CC;
+    --link-blue:#2997FF;
+    --green:#0A7D32;
+    --red:#D70015;
+    --flat:#A1A1A6;
+    --flat-dot:#C7C7CC;
+    --orange:#FF9500;
+    --purple:#5856D6;
+    --grid-line:#E8E8ED;
+    --axis-label:#6E6E73;
+
+    --r-lg:18px;
+    --r-md:11px;
+    --r-pill:9999px;
+
+    --gutter:80px;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0;}
+
+  html,body{
+    background:var(--canvas);
+    color:var(--ink);
+    font-family:"Inter","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    font-feature-settings:"tnum" 1;
+  }
+
+  /* 画布固定 1440 宽，忠实还原设计稿的绝对间距 */
+  .page{min-width:1440px;width:1440px;}
+
+  /* ============ 顶部导航 ============ */
+  .nav{
+    height:44px;background:#000000;
+    display:flex;align-items:center;gap:28px;
+    padding:0 var(--gutter);
+  }
+  .nav-brand{font-size:13px;font-weight:600;color:#FFFFFF;line-height:normal;}
+  .nav-link{font-size:12px;font-weight:400;color:var(--nav-dim);line-height:normal;}
+  .nav-spacer{flex:1 1 auto;height:1px;}
+  .nav-time{font-size:12px;font-weight:400;color:var(--nav-time);line-height:normal;}
+
+  /* ============ 页面头部 ============ */
+  .hero{
+    background:var(--canvas);
+    padding:64px var(--gutter) 56px;
+    display:flex;flex-direction:column;gap:16px;
+  }
+  .eyebrow{font-size:12px;font-weight:600;color:var(--blue);line-height:normal;}
+  .hero-title{
+    font-size:48px;font-weight:600;line-height:56px;letter-spacing:-0.28px;color:var(--ink);
+  }
+  .hero-sub{
+    font-size:17px;font-weight:400;line-height:26px;color:var(--ink-muted);
+  }
+  .chips{display:flex;gap:10px;align-items:center;padding-top:8px;}
+  .chip{
+    height:32px;border-radius:var(--r-pill);background:var(--parchment);
+    padding:0 14px;display:flex;align-items:center;gap:8px;
+  }
+  .chip span{font-size:13px;font-weight:500;color:var(--ink);line-height:normal;white-space:nowrap;}
+
+  /* ============ 今日速览 ============ */
+  .overview{
+    background:var(--parchment);
+    padding:56px var(--gutter);
+    display:flex;flex-direction:column;gap:20px;
+  }
+  .sec-title{font-size:21px;font-weight:600;letter-spacing:0.23px;color:var(--ink);line-height:normal;}
+  .sec-note{font-size:13px;font-weight:400;color:var(--ink-muted);line-height:normal;}
+
+  .metric-grid{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start;}
+  .metric-card{
+    width:305px;background:var(--canvas);border-radius:var(--r-lg);
+    padding:24px;display:flex;flex-direction:column;gap:6px;align-items:flex-start;
+  }
+  .metric-card.mc-link{cursor:pointer;transition:box-shadow .18s ease,transform .18s ease;}
+  .metric-card.mc-link:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(29,29,31,.10);}
+  .metric-label{font-size:12px;font-weight:400;color:var(--ink-muted);line-height:normal;}
+  .metric-value{font-size:28px;font-weight:600;line-height:34px;color:var(--ink);}
+  .metric-note{font-size:13px;font-weight:400;line-height:19px;color:var(--ink-muted);}
+
+  /* ============ 价格对比总表 ============ */
+  .table-sec{
+    background:var(--canvas);
+    padding:56px var(--gutter) 80px;
+    display:flex;flex-direction:column;gap:20px;
+  }
+  .sec-head{display:flex;align-items:center;justify-content:space-between;gap:16px;}
+  .sec-head-left{display:flex;flex-direction:column;gap:4px;}
+  .sec-head-left.tight{gap:6px;}
+
+  .legend{display:flex;align-items:center;gap:14px;}
+  .legend-label{font-size:12px;font-weight:400;color:var(--ink-muted);line-height:normal;}
+  .legend-item{display:flex;align-items:center;gap:0;}
+  .dot{width:8px;height:8px;border-radius:4px;flex:0 0 8px;margin-right:8px;}
+  .legend-txt{font-size:12px;font-weight:400;color:var(--ink-muted);line-height:normal;}
+
+  .table-card{
+    border:1px solid var(--hairline);border-radius:var(--r-lg);overflow:hidden;background:var(--canvas);
+  }
+
+  /* 列宽：290 135 135 120 105 105 105 285 = 1280
+     输入/输出列在闲时模型上以「主价 + 闲时副价」双行呈现 */
+  .col-model{width:290px;padding:0 12px 0 16px;}
+  .col-in{width:135px;padding:0 12px;}
+  .col-out{width:135px;padding:0 12px;}
+  .col-cache{width:120px;padding:0 12px;}
+  .col-d{width:105px;padding:0 12px;}
+  .col-note{width:285px;padding:0 16px 0 12px;}
+
+  .thead{
+    height:42px;background:var(--pearl);
+    box-shadow:inset 0 0 0 1px var(--hairline);
+    display:flex;align-items:center;
+  }
+  .thead .cell{display:flex;align-items:center;height:100%;}
+  .th{font-size:12px;font-weight:600;color:var(--ink-muted);line-height:normal;width:100%;}
+  .ta-r{text-align:right;}
+  .ta-l{text-align:left;}
+
+  .group-row{
+    height:38px;background:var(--parchment);
+    padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;
+  }
+  .group-name{font-size:13px;font-weight:600;color:var(--ink);line-height:normal;}
+  .group-meta{font-size:12px;font-weight:400;color:var(--ink-muted);line-height:normal;}
+
+  .data-row{background:var(--canvas);}
+  .row-content{height:58px;display:flex;align-items:stretch;border-bottom:1px solid var(--row-sep);}
+  .data-row:last-child .row-content{border-bottom:none;}
+  .cell{display:flex;align-items:center;height:100%;}
+  .cell-model{flex-direction:column;justify-content:center;gap:2px;align-items:flex-start;}
+  .name-row{display:flex;align-items:center;gap:8px;max-width:100%;}
+  .m-name{font-size:15px;font-weight:600;line-height:20px;color:var(--ink);white-space:nowrap;}
+  .m-new{display:inline-flex;align-items:center;height:16px;padding:0 6px;margin-left:6px;border-radius:8px;background:#0E8A4A;color:#fff;font-size:10px;font-weight:600;line-height:normal;vertical-align:1px;flex:0 0 auto;}
+  .rc-new{display:inline-flex;align-items:center;height:15px;padding:0 6px;margin-left:6px;border-radius:8px;background:#0E8A4A;color:#fff;font-size:10px;font-weight:600;line-height:normal;vertical-align:1px;flex:0 0 auto;}
+  .m-meta{font-size:12px;font-weight:400;line-height:16px;color:var(--ink-muted);white-space:nowrap;}
+  .m-link{
+    display:inline-flex;align-items:center;gap:3px;height:20px;padding:0 7px;
+    border-radius:6px;background:#EDF4FF;text-decoration:none;flex:0 0 auto;
+    transition:background .15s ease;
+  }
+  .m-link:hover{background:#DCEBFF;}
+  .ml-txt{font-size:11px;font-weight:500;color:#0066CC;line-height:normal;}
+  .v-price{font-size:15px;font-weight:400;line-height:normal;color:var(--ink);width:100%;text-align:right;}
+  .v-cache{font-size:15px;font-weight:400;line-height:normal;color:var(--ink);width:100%;text-align:right;}
+  .v-cache.v-na{color:var(--flat);}
+  .v-tier{font-size:12px;font-weight:500;line-height:normal;color:var(--flat);width:100%;text-align:right;}
+  .v-delta{font-size:13px;font-weight:500;line-height:normal;width:100%;text-align:right;}
+  .v-note{font-size:12px;font-weight:400;line-height:17px;color:var(--ink-muted);width:100%;text-align:left;}
+
+  .c-flat{color:var(--flat);}
+  .c-up{color:var(--red);}
+  .c-down{color:var(--green);}
+  .c-new{color:var(--blue);}
+
+  .footnote{display:flex;flex-direction:column;gap:6px;}
+  .footnote p{font-size:12px;font-weight:400;line-height:18px;color:var(--ink-muted);}
+
+  /* ============ 能力雷达对比 ============ */
+  .radar-sec{
+    background:var(--parchment);
+    padding:56px var(--gutter) 72px;
+    display:flex;flex-direction:column;gap:24px;
+  }
+  .caliber{display:flex;flex-direction:column;gap:4px;text-align:right;align-items:flex-end;}
+  .caliber-t{font-size:12px;font-weight:600;color:var(--ink);line-height:normal;}
+  .caliber-d{font-size:12px;font-weight:400;color:var(--ink-muted);line-height:normal;}
+
+  .radar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+  @media (max-width:1180px){.radar-grid{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:760px){.radar-grid{grid-template-columns:1fr;}}
+  .radar-card{
+    background:var(--canvas);border:1px solid var(--hairline);border-radius:var(--r-lg);
+    padding:22px;display:flex;flex-direction:column;gap:8px;align-items:center;
+  }
+  .rc-head{width:100%;display:flex;align-items:center;justify-content:space-between;gap:8px;}
+  .rc-name{font-size:16px;font-weight:600;line-height:22px;color:var(--ink);}
+  .rc-vendor{font-size:12px;font-weight:400;color:var(--ink-muted);line-height:normal;}
+  .rc-score{font-size:13px;font-weight:600;color:var(--ink);background:var(--parchment);
+    border-radius:var(--r-pill);padding:4px 12px;white-space:nowrap;}
+  .radar-box{width:100%;max-width:340px;}
+  .radar-box svg{display:block;width:100%;height:auto;}
+
+  /* 其余模型：链接 chips，点击弹层查看雷达 */
+  .radar-more{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
+  .radar-more-label{font-size:13px;font-weight:500;color:var(--ink-muted);margin-right:2px;}
+  .radar-chip{
+    font:inherit;font-size:13px;font-weight:500;color:var(--ink);
+    background:var(--canvas);border:1px solid var(--hairline);border-radius:var(--r-pill);
+    padding:7px 14px;cursor:pointer;text-decoration:none;
+    transition:border-color .15s ease,color .15s ease;
+  }
+  .radar-chip:hover{border-color:var(--blue);color:var(--blue);}
+
+  /* 雷达弹层（查看未内嵌模型） */
+  .radar-modal{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;}
+  .radar-modal[hidden]{display:none;}
+  .radar-modal-mask{position:absolute;inset:0;background:rgba(29,29,31,.45);}
+  .radar-modal-card{
+    position:relative;background:var(--canvas);border-radius:var(--r-lg);padding:24px;
+    max-width:480px;width:calc(100% - 48px);max-height:calc(100vh - 48px);overflow:auto;
+    display:flex;flex-direction:column;gap:8px;align-items:center;
+    box-shadow:0 24px 60px rgba(0,0,0,.22);
+  }
+  .radar-modal-close{
+    position:absolute;top:12px;right:16px;font-size:22px;line-height:1;
+    color:var(--ink-muted);cursor:pointer;background:none;border:none;font-family:inherit;
+  }
+  .radar-modal-close:hover{color:var(--ink);}
+
+  .dim-row{display:flex;gap:12px;align-items:flex-start;}
+  .dim-card{
+    flex:1 1 0;min-width:0;background:var(--canvas);border:1px solid var(--hairline-soft);
+    border-radius:var(--r-md);padding:16px;display:flex;flex-direction:column;gap:4px;
+  }
+  .dim-name{font-size:13px;font-weight:600;color:var(--ink);line-height:normal;}
+  .dim-desc{font-size:12px;font-weight:400;line-height:17px;color:var(--ink-muted);}
+  .dim-lead{font-size:12px;font-weight:500;line-height:17px;}
+
+  /* ============ AI 资讯 ============ */
+  .news-sec{
+    background:var(--tile-dark);
+    padding:64px var(--gutter);
+    display:flex;flex-direction:column;gap:24px;
+  }
+  .news-head-left{display:flex;flex-direction:column;gap:8px;}
+  .news-title{font-size:34px;font-weight:600;line-height:42px;letter-spacing:-0.37px;color:var(--on-dark);}
+  .news-sub{font-size:17px;font-weight:400;line-height:normal;color:var(--on-dark-sub);}
+  .news-link{font-size:17px;font-weight:400;line-height:normal;color:var(--link-blue);cursor:pointer;}
+
+  .news-grid{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start;}
+  .news-card{
+    width:413px;background:var(--news-card);border-radius:var(--r-lg);
+    padding:24px;display:flex;flex-direction:column;gap:10px;align-items:flex-start;
+  }
+  .n-meta{font-size:12px;font-weight:600;line-height:normal;color:var(--link-blue);}
+  .n-title{font-size:17px;font-weight:600;line-height:25px;color:var(--on-dark);}
+  .n-desc{font-size:13px;font-weight:400;line-height:20px;color:var(--on-dark-body);}
+  .n-src{font-size:12px;font-weight:400;line-height:normal;color:var(--on-dark-src);}
+
+  /* 卡片可跳转：整卡为 <a>，hover 时卡片微亮 + 标题变链接蓝，并显示「↗」外链标识 */
+  a.news-card{text-decoration:none;cursor:pointer;
+    transition:background .15s ease, transform .15s ease;}
+  a.news-card:hover{background:#353538;transform:translateY(-2px);}
+  a.news-card:hover .n-title{color:var(--link-blue);}
+  .n-ext{font-size:12px;font-weight:500;color:var(--link-blue);margin-left:6px;}
+
+  /* ============ 页脚 ============ */
+  .footer{
+    background:var(--parchment);
+    padding:48px var(--gutter);
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .footer p{font-size:12px;font-weight:400;line-height:18px;color:var(--ink-muted);}
+  .footer p.dim{color:var(--flat);}
+</style>
+</head>
+<body data-page-node-id="i4TVaQe0NABnVdVSRj6QK1">
+<div class="page" data-page-node-id="0AtiVMlPLHzejMbrfDdfOQ">
+
+  <!-- ================= 顶部导航 ================= -->
+  <nav class="nav" data-page-node-id="IkVSMBAnBUZlWC2yyYxQG8">
+    <span class="nav-brand" data-page-node-id="GTYmDFo3F8NX3sRvP0CXog">模型价格台</span>
+    <span class="nav-link" data-page-node-id="D4LVIINZ12gKcM2SAM8gD7">价格对比</span>
+    <span class="nav-link" data-page-node-id="UdPLl6DCFvYG9dSDmNPFwt">价格趋势</span>
+    <span class="nav-link" data-page-node-id="XXILkGrIIjstrpPOiCaeI6">AI 资讯</span>
+    <span class="nav-link" data-page-node-id="b5DtUY3nmPvbQn4DRM0X5f">选型指南</span>
+    <span class="nav-spacer" data-page-node-id="EePDJGtKczGMnUH5pKV1qw"></span>
+    <span class="nav-time" id="nav-time" data-page-node-id="doZbpW3VVLWXhSP2sT4bxO">数据更新于 2026-09-03 09:30</span>
+  </nav>
+
+  <!-- ================= 页面头部 ================= -->
+  <header class="hero" data-page-node-id="zOomPC4CaFH7KNnF2GTCa5">
+    <span class="eyebrow" data-page-node-id="EJPlsdjBX4UggirV0eAa2K">实时行情 · 每 6 小时刷新</span>
+    <h1 class="hero-title" data-page-node-id="MSL1Dsbnxnt4NCovrEnLPi">大模型 API 价格对比看板</h1>
+    <p class="hero-sub" data-page-node-id="HT9EQVFnuLLDJ5L0ip3DPz">同一张表看完 16 个主流模型的输入输出报价，并直接与昨天、上周、上月对比。价格单位为美元 / 百万 Token，取各厂商官方标准档挂牌价。</p>
+    <div class="chips" data-page-node-id="aS8mj1qAbw3SbpSs0QwIfS">
+      <div class="chip" data-page-node-id="oWssLswqKXJFUuqVlACyMl"><span data-page-node-id="HLDf6eBGPnyRDaoHSa7u8o">对比基准：2026-09-02</span></div>
+      <div class="chip" data-page-node-id="gwLcDN7Zp7zNij3XnEntfK"><span data-page-node-id="oMOCrdFwCV5V3xasatgtbv">计价：USD / 1M tokens</span></div>
+      <div class="chip" data-page-node-id="bdA7QdSEa86q4oBz2EmOW8"><span data-page-node-id="AEhQZy77kW5DnNzBXqFpZi">带闲时价模型 · 高峰主价 + 闲时副价双列呈现</span></div>
+    </div>
+  </header>
+
+  <!-- ================= 今日速览 ================= -->
+  <section class="overview" data-page-node-id="FBkPRGYStncSw6YjSZlFwN">
+    <h2 class="sec-title" data-page-node-id="pIOUpgmksjcnUPY8yGHIHJ">今日速览</h2>
+    <div class="metric-grid" data-page-node-id="ewIB4zd5z5yRn2Ugo2ENUq">
+      <div class="metric-card" data-page-node-id="jkkFxz0QDvhiGp2xKpcMHP">
+        <span class="metric-label" data-page-node-id="fxtKdpUYDXrCCgCwCUqJ6z">今日最低综合成本</span>
+        <span class="metric-value" id="ov-cheap-val" data-page-node-id="q67uNknGeV5phNzhht7FQx">$0.23</span>
+        <span class="metric-note" id="ov-cheap-note" data-page-node-id="7nkFQYlc5hm7jgpSL5FZst">Qwen3.8 Flash · 输入 0.15 / 输出 0.47</span>
+      </div>
+      <div class="metric-card" data-page-node-id="MeY079hlpDqkHz57zlOPZc">
+        <span class="metric-label" data-page-node-id="139uDOMRZ8HssW5U5eWHdP">本月最大降幅</span>
+        <span class="metric-value" style="color:var(--green)" id="ov-drop-val" data-page-node-id="XRMvQ82TEbT147kKHLh5en">−28.9%</span>
+        <span class="metric-note" id="ov-drop-note" data-page-node-id="0Hd9oWUzigj8XawLFfatRv">GPT-5.6 Sol · 促销价较上月生效</span>
+      </div>
+      <div class="metric-card" data-page-node-id="FG8NuFFgtojPZiXdndCvOq">
+        <span class="metric-label" data-page-node-id="fq7rFZAbvYwbqETDlA7ytd">本月新上线</span>
+        <span class="metric-value" style="color:var(--blue)" id="ov-new-val" data-page-node-id="dIRRPgN0RgLUizb7n8iGKD">4 款</span>
+        <span class="metric-note" id="ov-new-note" data-page-node-id="vdg6csCoZQ993nsEdZV051">GPT-6 Astra · GPT-6 Astra Pro · Gemini 3.8 Flash 等 4 款</span>
+      </div>
+      <div class="metric-card mc-link" id="ov-radar-card" title="查看下方能力雷达" data-page-node-id="nPbDlwZeg1yHYuRPHYVZDs">
+        <span class="metric-label" data-page-node-id="5hYqnQYyZhkZpdKPzt3npl">能力雷达 · 综合第一</span>
+        <span class="metric-value" style="color:var(--blue)" id="ov-radar-val" data-page-node-id="YgEVjhk8LAyD6b2B9KFyF3">GPT-6 Astra</span>
+        <span class="metric-note" id="ov-radar-note" data-page-node-id="iCicHnUijbkSR2gRIVVDQA">综合分 87.2 / 100 · 点击查看下方雷达图</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 价格对比总表 ================= -->
+  <section class="table-sec" data-page-node-id="7XFhTdQxiRCyqkpS7fCWZ2">
+    <div class="sec-head" data-page-node-id="ZoikyARn9h5IIrsi7yY1IY">
+      <div class="sec-head-left" data-page-node-id="qB2PM6vhm5F7jYfj2V4mGO">
+        <h2 class="sec-title" data-page-node-id="7XZeFe5YulF2O7iDqrty9k">价格对比总表</h2>
+        <span class="sec-note" id="sec-note" data-page-node-id="pqpq38BVNoZWVasLowKTEh">16 个模型 · 9 家厂商 · 官方标准档挂牌价</span>
+      </div>
+      <div class="legend" data-page-node-id="36YqHiPusVRADyH9WUg1Xp">
+        <span class="legend-label" data-page-node-id="YTtpjEgTB801KZpIv9cqR0">涨跌图例</span>
+        <div class="legend-item" data-page-node-id="vV2Pq4bCwUxaeBBGml1QS9"><i class="dot" style="background:var(--red)" data-page-node-id="EntoPveDHLWMBN2tRFXlBc"></i><span class="legend-txt" data-page-node-id="UqCPpW0hRzFbqKULusCUeV">涨价</span></div>
+        <div class="legend-item" data-page-node-id="sA0khCfnHbEzRaDPC1WoDt"><i class="dot" style="background:var(--green)" data-page-node-id="cc9XDJOQciaxiYfnUlYcSS"></i><span class="legend-txt" data-page-node-id="QMrc4CeMjOaR4tuP4PpN26">降价</span></div>
+        <div class="legend-item" data-page-node-id="ELeKdCp53cJ0uHzt9WQAit"><i class="dot" style="background:var(--flat-dot)" data-page-node-id="HtIwJd90YGkOdXZ6XmKMmU"></i><span class="legend-txt" data-page-node-id="eqQTGxs9A05HSHxWToBebB">持平</span></div>
+        <div class="legend-item" style="gap:3px" data-page-node-id="6Bf13tlhn8BsKnVoWxzC0h"><span class="legend-txt" style="color:var(--flat)" data-page-node-id="lToIGkkPA2NLG5C4TmWMOw">闲 X</span><span class="legend-txt" data-page-node-id="t6KLUsiUW0YiFFRwZs8GAL">= 闲时/Flex 错峰副价（仅带分时计价的模型）</span></div>
+      </div>
+    </div>
+
+    <div class="table-card" id="price-table" data-page-node-id="Lo1bg8jKr2ghVea4y0GhNi">
+      <!-- 表头 -->
+      <div class="thead" data-page-node-id="eztx6vZ7EMLEAJOKePukIr">
+        <div class="cell col-model" data-page-node-id="n1Dl1xaDGBqZyKgaibJdI4"><span class="th ta-l" data-page-node-id="htcyE51c4T4OWdO0Z0E1A7">模型 / 厂商</span></div>
+        <div class="cell col-in" data-page-node-id="DiuyGV6fjC3GLCMSLAo5qO"><span class="th ta-r" data-page-node-id="lT8QwxyXhi73sNXDzpi04e">输入价 $/1M</span></div>
+        <div class="cell col-out" data-page-node-id="PNOi5bK4DByJeFKf7meCRe"><span class="th ta-r" data-page-node-id="YBdKMrMQvBaJPTYw3EG45Q">输出价 $/1M</span></div>
+        <div class="cell col-cache" data-page-node-id="sEEDaDSRlU5FCfSEpZiy3M"><span class="th ta-r" data-page-node-id="66uSkyFTBzxetG5GmbwwT5">缓存输入</span></div>
+        <div class="cell col-d" data-page-node-id="1wrfIl6hYPBLLuKQgtHg0C"><span class="th ta-r" data-page-node-id="fDoBHTrBrfikqYgk5qTbc1">较昨日</span></div>
+        <div class="cell col-d" data-page-node-id="Nj0UbDrJJDGrsOZt5gXuA1"><span class="th ta-r" data-page-node-id="PjtGDDDtCMDCcUJOI1q8ZN">较上周</span></div>
+        <div class="cell col-d" data-page-node-id="0nCb4sZm14eRsDSIqjPBbL"><span class="th ta-r" data-page-node-id="3Awg1625qyL6bnKfcN3cen">较上月</span></div>
+        <div class="cell col-note" data-page-node-id="jpa4GAvhQSUYfGkHR75q5K"><span class="th ta-l" data-page-node-id="S5p2ti7KvsgOvwIqiIHvjg">调价说明</span></div>
+      </div>
+
+      <!-- 旗舰档 -->
+      <div class="group-row" data-page-node-id="0isIJADPrZSBJHgXvuwI8Y">
+        <span class="group-name" data-page-node-id="68ht0RX76lVG9SXZvl6ZBu">旗舰档 · 高能力</span>
+        <span class="group-meta" data-page-node-id="qsf5BGVeEnPqGWUAZUkmtL">6 款 · 综合成本 $4.50 – $20.00</span>
+      </div>
+      <div class="data-row" data-page-node-id="2RdJCTDdhpw1XJNs3N3jk1"><div class="row-content" data-page-node-id="OU6XUEWarwrXF62JovSrxC">
+        <div class="cell cell-model col-model" data-page-node-id="EpbwmvMWonJ4PgvuaPahEx"><span class="name-row" data-page-node-id="joZUorawT9kahcKvFQAIKl"><span class="m-name" data-page-node-id="1fLXj6pRcDwH85lox2GwsE">Claude Fable 5.1</span><a class="m-link" href="https://www.anthropic.com/pricing" target="_blank" rel="noopener" data-page-node-id="JNbJARBWX1BGM8YJ481jD0"><span class="ml-txt" data-page-node-id="a40dfrefTMUkXBIDAq6TL5">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="ypp8VqyENPU1i2xQyw1j7k"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="MG5nFEByLCmYXG8numJiDZ"/></svg></a></span><span class="m-meta" data-page-node-id="JtUxH5EkkJSxsv6XA3JJR3">Anthropic · 200K</span></div>
+        <div class="cell col-in" data-page-node-id="GwuNXub4h0cyqX9NiFSlKU"><span class="v-price" data-page-node-id="LVAyGSK1qfr5KNWnLUz5uf">10.00</span></div>
+<div class="cell col-out" data-page-node-id="m027A3fkrZtGi9KxRig2YS"><span class="v-price" data-page-node-id="FGrfvCEf0lq4meYK8WSQ7f">50.00</span></div>
+<div class="cell col-cache" data-page-node-id="NJjnO7RX9ZTO395arjypOu"><span class="v-cache" data-page-node-id="mpkFKYBbPaCwhEC2TscoYw">0.25</span></div>
+        <div class="cell col-d" data-page-node-id="F7jqTYZe9ExtA0YnglAQ1S"><span class="v-delta c-flat" data-page-node-id="cwwkQRC989INaqbSsmHuAl">持平</span></div>
+        <div class="cell col-d" data-page-node-id="43i4uP6zC0RZBakJu2bINg"><span class="v-delta c-flat" data-page-node-id="IXkE4zLSRqVpPtwMrj23Z0">持平</span></div>
+        <div class="cell col-d" data-page-node-id="gkV3sqBJs2xA8tWnD3Iuk0"><span class="v-delta c-flat" data-page-node-id="1kUjNnflKUHG8ibPAFlAe2">持平</span></div>
+        <div class="cell col-note" data-page-node-id="4zOHeGDsLV4Uo8zlymBJ27"><span class="v-note" data-page-node-id="RinYh9v0ZQn8JlJq4Ksq3j">Fable 5.1 为当前最新版，缓存重读费用降 75%</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="Ow4EMoysjeOiDFTLFo6fSR"><div class="row-content" data-page-node-id="GXggHkaYVR5tlKt6dM0DNb">
+        <div class="cell cell-model col-model" data-page-node-id="UWGkIEGcqYZcEUGAEDaDex"><span class="name-row" data-page-node-id="F4UxlCbsbAandjlcot717F"><span class="m-name" data-page-node-id="amz5GH6k5fOLG2SD6Lwutl">Claude Opus 5</span><a class="m-link" href="https://www.anthropic.com/pricing" target="_blank" rel="noopener" data-page-node-id="nXLP0EGwxnGpB597pCXZzf"><span class="ml-txt" data-page-node-id="rFnily0MilRfP8j77cGmqH">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="Cy0amhMyP6G2D0BMWN2M1e"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="96YEYNF8jlOfs4pwhCWoD2"/></svg></a></span><span class="m-meta" data-page-node-id="ikIBsDlks3z0gqWwdHI6MX">Anthropic · 200K</span></div>
+        <div class="cell col-in" data-page-node-id="VQZj7posWbw4jjvpvwPFfJ"><span class="v-price" data-page-node-id="wb9kysVClAuvhnYzgESqEQ">5.00</span></div>
+<div class="cell col-out" data-page-node-id="cK1iBu0BtDQkvUBpzvYZOv"><span class="v-price" data-page-node-id="4XQD6vcRYdY7MFeskvdvJ2">25.00</span></div>
+<div class="cell col-cache" data-page-node-id="fFO7gy8XKbdGXCIb6VHvFD"><span class="v-cache" data-page-node-id="pPhRuQwPgWceZ76a3mWABx">0.50</span></div>
+        <div class="cell col-d" data-page-node-id="EfxpSmdpiAobwMplz2oNBO"><span class="v-delta c-flat" data-page-node-id="wrqElqETZdD6EB1N7Omk7z">持平</span></div>
+        <div class="cell col-d" data-page-node-id="OuiAlDuwnoSbA5vMQAtQ1o"><span class="v-delta c-flat" data-page-node-id="pcFDEcVrbCQag512gUq6ZY">持平</span></div>
+        <div class="cell col-d" data-page-node-id="TmKhZDlyUYXW5MDjAZ6yBb"><span class="v-delta c-flat" data-page-node-id="6FOQHJSLyZsEZmaVeasGOH">持平</span></div>
+        <div class="cell col-note" data-page-node-id="AEesVY03NdS5gQanFTBEgA"><span class="v-note" data-page-node-id="myUmLQFVdgYeerFfjuA5sX">编码与长程 Agent 主力旗舰</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="SjXFyV811YL8zkmykYHZFm"><div class="row-content" data-page-node-id="LSFAzT3MVxiFO0n7BRxQgZ">
+        <div class="cell cell-model col-model" data-page-node-id="99y4pjqdwhgggYNKQJGEj9"><span class="name-row" data-page-node-id="LfIR4TAPeY6ryZfHs0EZky"><span class="m-name" data-page-node-id="iHdOGkf1xCH1cOsi2GKp91">GPT-5.6 Sol</span><a class="m-link" href="https://openai.com/api/pricing/" target="_blank" rel="noopener" data-page-node-id="IZNdoWTpbIyxhrqYCmY9c7"><span class="ml-txt" data-page-node-id="YmFHOIb1AexC0FUjBpVQ2x">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="kfJ1Cm5bkfn2qYNOXuS9F0"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="usPLNKqgWHiZHfsE5P7Cem"/></svg></a></span><span class="m-meta" data-page-node-id="GotYUYymT2QlaIaAX0gFDI">OpenAI · 400K</span></div>
+        <div class="cell col-in" data-page-node-id="A0qi1vsF6IvyN0uLzxzmu1"><span class="v-price" data-page-node-id="dRB1062vAMHeEdQfA8bIjq">4.00</span></div>
+<div class="cell col-out" data-page-node-id="XQGCsZ7qYPXlly1sFA8FN2"><span class="v-price" data-page-node-id="yakQw0xOGhgqFItn4tLv3r">20.00</span></div>
+<div class="cell col-cache" data-page-node-id="fORXTOKkIIvKgfAVPn5EJn"><span class="v-cache" data-page-node-id="duSSVrXe9iNwIYJoSgYETB">—</span></div>
+        <div class="cell col-d" data-page-node-id="mdrnXLPJB9i6PeQJVOO6Yu"><span class="v-delta c-flat" data-page-node-id="RkxlQHHMxwek8PtWc53Dor">持平</span></div>
+        <div class="cell col-d" data-page-node-id="IIOkpRLJIs6XnedEP6lJMB"><span class="v-delta c-flat" data-page-node-id="BfHaFGR3edicDKKslHV3bd">持平</span></div>
+        <div class="cell col-d" data-page-node-id="tmDJRl4pyRlf3DjQYHPEd2"><span class="v-delta c-down" data-page-node-id="XB2EkNpGxmx6FrGGa8iTnz">−20.0%</span></div>
+        <div class="cell col-note" data-page-node-id="HcJrmVG2zNVkRL2xg9hdLP"><span class="v-note" data-page-node-id="OwbzHBHY8w9KekgSPYXjLO">8月21日降价 20%，优惠价至 11月21日</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="oVwihAyfZ6JmtTcmpHI9mg"><div class="row-content" data-page-node-id="3q4ersNHkR1g5RLi0s2Ha8">
+        <div class="cell cell-model col-model" data-page-node-id="18lCVwI9mZJcActhjF6CoY"><span class="name-row" data-page-node-id="biqAiz0ccPbDSzZEPTo4rG"><span class="m-name" data-page-node-id="1OvB5y8qBZvJ0Qz5i2JKcM">Kimi K3</span><a class="m-link" href="https://platform.moonshot.cn/docs/pricing/chat" target="_blank" rel="noopener" data-page-node-id="ratzRcNf4BAPQOGwa18Ykj"><span class="ml-txt" data-page-node-id="R7wbHd7AHYrCB9eHsi7aLq">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="20jg8Py6qpJn1G1fX8D0Zn"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="179sId2wIOZDrI0s4nqxEk"/></svg></a></span><span class="m-meta" data-page-node-id="b95i3BFGk1scPjl4v6KwNV">月之暗面 · 1M</span></div>
+        <div class="cell col-in" data-page-node-id="nAPjbqnFw6n1vE2fKIzcT8"><span class="v-price" data-page-node-id="5QzaT45yOwsG4Dkgcbqbcd">3.00</span></div>
+<div class="cell col-out" data-page-node-id="Ca5zrv8h9IyKfTKsFJ2dkY"><span class="v-price" data-page-node-id="WyinAXLvsToKzIojstqZ6L">15.00</span></div>
+<div class="cell col-cache" data-page-node-id="R1iuCVVw5waZlqiTPuvCqr"><span class="v-cache" data-page-node-id="FpCDZ5CJnibSDBkQob3AWE">0.30</span></div>
+        <div class="cell col-d" data-page-node-id="8Q9KEKi1wLwARvgs3ms9LL"><span class="v-delta c-flat" data-page-node-id="bBRUSzspkVkFvCVDtLhdmg">持平</span></div>
+        <div class="cell col-d" data-page-node-id="80XHv16GOnQkbByksHRm6I"><span class="v-delta c-flat" data-page-node-id="A8VoDG0zmNcH60swyrzRo2">持平</span></div>
+        <div class="cell col-d" data-page-node-id="Y0q3y6tj4rqGjwp593wkbk"><span class="v-delta c-flat" data-page-node-id="TYrq2o61vEIPrAnm8YwTdD">持平</span></div>
+        <div class="cell col-note" data-page-node-id="rJ1VJL11BGCUrkJKwDdezv"><span class="v-note" data-page-node-id="Y6IQnusb3LfPYHF4shO4hh">缓存命中输入仅 $0.30 / 1M</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="yT2h7kDGa0GtUi25bTz4FC"><div class="row-content" data-page-node-id="fOkXPmK1M6GdgyhLtcHIUU">
+        <div class="cell cell-model col-model" data-page-node-id="ositZASfR0hGVxHAg3oau8"><span class="name-row" data-page-node-id="QsdcrTrwt5150DsEP3LQYE"><span class="m-name" data-page-node-id="ALUg1mB5r0NdSQaw6nredV">Gemini 3.1 Pro</span><a class="m-link" href="https://ai.google.dev/gemini-api/docs/pricing" target="_blank" rel="noopener" data-page-node-id="Hd9WbaKUrlBpI5Bz1NtSz7"><span class="ml-txt" data-page-node-id="UOxKBu1IoVh4sHkLoTS6GA">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="kvhvMd8qUZGYY1g30gNher"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="6FZOyoe98Y2u5MoajOSotG"/></svg></a></span><span class="m-meta" data-page-node-id="a6lfhEE8ktJKXdPqMFXtJW">Google · 1M</span></div>
+        <div class="cell col-in" data-page-node-id="x571Bw0CM7MbMauSYu5GQr"><span class="v-price" data-page-node-id="TpwFLKLX3cJvhSwCwJK8xo">2.00</span></div>
+<div class="cell col-out" data-page-node-id="1BX6aiCoBND0dto7t3C7b0"><span class="v-price" data-page-node-id="rk0d6qNBRWi0gcZcBS469g">12.00</span></div>
+<div class="cell col-cache" data-page-node-id="yBJxswj3NAZAyvKs183A8v"><span class="v-cache" data-page-node-id="ZQcfP9D6IbdVG4cau5mA2E">0.20</span></div>
+        <div class="cell col-d" data-page-node-id="uIozV8KokzCOaaFUdzspJa"><span class="v-delta c-flat" data-page-node-id="JMdvLBtzMga8TWMWmhFlQL">持平</span></div>
+        <div class="cell col-d" data-page-node-id="sdaTArcuHZIh5dv1opLKWB"><span class="v-delta c-flat" data-page-node-id="6cyO08hFZml76prUce4tGv">持平</span></div>
+        <div class="cell col-d" data-page-node-id="FzH3qkL2sDIqGLOffKxuuj"><span class="v-delta c-flat" data-page-node-id="cGKzJVt6CcHGnf8UAWCf11">持平</span></div>
+        <div class="cell col-note" data-page-node-id="qu1FTEyeYGQGOBl3wlHxNB"><span class="v-note" data-page-node-id="dtEqPcQmazABHIDnH5LqJf">超 200K 输入按 $4 / $18 计费</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="EZFB6wopQPpOawGREz4VAo"><div class="row-content" data-page-node-id="m5LYoJi84SZZVIWaeIjDIV">
+        <div class="cell cell-model col-model" data-page-node-id="DcJfh7lf2p3qG1pI1HJC8j"><span class="name-row" data-page-node-id="woE1AAEkHJUz9qCwggXOmJ"><span class="m-name" data-page-node-id="mVD5sGKY2U9cR7mOAlTKn9">GPT-5.6 Terra</span><a class="m-link" href="https://openai.com/api/pricing/" target="_blank" rel="noopener" data-page-node-id="TaCYfldoDkSVSBwRyBxMrH"><span class="ml-txt" data-page-node-id="SBGfKj2JOL31md2xs3SjmE">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="91giWbuLv0uecPAkF5p18y"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="WLQbT0t7aJUrKhMkPBW7yQ"/></svg></a></span><span class="m-meta" data-page-node-id="fAADQ6sQZ3LWLigsf4lwD5">OpenAI · 400K</span></div>
+        <div class="cell col-in" data-page-node-id="QZkE40Kw2ZQgT3TYKOCx03"><span class="v-price" data-page-node-id="mTniSgC0C03YjJheRS91YX">2.00</span></div>
+<div class="cell col-out" data-page-node-id="j1AWPxPTj2rIzVtJDTL78S"><span class="v-price" data-page-node-id="Ma5cvFWF1vob62luTvoFgZ">12.00</span></div>
+<div class="cell col-cache" data-page-node-id="IrZL7Ah0Hq9GwWIc5tYs4f"><span class="v-cache" data-page-node-id="T6aEysGvZXbENUAxfBa7wW">0.20</span></div>
+        <div class="cell col-d" data-page-node-id="OGAlCJ8SaLiPohNvK4xGgB"><span class="v-delta c-flat" data-page-node-id="0fSf8DuCilGK1pYhOK9BVP">持平</span></div>
+        <div class="cell col-d" data-page-node-id="fuHPfl7NwhAXOekAEMWMCq"><span class="v-delta c-flat" data-page-node-id="zCct5XFhM73beUfzHDIJde">持平</span></div>
+        <div class="cell col-d" data-page-node-id="gGOfUv45JkI364MsGlscqB"><span class="v-delta c-flat" data-page-node-id="eRkajlgQZBZKRcYU2kUrTm">持平</span></div>
+        <div class="cell col-note" data-page-node-id="64zgP6Hu8wcSmmhFfobAwp"><span class="v-note" data-page-node-id="GstoupBWkWvslKEtUSC4kn">中档主力，长任务性价比高</span></div>
+      </div></div>
+
+      <!-- 主力档 -->
+      <div class="group-row" data-page-node-id="wR7EYAXi3w73ppTSpvWDPf">
+        <span class="group-name" data-page-node-id="Qq3J1oz3gCDr5E17D6JSG0">主力档 · 均衡型</span>
+        <span class="group-meta" data-page-node-id="BjW93t7YS2XWeNh5viNEwi">5 款 · 综合成本 $2.00 – $4.00</span>
+      </div>
+      <div class="data-row" data-page-node-id="KiCDfpJmyijWTXAZr1Fk1E"><div class="row-content" data-page-node-id="CoPFGg3nZsWjZKdNo2FxbC">
+        <div class="cell cell-model col-model" data-page-node-id="ibeBG4kMFT7rUWrtDY0htM"><span class="name-row" data-page-node-id="tUjeFaCvJ9638BnLzC3dWQ"><span class="m-name" data-page-node-id="ARpPPsE3fp38mhFXUFyYSt">Claude Sonnet 5</span><a class="m-link" href="https://www.anthropic.com/pricing" target="_blank" rel="noopener" data-page-node-id="GHWMsurZdTQ6pWNbTTBZaM"><span class="ml-txt" data-page-node-id="uVsz2cNI2R7WqoDQcUu64U">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="AirRDOn8mDvVO3v9bdayDY"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="gHhdwCZoLdK4l9fR9giPA3"/></svg></a></span><span class="m-meta" data-page-node-id="bTdNnuuqHdAGPVgiHHAUdd">Anthropic · 200K</span></div>
+        <div class="cell col-in" data-page-node-id="yqGdrCcQbvgkJ4tU5w75lC"><span class="v-price" data-page-node-id="ljfAduaGNkTOeKxJEXFTMz">2.00</span></div>
+<div class="cell col-out" data-page-node-id="Gr3Q2tlyONQU2sDir9UBhe"><span class="v-price" data-page-node-id="lnJ69kD5PPhY5BvLAdiCwU">10.00</span></div>
+<div class="cell col-cache" data-page-node-id="lqk3nAAaDwXblveudjJQSy"><span class="v-cache" data-page-node-id="qhTBiJvX2El1JtcNcDRCeT">0.20</span></div>
+        <div class="cell col-d" data-page-node-id="fk4L2r701Pf0D4qPEPOOTk"><span class="v-delta c-flat" data-page-node-id="NgpLt61oFTazfwp3mq7ll9">持平</span></div>
+        <div class="cell col-d" data-page-node-id="C7GW20jd5kW93ynoAoVW74"><span class="v-delta c-flat" data-page-node-id="T6WjlIsIcU5qYGryxmUNpN">持平</span></div>
+        <div class="cell col-d" data-page-node-id="F3Qw6BksHWWyiCCz8XyFO4"><span class="v-delta c-flat" data-page-node-id="mQ9yqWWGHvJFF4wAav2DBW">持平</span></div>
+        <div class="cell col-note" data-page-node-id="RKWXy9ULKfeCdpBGUJAOmT"><span class="v-note" data-page-node-id="KFYSh7VkDvOFe6B8DyFnX5">$2 / $10 已于 8月10日定为永久价</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="LP2oInouqDnKIdmTsQuKEk"><div class="row-content" data-page-node-id="EAWnUrODKBTY7ZXPe5Khrs">
+        <div class="cell cell-model col-model" data-page-node-id="8RsBuCFrnn8EtQ6LAx9RNu"><span class="name-row" data-page-node-id="AYL1FypURTmCO11pGcNi6S"><span class="m-name" data-page-node-id="1lEuEjEfvlpNlNEbpOSAhM">Grok 4.6</span><a class="m-link" href="https://docs.x.ai/docs/models" target="_blank" rel="noopener" data-page-node-id="X39FpTJweF4yyXwhp2vLqR"><span class="ml-txt" data-page-node-id="stOOgVwErA3hbVS3HGdfJU">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="UisRsuudMjH3apB6nz0FMg"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="gtMwx09uu7UzkZGEvJO196"/></svg></a></span><span class="m-meta" data-page-node-id="Fr7BSNfVUr1fADep0EUaZz">xAI · 1M</span></div>
+        <div class="cell col-in" data-page-node-id="jLaK1336xdmCDaQZSX5x9x"><span class="v-price" data-page-node-id="jnl0qsPnurIO7jqAOkGCis">2.00</span></div>
+<div class="cell col-out" data-page-node-id="1y3Edk5Dkyb6HERlILiC9L"><span class="v-price" data-page-node-id="fCHZFRZPKAczMo5q7W8Qv5">6.00</span></div>
+<div class="cell col-cache" data-page-node-id="PwpG8yScXokseGTau25hSW"><span class="v-cache" data-page-node-id="6vyCeKV2iRpaaBjFccHnQE">0.50</span></div>
+        <div class="cell col-d" data-page-node-id="ruhntj0YZnX6e2vsQ2Y6EC"><span class="v-delta c-flat" data-page-node-id="FtOIGpXBwvbH4DD3Rv1cLS">持平</span></div>
+        <div class="cell col-d" data-page-node-id="KLYJRDAIB3GQxfJOQbYPE9"><span class="v-delta c-flat" data-page-node-id="9Ocfyacy0ld76ThcSzQtzI">持平</span></div>
+        <div class="cell col-d" data-page-node-id="bkE8xdaRoHnwtpAsiLmMkD"><span class="v-delta c-new" data-page-node-id="BI9b8HrRSDUH1TpBq79RJX">新品</span></div>
+        <div class="cell col-note" data-page-node-id="5WI40KCJYDy5PAFa86dTui"><span class="v-note" data-page-node-id="9o26GqQ7EOHE0rDuO176oI">8月12日发布；超 200K 全单按 $4 / $12</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="E0ilJEwr4PwaCJ2az32wAr"><div class="row-content" data-page-node-id="jCVQo52rA8NmJ0FCmZF6nd">
+        <div class="cell cell-model col-model" data-page-node-id="qYk7fJygSFCusLXu6IJ0AC"><span class="name-row" data-page-node-id="B9cnNDbojLGrSbuUKi1iOF"><span class="m-name" data-page-node-id="sSevKgoWVMnGfmIcyfRubA">Qwen3.8 Max</span><a class="m-link" href="https://www.alibabacloud.com/help/en/model-studio/models" target="_blank" rel="noopener" data-page-node-id="67cJiTTOC6m1ZIxezMmEvO"><span class="ml-txt" data-page-node-id="zLV6oq4Zmu1Iu5CvFxbvVQ">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="zZIZwLstID8cOW48AoeiLg"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="TYwlAaWetwXvr0TPYZXgLY"/></svg></a></span><span class="m-meta" data-page-node-id="LbHLHvzDDl9KVSkJXgaGz3">阿里 · 1M</span></div>
+        <div class="cell col-in" data-page-node-id="xuzhE6DVHcF9RaAiqGiw5Z"><span class="v-price" data-page-node-id="toKztL4c7vBHJrcUD6rwyl">2.00</span></div>
+<div class="cell col-out" data-page-node-id="be3AT84RQNqKN7fJHMrXWK"><span class="v-price" data-page-node-id="OcXgBOxEHgdggQ32TXCTYb">6.00</span></div>
+<div class="cell col-cache" data-page-node-id="F7YoOC4eLnlrFVJHt5c70p"><span class="v-cache" data-page-node-id="VEw1roYtKlib2T9WlPDlrw">0.25</span></div>
+        <div class="cell col-d" data-page-node-id="5nDETNmw8kX0jyhTQOarMS"><span class="v-delta c-new" data-page-node-id="ucbpwvGOfER087T8d469El">新品</span></div>
+        <div class="cell col-d" data-page-node-id="p1fDnS9SMGgBgADhmpvxwk"><span class="v-delta c-flat" data-page-node-id="yjzboJSDZXrklac4ACXOmN">持平</span></div>
+        <div class="cell col-d" data-page-node-id="TDTkf9G4LVoMKiUurEUfqy"><span class="v-delta c-flat" data-page-node-id="VhKjBXltNnaoxHprgmROn3">持平</span></div>
+        <div class="cell col-note" data-page-node-id="1oMDNFAqaOEgogelQXgQYL"><span class="v-note" data-page-node-id="QCVcc7aChXTVbbcmxZIISA">9月2日发布 0902 版，CodeArena 前端榜登顶</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="DQ2PAGDXHx00zcSbqD6BwW"><div class="row-content" data-page-node-id="PGIt2cH45ukWzFkQNDxIpD">
+        <div class="cell cell-model col-model" data-page-node-id="WDiGIx35XyInK0GBnQH8ji"><span class="name-row" data-page-node-id="iBRDK8y8rly5rY6JPc1kIU"><span class="m-name" data-page-node-id="eSR8KApUAGcaIjJFnJRhH7">GLM-5.3</span><a class="m-link" href="https://open.bigmodel.cn/pricing" target="_blank" rel="noopener" data-page-node-id="sibq3A6gaGmNoznM0IoTMo"><span class="ml-txt" data-page-node-id="IEhMRFq2ov866MAtTJzJAi">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="p3SA5rTVKQdKLbenrH397k"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="PNiOGHvj9LgkhKwOMNCHeo"/></svg></a></span><span class="m-meta" data-page-node-id="RA4nxWgP2vAGlySE6OV6so">智谱 · 1.3M</span></div>
+        <div class="cell col-in" data-page-node-id="RdLzo7CNjZEHgQgtJrBUja"><span class="v-price" data-page-node-id="0iDBa3xRwhHtazprf9rR0g">1.40</span></div>
+<div class="cell col-out" data-page-node-id="IH9X9XBbGZww6Wuw4rZolI"><span class="v-price" data-page-node-id="MsS5VF1eyaPN67P5GQXOMJ">4.40</span></div>
+<div class="cell col-cache" data-page-node-id="pOuZPIfD8BqTDQP1nsetDF"><span class="v-cache" data-page-node-id="sPBKVfeiYKyOU0OPBOgpaJ">0.26</span></div>
+        <div class="cell col-d" data-page-node-id="znJMZOTtBKkgXAKzsKKw8V"><span class="v-delta c-flat" data-page-node-id="8IXX3yTu4AXiHJYTDc7oYl">持平</span></div>
+        <div class="cell col-d" data-page-node-id="a0BApEMfnEk76RdeLffsQm"><span class="v-delta c-flat" data-page-node-id="ykQ5I8yg2rga6sG3zLVh5y">持平</span></div>
+        <div class="cell col-d" data-page-node-id="l4mUUlhEC76CFFZxgt24OZ"><span class="v-delta c-flat" data-page-node-id="2cC4RD1Rl7f9aHQm1CWlAY">持平</span></div>
+        <div class="cell col-note" data-page-node-id="3y0GWQmTBy1LfM7LA9rc66"><span class="v-note" data-page-node-id="mvVRGw4m5NoojQm1xE4W4i">上下文 1.3M，国产生态编码主力；无分时计价，Coding Plan 订阅错峰享半价积分</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="4FrF4iw4ScckBIDMCWrWgT"><div class="row-content" data-page-node-id="1fvYTehPAY27XwpWmxahwf">
+        <div class="cell cell-model col-model" data-page-node-id="2EEUwBTSun9PnnAGHyynxC"><span class="name-row" data-page-node-id="ZDCVuRkYvk93aZm2HtTCk6"><span class="m-name" data-page-node-id="VGW0GoysrMQiqr0pcSX3P4">Claude Haiku 4.5</span><a class="m-link" href="https://www.anthropic.com/pricing" target="_blank" rel="noopener" data-page-node-id="jKtnCUEtKDAlSA9SmePtAI"><span class="ml-txt" data-page-node-id="uq4wGhwptMWd011R8l9XxE">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="FdAvbACZi2sni3Qfq2yj3P"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="cyn93nEMs3ACFyVykKZQQ8"/></svg></a></span><span class="m-meta" data-page-node-id="xQM2LvSfO9bv7AU2E6DVgH">Anthropic · 200K</span></div>
+        <div class="cell col-in" data-page-node-id="xGpQu0NI6KqO0xUUVvWnBr"><span class="v-price" data-page-node-id="4yvcD2NTZHtUk7sTn55FBz">1.00</span></div>
+<div class="cell col-out" data-page-node-id="Ha0i442S1CQZ4F6xwEDoxE"><span class="v-price" data-page-node-id="ldtcFySWzIO2yHWGAjYWfd">5.00</span></div>
+<div class="cell col-cache" data-page-node-id="wyJ0Q3G1DI1efLE99IN0do"><span class="v-cache" data-page-node-id="1VNMCGulNGNeePjWjtqdcL">0.10</span></div>
+        <div class="cell col-d" data-page-node-id="g5akiRvzEUcCWfYTCEjbGw"><span class="v-delta c-flat" data-page-node-id="Z7MDQgddFlZtYcttLPFmgE">持平</span></div>
+        <div class="cell col-d" data-page-node-id="yGyCThKKT75IMCpsFtj7ig"><span class="v-delta c-flat" data-page-node-id="3kzMyqvZmmjP1dmm9oAuKr">持平</span></div>
+        <div class="cell col-d" data-page-node-id="ACqibjSpzYjGcPbsHszyWZ"><span class="v-delta c-flat" data-page-node-id="CIaBWA0vYNYGVCpc3Xrmnu">持平</span></div>
+        <div class="cell col-note" data-page-node-id="o2eTjFYzyCRKH5Fzl0ekap"><span class="v-note" data-page-node-id="JjN53EOeQmgQU1LgMVFZCP">轻量快响，适合分类与抽取</span></div>
+      </div></div>
+
+      <!-- 性价比档 -->
+      <div class="group-row" data-page-node-id="AV4iNtgwKvfblJKucRXZBu">
+        <span class="group-name" data-page-node-id="ZtKHfzCnuBNfZQRMKBYVM1">性价比档 · 轻量高频</span>
+        <span class="group-meta" data-page-node-id="wjgWJPeoUeDhMCdEV2N7hz">5 款 · 综合成本 $0.45 – $1.98</span>
+      </div>
+      <div class="data-row" data-page-node-id="MNQTZrAnDTWyc65cMJ0ipZ"><div class="row-content" data-page-node-id="JEdH7JibasjRsKCiloT6Pq">
+        <div class="cell cell-model col-model" data-page-node-id="WMf2DEQHF0DJCsJoKxqc9H"><span class="name-row" data-page-node-id="3XMPS7vpt79u0Ymj2wUjBi"><span class="m-name" data-page-node-id="e8FndPHtHSwwLlKcof1jPU">DeepSeek V4 Pro</span><a class="m-link" href="https://api-docs.deepseek.com/quick_start/pricing" target="_blank" rel="noopener" data-page-node-id="NRDAXdcUOIDoXFHh5Gk3Hl"><span class="ml-txt" data-page-node-id="OojjJ8R25Y4Jls8XNlWh2B">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="W4yCpRdEttepOLEzqBUPQ2"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="z1UqnMvJXuhEZOHfGxIROd"/></svg></a></span><span class="m-meta" data-page-node-id="DT8UNcbCtMoU4UoLLFgggD">深度求索 · 1M</span></div>
+        <div class="cell col-in" data-page-node-id="wkRxxgWSGvvnSpAmHsvyHU"><span class="v-price" data-page-node-id="Pyr2kKAJStrCgNA9ca81AB">1.32</span><span class="v-tier" data-page-node-id="CWZ6ppFUdizYzO10tAnSNi">闲 0.66</span></div>
+<div class="cell col-out" data-page-node-id="Ru5tTNvGBiO0PInCBfgZ8M"><span class="v-price" data-page-node-id="dEJo3AhPgm0E1Nd5o90hkC">3.96</span><span class="v-tier" data-page-node-id="vCoprWdp0aWKGK5IAH5h00">闲 1.98</span></div>
+<div class="cell col-cache" data-page-node-id="nsbZuFAlNywv3WbLpFEC7i"><span class="v-cache" data-page-node-id="ECTHvKijHpDLS7ZdYY6QkO">0.044</span><span class="v-tier" data-page-node-id="ZPKnCwgMbfTB3QGgMATpOh">闲 0.022</span></div>
+        <div class="cell col-d" data-page-node-id="8U95WDTSCsvlv19G3kJjFM"><span class="v-delta c-flat" data-page-node-id="yhrDsIvpkb2hR1tVumRsbe">持平</span></div>
+        <div class="cell col-d" data-page-node-id="tpfzC1JSBRqvtvucLwIhbu"><span class="v-delta c-flat" data-page-node-id="5D09aTOV0HiTVU1M22JLzY">持平</span></div>
+        <div class="cell col-d" data-page-node-id="sa9nmVJAVvXVA6i3Xw8dUa"><span class="v-delta c-down" data-page-node-id="YB7oUHC3Upf3wcTTaeT5yT">−50.0%</span></div>
+        <div class="cell col-note" data-page-node-id="yyvoZaBPQjd6yJuhLSISFU"><span class="v-note" data-page-node-id="w7KbpwzPS5N3Uq4YFG3FFx">8月17日起峰谷计价，高峰 $1.32/$3.96/缓存$0.044，闲时半价 $0.66/$1.98/缓存$0.022</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="nMUdWl2iDV4vLS8QRg9brr"><div class="row-content" data-page-node-id="lyWPJCDhDzUPSXyevz3HUW">
+        <div class="cell cell-model col-model" data-page-node-id="JHS2HsODG8zfpWrDrmghqg"><span class="name-row" data-page-node-id="7Tf9VAoG2tauzmyLSdTdxm"><span class="m-name" data-page-node-id="uTt6gu8jerWyzJQOGCM88P">Gemini 3.6 Flash</span><a class="m-link" href="https://ai.google.dev/gemini-api/docs/pricing" target="_blank" rel="noopener" data-page-node-id="yefpniENwtHhYAm6iFo1Xx"><span class="ml-txt" data-page-node-id="AHerEPp5iudl2prhheaxuX">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="B2mTsgt8x0nM2dWF2qV9He"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="uBSA3CUZMSw5vUXTyIxhXG"/></svg></a></span><span class="m-meta" data-page-node-id="HVslXKX1gJuF6pPikmwpoT">Google · 1M</span></div>
+        <div class="cell col-in" data-page-node-id="PxA8vrc0gNkT6u4V9YWciO"><span class="v-price" data-page-node-id="s01JiNeMtyqn96Ujm8GzH3">0.75</span><span class="v-tier" data-page-node-id="hUCCFs1nl1HGGqew5emafg">闲 0.375</span></div>
+<div class="cell col-out" data-page-node-id="iaW1G61w1dCLQ0YNq1UUF9"><span class="v-price" data-page-node-id="5NJasBeTVUSPwpncYLWX22">3.75</span><span class="v-tier" data-page-node-id="1fqyhUd5Ih0iexY9I4I06S">闲 1.875</span></div>
+<div class="cell col-cache" data-page-node-id="m7dQ6ZF4Mo2tA33qi7Ht22"><span class="v-cache" data-page-node-id="C0BTBcdRkhHsQZyGyFN5vu">0.075</span><span class="v-tier" data-page-node-id="Sk3VmrNQzVqRvy88DLwT8Q">闲 0.0375</span></div>
+        <div class="cell col-d" data-page-node-id="o5VEUSW0sB7Cc9VpprFWXi"><span class="v-delta c-new" data-page-node-id="LEOfKjJmIfDUDeIRp2IqQJ">新品</span></div>
+        <div class="cell col-d" data-page-node-id="we049fSw1TJXWrMqEB9Gwu"><span class="v-delta c-new" data-page-node-id="ANy9hUA4Stv87Z4d55Zs7X">新品</span></div>
+        <div class="cell col-d" data-page-node-id="oLtWRPDqfznmjb9Fti7Msz"><span class="v-delta c-flat" data-page-node-id="y5fL3povvgdLb04Hhzqfc9">持平</span></div>
+        <div class="cell col-note" data-page-node-id="5vFPnHWHyqIHgomxXxOQeZ"><span class="v-note" data-page-node-id="0zWKCUBF3C9xMO3pkOYUqU">intro 促销价至 2026-12-31（$0.75/$3.75），2027-01-01 恢复 $1.50/$7.50；Flex 闲时档为半价</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="DUpJjD1KeA1yg6TG9koDzT"><div class="row-content" data-page-node-id="pgFb6QRjo6d4M6TiDkhVzs">
+        <div class="cell cell-model col-model" data-page-node-id="yw6Y38Liezb6CXrBrJlpQQ"><span class="name-row" data-page-node-id="ECq03ALGWRhM8j5MVCH1ZM"><span class="m-name" data-page-node-id="43AZUtvFrSunsy8kypt72u">DeepSeek V4 Flash</span><a class="m-link" href="https://api-docs.deepseek.com/quick_start/pricing" target="_blank" rel="noopener" data-page-node-id="2foUZOgfVJ278oWJNrEGxa"><span class="ml-txt" data-page-node-id="ot7c6jOdiQnnIjaBczWpGP">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="N1BZ5OG8XowzIaFsT4H3D4"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="cq2Uw7daTSAUpK3iXgjkyf"/></svg></a></span><span class="m-meta" data-page-node-id="HnAOVxwdzRFjKBE8XLnqve">深度求索 · 1.3M</span></div>
+        <div class="cell col-in" data-page-node-id="3i7yaEFjOk7Rfgk5n99taX"><span class="v-price" data-page-node-id="ia0liis8acIfoG41XUCf0t">0.44</span><span class="v-tier" data-page-node-id="DqlvBa8YqslXkyj5BzOO6H">闲 0.22</span></div>
+<div class="cell col-out" data-page-node-id="cILdirbWQy0X0aG1zuyqZ2"><span class="v-price" data-page-node-id="hQq52XQovya214XWb6onfV">1.32</span><span class="v-tier" data-page-node-id="jjvqy7y3eDlWibwrKG4Utv">闲 0.66</span></div>
+<div class="cell col-cache" data-page-node-id="eSpTuPsLwSLJfi3vnOCeFg"><span class="v-cache" data-page-node-id="8u1Fu9d4SoVw84RXE0hqlF">0.014</span><span class="v-tier" data-page-node-id="sMMCgjmZlaGtWPaEid4AHu">闲 0.007</span></div>
+        <div class="cell col-d" data-page-node-id="oKMk9dUR4gtoKpYREHI0E9"><span class="v-delta c-flat" data-page-node-id="utgHyL7yq8oBH0JTqFRAyo">持平</span></div>
+        <div class="cell col-d" data-page-node-id="TuUCs5m8vxncPbE83qT13i"><span class="v-delta c-flat" data-page-node-id="0VBDQdSbEWReX92CVAKDYj">持平</span></div>
+        <div class="cell col-d" data-page-node-id="KP5Kp6uz8qsEqQIbZiSVlV"><span class="v-delta c-down" data-page-node-id="EBjqQXllyBvgBcJqBRUmRJ">−50.0%</span></div>
+        <div class="cell col-note" data-page-node-id="dRC5Ro5Fq8tgLmA9M7M60p"><span class="v-note" data-page-node-id="HuudbFFqyflMMekOcyiJuR">8月17日起峰谷计价，高峰 $0.44/$1.32/缓存$0.014，闲时半价 $0.22/$0.66/缓存$0.007</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="ewYDmSeC2kkwjqFh1ZtC8U"><div class="row-content" data-page-node-id="yYnNuQ24Fb1rVAUWErNsw9">
+        <div class="cell cell-model col-model" data-page-node-id="Be9EfUAC7CbD378X2oYNR1"><span class="name-row" data-page-node-id="yZx6F12kzGpbS86Fuuz0Pq"><span class="m-name" data-page-node-id="MdG9hyA5Cg9U6iiuWTbF6n">MiniMax M3</span><a class="m-link" href="https://www.minimax.io/price/api" target="_blank" rel="noopener" data-page-node-id="pwsYq2tvh5xvpuGUEO4qLH"><span class="ml-txt" data-page-node-id="mJwRI8WWYG5qQATvUW3aQr">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="uctSiX3YCW4irXFZs6pKKz"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="9x86DsuKwe7edH4gdUT9ux"/></svg></a></span><span class="m-meta" data-page-node-id="MCdTBkP4Gv6oCtyJVUyV07">MiniMax · 1M</span></div>
+        <div class="cell col-in" data-page-node-id="d63Cxg0V3Ro5bF5kMD2fhv"><span class="v-price" data-page-node-id="hOBootN3YN5uPCRR44b2Hk">0.30</span></div>
+<div class="cell col-out" data-page-node-id="C7cQuAswRE70NDLsSX3Dhn"><span class="v-price" data-page-node-id="DuLC6OzehgKTSXudDmay4i">1.20</span></div>
+<div class="cell col-cache" data-page-node-id="5cmuXsRmzB6L0NRrWLUorf"><span class="v-cache" data-page-node-id="Zo1HZ3HNwqurlZBDGe4IIT">0.06</span></div>
+        <div class="cell col-d" data-page-node-id="ATYysrnUKX7AHRFG0tto7o"><span class="v-delta c-flat" data-page-node-id="XFqL6H4aMISbl5ddU9VSxI">持平</span></div>
+        <div class="cell col-d" data-page-node-id="9yilCKUEik4ouvbkw8lIkX"><span class="v-delta c-flat" data-page-node-id="nEWFYKhgblgqDA8uCEW4Rm">持平</span></div>
+        <div class="cell col-d" data-page-node-id="NP426aC0tOMCxHot8gxJjg"><span class="v-delta c-flat" data-page-node-id="oOc1DYbcV9rEKkanlcfeik">持平</span></div>
+        <div class="cell col-note" data-page-node-id="DPuMRCmB6pYa7BYzJPgUWS"><span class="v-note" data-page-node-id="sOcGne0HsweRG5EeWG33FE">长上下文 Agent 场景性价比首选</span></div>
+      </div></div>
+      <div class="data-row" data-page-node-id="Y93gC3WKY9jdVRyQJNegk1"><div class="row-content" data-page-node-id="hTHmje16H3FnS2JpuOsO0m">
+        <div class="cell cell-model col-model" data-page-node-id="yp9hKsDVZO71ktHB2NXQM7"><span class="name-row" data-page-node-id="BXlNU5OZSL3crkGW3toMjg"><span class="m-name" data-page-node-id="jpEJjpNAoR0VafDGt2oDFC">GPT-5.6 Luna</span><a class="m-link" href="https://openai.com/api/pricing/" target="_blank" rel="noopener" data-page-node-id="f048RnL5OfosInEDWwpGns"><span class="ml-txt" data-page-node-id="wWoJEjgW4Zxhg4iQuunTlh">官网</span><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-page-node-id="YzHQkN2ZsEvwCWyHSEDRnk"><path d="M1.6 6.4L6.4 1.6M6.4 1.6H3.4M6.4 1.6V4.6" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="AEgnht9tQWMjy39O1zCdrb"/></svg></a></span><span class="m-meta" data-page-node-id="gLWwTv2sQauRRMwbLTQIGW">OpenAI · 400K</span></div>
+        <div class="cell col-in" data-page-node-id="hp1jv3Sz1Mv5xB7YFAxaP3"><span class="v-price" data-page-node-id="gTRi4gispHziq2aFdlmd5T">0.20</span></div>
+<div class="cell col-out" data-page-node-id="e8tKGWplFLopSlA7E6tv3e"><span class="v-price" data-page-node-id="k4j2NEcNKrjGAT6bidq33Q">1.20</span></div>
+<div class="cell col-cache" data-page-node-id="lmknsI6yfZHvXF0KRqsohb"><span class="v-cache" data-page-node-id="aHAHw8iD08vii8bkqZFgkb">0.02</span></div>
+        <div class="cell col-d" data-page-node-id="w3JlEwnLi8LsRGGzoH2ERS"><span class="v-delta c-flat" data-page-node-id="gySE9WmihMoFEMYTZSSKqu">持平</span></div>
+        <div class="cell col-d" data-page-node-id="uxKhrb49VyyrdY9qTAkIEy"><span class="v-delta c-flat" data-page-node-id="W2n4JHiFpoNiwRJDchWkX8">持平</span></div>
+        <div class="cell col-d" data-page-node-id="xVHH9JVBS0rVkYc5YKVU6Y"><span class="v-delta c-flat" data-page-node-id="4jLKzoC86mnGvGg79iF5E6">持平</span></div>
+        <div class="cell col-note" data-page-node-id="9Hk3wZhWjjZeHloKUxww9W"><span class="v-note" data-page-node-id="n6FUcDLc9b1TtEBYR5Jf33">全域最低价，适合大批量简单任务</span></div>
+      </div></div>
+    </div>
+
+    <div class="footnote" data-page-node-id="NSG9IY4U6mgRqd62VNYe6J">
+      <p data-page-node-id="3qZAS1fjL182StAaF5H4Gd">「缓存输入」为命中缓存时更低的价格；标有闲时价的模型在输入/输出格内以主价 +「闲 X」副价双行呈现，副价为闲时(或 Flex 错峰)价。</p>
+      <p data-page-node-id="xxqLzg5TTs8J74CElqgJWE">DeepSeek V4 Pro / Flash、Gemini 3.6 Flash（Flex）官方按闲时/高峰计费，闲时基本为半价，本表主价为高峰峰值价；GLM-5.3 无分时计价，其 Coding Plan 订阅在非高峰时段享半价积分（见该行调价说明）。</p>
+      <p data-page-node-id="rcwzB6sPRYG0vW3sHEVAWy">本表为 2026-09-03 09:30 快照。多数厂商调价频率低于每日一次，因此「较昨日」多数显示持平属正常现象。</p>
+    </div>
+  </section>
+
+  <!-- ================= 能力雷达对比 ================= -->
+  <section class="radar-sec" id="radar-sec" data-page-node-id="DBXt2J6nAjXIcjrVZ4BqXN">
+    <div class="sec-head" data-page-node-id="U1V59m5sTFxrV8kBpyCVGT">
+      <div class="sec-head-left tight" data-page-node-id="IyBKVH3fw7u0gfjlvU3CXo">
+        <h2 class="sec-title" data-page-node-id="5EfljfsJvuqXRx3EPIbHjE">模型能力雷达对比</h2>
+        <span class="sec-note" data-page-node-id="HGlEKU9yk60ZY9J9CSll7s">6 个能力维度 · 单模型雷达 · 16 款全打分，页面内嵌 6 个旗舰</span>
+      </div>
+      <div class="caliber" data-page-node-id="o9QKgut8yf9iQVepLRIsKQ">
+        <span class="caliber-t" data-page-node-id="GH35MZYKE4IcnrMIEUOFTk">评分口径</span>
+        <span class="caliber-d" data-page-node-id="oCAjTc1ld3yHFLDf0OTAEX">综合分 = 6 个维度算术平均，定性打分而非单一跑分</span>
+      </div>
+    </div>
+
+    <div class="radar-grid" id="radar-grid" data-page-node-id="mOOB0Il7WfwB1aClaj7jRn"><!-- 6 个旗舰模型雷达，由脚本渲染 --></div>
+
+    <div class="radar-more" id="radar-more" data-page-node-id="3SFa3Lk2GgbEwciKQ06Vvb">
+      <span class="radar-more-label" id="radar-more-label" data-page-node-id="fLkWzvBoM7IEFvhUe3OumV">其余模型，点击查看雷达：</span>
+    </div>
+
+    <div class="dim-row" data-page-node-id="2RYdnb0gLutoDgU1XYtNDA">
+      <div class="dim-card" data-page-node-id="AvBURIkLlMtcvsrJH73dwM">
+        <span class="dim-name" data-page-node-id="hz94e2f7uJN3TVjjuIXz64">编码能力</span>
+        <span class="dim-desc" data-page-node-id="ErQX1reoxEzO1p0GBPouNO">代码生成、重构与缺陷调试</span>
+        <span class="dim-lead" style="color:var(--blue)" data-axis="0" data-page-node-id="lopokMQL1x6PR2bEzxKSAS"></span>
+      </div>
+      <div class="dim-card" data-page-node-id="Audy59ipdM9WiTQG3YwrNz">
+        <span class="dim-name" data-page-node-id="ZXjCi6AH83opJmb8FGi8zO">逻辑推理</span>
+        <span class="dim-desc" data-page-node-id="8xzQis4uA0cM3n6v6kkAdR">数学、多步推理与任务规划</span>
+        <span class="dim-lead" style="color:var(--green)" data-axis="1" data-page-node-id="xb5PQxDp1PKjPBbclTbJVc"></span>
+      </div>
+      <div class="dim-card" data-page-node-id="myZyJRqihnGJRrZSkCCzbz">
+        <span class="dim-name" data-page-node-id="nNS8V5ymaYh5kR2icGPz12">长上下文</span>
+        <span class="dim-desc" data-page-node-id="CLZJeOgA85Y8qj2EfzQuBF">超长文档检索与长程记忆</span>
+        <span class="dim-lead" style="color:var(--orange)" data-page-node-id="z7DbyVn5A3yaWH1ADsikKS">领先 Gemini 3.1 Pro</span>
+      </div>
+      <div class="dim-card" data-page-node-id="r6TBVn7zwnyYwlGBZWW0mq">
+        <span class="dim-name" data-page-node-id="8v5obDMHLZuny6VBu72hRy">多模态</span>
+        <span class="dim-desc" data-page-node-id="qUXxJ25GDcQ0NNvpzB2Fqq">图像、音频与视频理解</span>
+        <span class="dim-lead" style="color:var(--orange)" data-page-node-id="JulaXdr0HvAdfU5rg2PnHx">领先 Gemini 3.1 Pro</span>
+      </div>
+      <div class="dim-card" data-page-node-id="YbzZrQCaIqO4jZg9rojFyL">
+        <span class="dim-name" data-page-node-id="XILI0CToly3Ijd0Oqrs9BY">指令遵循</span>
+        <span class="dim-desc" data-page-node-id="5isx7X2Y9VRyJbrIiUkLYT">复杂约束与输出格式遵从</span>
+        <span class="dim-lead" style="color:var(--blue)" data-axis="4" data-page-node-id="I3oyOcP571GPw14yTA4EMr"></span>
+      </div>
+      <div class="dim-card" data-page-node-id="0ZCGAJMGVtioJM97LhZOZR">
+        <span class="dim-name" data-page-node-id="2x6pbGmF9gx2jxtEeYnNB3">性价比</span>
+        <span class="dim-desc" data-page-node-id="9iW12QD5v7IMcH47FYlJiK">单位成本下的能力产出</span>
+        <span class="dim-lead" style="color:var(--blue)" data-axis="5" data-page-node-id="Tjo3hvByhlhClSUlFl6AQb"></span>
+      </div>
+    </div>
+
+    <div class="footnote" data-page-node-id="YHbxFZV4zKpYn1QH4tH8vM">
+      <p data-page-node-id="TuaExpZP4gLwbZQuVppehs">维度评分为综合定性打分（满分 100），综合分取 6 维算术平均，用于同组内横向比较，不代表任何单一基准测试的精确跑分。</p>
+      <p data-page-node-id="CFxilzDUi2gq02n15MlXcw">性价比维度综合上方价格表的输入/输出报价、缓存价与能力表现估算；未在页面内嵌的 10 款模型采用同口径评分，点击模型名即可查看其雷达图。模型迭代频繁，评分每月随公开评测与实测复核一次。</p>
+    </div>
+  </section>
+
+  <!-- ================= AI 资讯速递 ================= -->
+  <section class="news-sec" data-page-node-id="mHK12qlTGHfmDjo6B4V3HR">
+    <div class="sec-head" data-page-node-id="QciV0HdtTdl8FIpRdG3C9E">
+      <div class="news-head-left" data-page-node-id="Efl7JdP9raXNbM0qORSmhp">
+        <h2 class="news-title" data-page-node-id="jUd81hQuCWZv4pKfB3zEFm">AI 资讯速递</h2>
+        <span class="news-sub" data-page-node-id="sVFuSpBecjqE67LdLhAOYZ">2026年9月2日 – 9月3日 · 9 条精选</span>
+      </div>
+      <span class="news-link" data-page-node-id="ImDnM8FUDeTQU0aEb71WEA">查看全部资讯</span>
+    </div>
+
+    <div class="news-grid" data-page-node-id="ksQ2JWUbeimxrTfJsh8RKi">
+      <article class="news-card" data-page-node-id="NVEDi7Ky9mFzsS7jlyvwUB">
+        <span class="n-meta" data-page-node-id="NqZEuXgBVGTKBxI8nY51bJ">融资并购 · 09-03</span>
+        <h3 class="n-title" data-page-node-id="cdL863PSWHRr7moPp7s9j1">英伟达据悉接近以 140 亿美元收购 Hugging Face</h3>
+        <p class="n-desc" data-page-node-id="Lt5JrJGzICZcl7fKGgmedq">交易最早本周达成，含 10 亿美元员工留任方案，或成为英伟达史上最大收购之一。</p>
+        <span class="n-src" data-page-node-id="wHVLOQwFQ9xGRo2mYELA9L">来源：界面新闻</span>
+      </article>
+      <article class="news-card" data-page-node-id="7F7QspYggW9nESYknDkFKI">
+        <span class="n-meta" data-page-node-id="ptFoQYMq7px3U38UlmFb08">模型发布 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="77Oul2WaEHrB9lP5GIeVPm">阿里发布 Qwen3.8-Max 0902 版，编程榜登顶</h3>
+        <p class="n-desc" data-page-node-id="wxdb4RGRL2fnSEVFv0fZe8">针对 Coding 与 Cowork 专项后训练，CodeArena 前端榜 1691 分，支持 100 万 Token 上下文。</p>
+        <span class="n-src" data-page-node-id="QDzMc1XZm5TGAKaonxddBB">来源：界面新闻</span>
+      </article>
+      <article class="news-card" data-page-node-id="6Bc2rJXDulGUSLNEf4B4VD">
+        <span class="n-meta" data-page-node-id="k1AEPXjKUbXhWJSc06aSlx">生态开放 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="DFD947lRRAvJQo1Pat43Qj">腾讯 WorkBuddy 开放平台上线，首批引入百家伙伴</h3>
+        <p class="n-desc" data-page-node-id="KFljhXz4iRlD7rnagHFtQ6">面向智能硬件、行业应用与开发者开放底层 Agent 能力，Plaud、Rokid、科大讯飞已推联名硬件。</p>
+        <span class="n-src" data-page-node-id="DIa3wUPMPyWewHlBr2iqiS">来源：界面新闻</span>
+      </article>
+      <article class="news-card" data-page-node-id="p6ciBSGfmcXHqQHXbsW6k9">
+        <span class="n-meta" data-page-node-id="qcEYY2AGyglyl6eOJKcOe0">开发者 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="KaGALunCbgF7zkGVghsCu4">Kimi API 原生支持 Codex 与 Claude Code</h3>
+        <p class="n-desc" data-page-node-id="ORSIRlFCUnb1VEzDn5XIMH">同时兼容 OpenAI Responses 与 Anthropic Messages 格式，无需转换即可直连 kimi-k3 等模型。</p>
+        <span class="n-src" data-page-node-id="JU7APAWWNGzv1DYlejg4Fk">来源：界面新闻</span>
+      </article>
+      <article class="news-card" data-page-node-id="yaOFL5cWCyKGEi9ufFQHfq">
+        <span class="n-meta" data-page-node-id="qOp0gWpMlFsFWGVu42ITET">商业化 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="6Gy6tqDNzkbd7G386OdLqy">智谱入驻天猫，大模型套餐开进电商平台</h3>
+        <p class="n-desc" data-page-node-id="hK8sVOZYKROmigIlDucgc2">在售个人版 Lite / Pro / Max 订阅套餐，未来购买 Token 也可在电商平台完成。</p>
+        <span class="n-src" data-page-node-id="2KCuIwg3GFJ8ex1l0fLmAD">来源：界面新闻</span>
+      </article>
+      <article class="news-card" data-page-node-id="leRr9XpKgHk9I5Rh0hWzR7">
+        <span class="n-meta" data-page-node-id="RbFGQWPwu4o43E49Nvg0Yv">模型发布 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="b8Nvnf4fQbsaOa3oKDAZHq">DeepSeek 发布 V4-Flash-Vision-Exp 视觉模型</h3>
+        <p class="n-desc" data-page-node-id="n16nESyJEcHPQiOa1RE9ls">视觉 Agent 跑分 ApexBench 达 36.5，多模态任务处理能力进一步增强。</p>
+        <span class="n-src" data-page-node-id="yLYmHa0ew7HaFqdxGK8QOw">来源：超神经 HyperAI</span>
+      </article>
+      <article class="news-card" data-page-node-id="Bwevnh0vvjDwJGomllPRs4">
+        <span class="n-meta" data-page-node-id="cKo1AFIrbYSf1gotrDaU9Z">模型迭代 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="hFNCiytb54msNA0Yp4GBer">Anthropic 将推出 Fable 5.1，运行成本更低</h3>
+        <p class="n-desc" data-page-node-id="rIzLTjqDQxcilIFhiZnfqj">编程与科研任务表现更好，缓存重读费用下调 75%，企业用户单价与 Fable 5 持平。</p>
+        <span class="n-src" data-page-node-id="wGcaRiaNO18hDFYZirldsI">来源：TechCrunch</span>
+      </article>
+      <article class="news-card" data-page-node-id="k1tlNXcEB4icSCB7quwH3P">
+        <span class="n-meta" data-page-node-id="UhJCmGmU4CV1iGUrzHBPIv">监管动态 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="2DIlCcagYrPqPuclNpX1b2">中央网信办通报 7 类 AI 应用乱象典型案例</h3>
+        <p class="n-desc" data-page-node-id="ZEHGBeXi0DPHdhm8TT289r">含 AI 魔改经典等违规内容，AI 内容治理进入常态化阶段。</p>
+        <span class="n-src" data-page-node-id="n13ajiASS2UtquolKi7Z7H">来源：南方都市报</span>
+      </article>
+      <article class="news-card" data-page-node-id="ircqdT5FEAz2ABd1vZfc5r">
+        <span class="n-meta" data-page-node-id="DNaFW9uoFAA0Tzetn3v5CQ">行业数据 · 09-02</span>
+        <h3 class="n-title" data-page-node-id="WNN43jhFCDAnatI801NiM3">Q2 全球 AI 产品价值榜发布，豆包月活 3.82 亿</h3>
+        <p class="n-desc" data-page-node-id="gI5TmVH7x51koe6gCyGSBn">第一新声数据显示，AI 应用整体进入价值兑现期，头部产品月活持续攀升。</p>
+        <span class="n-src" data-page-node-id="mlnBRNnoBv4XWTtkRaSESW">来源：第一新声</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= 页脚 ================= -->
+  <footer class="footer" data-page-node-id="ZuNzdYRWUTErlmuTW2oxHg">
+    <p data-page-node-id="fgBmJDf6qQEcxZ7yheYDfD">模型价格台 · 价格数据聚合自各厂商官方定价页与公开报道，资讯来源已在卡片中逐条标注。</p>
+    <p class="dim" data-page-node-id="fSTvfM4kQpHddpYWkluYzH">本页仅为选型参考，不构成采购建议。数据快照时间：2026-09-03 09:30。</p>
+  </footer>
+
+</div>
+
+  <!-- 雷达弹层：查看未内嵌模型的雷达图 -->
+  <div class="radar-modal" id="radar-modal" hidden data-page-node-id="2wd5BDDw83VWRqp2cf08jb">
+    <div class="radar-modal-mask" id="radar-modal-mask" data-page-node-id="t2xHYBcSDjMRKYhKoatB4d"></div>
+    <div class="radar-modal-card" role="dialog" aria-modal="true" data-page-node-id="khavVCJXdwPAL3bujqx9UU">
+      <button class="radar-modal-close" id="radar-modal-close" aria-label="关闭" data-page-node-id="FpIPPN78s2k7jsDSI94afh">×</button>
+      <div id="radar-modal-body" style="width:100%;display:flex;flex-direction:column;gap:8px;align-items:center;" data-page-node-id="XyPH2cdaoxJdVQdxZTVk13"></div>
+    </div>
+  </div>
+
+<script>
+(function(){
+  'use strict';
+  // 若通过 file:// 直接打开（无 HTTP），fetch 会失败，此时静默保留静态快照。
+  fetch('data/prices.json', {cache:'no-store'})
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(applyLive)
+    .catch(function(e){ console.warn('[价格台] 活数据不可用，保留静态快照：', e && e.message); });
+
+  // 资讯：优先加载 data/news.json（每日 08:00 由 fetch-news.py 生成）。成功则整区动态重建；
+  // 失败（file:// 或尚未生成）时保留下方静态精选卡片作为兜底。
+  fetch('data/news.json', {cache:'no-store'})
+    .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(applyNews)
+    .catch(function(e){ console.warn('[价格台] 资讯活数据不可用，保留静态卡片：', e && e.message); });
+
+  function fmtCtx(n){
+    if(n==null || !isFinite(n)) return '';
+    if(n >= 1e9) return (n/1e9).toFixed(n%1e9?1:0)+'B';
+    if(n >= 1e6) return (n/1e6).toFixed(n%1e6?1:0)+'M';
+    if(n >= 1e3) return (n/1e3).toFixed(n%1e3?1:0)+'K';
+    return String(n);
+  }
+  function fmtPrice(x){
+    if(x==null || !isFinite(x)) return '—';
+    // 保留合适小数：>=10 → 2 位，>=1 → 2 位，<1 → 3 位
+    var s = x>=1 ? x.toFixed(2) : x.toFixed(3);
+    return s.replace(/\.?0+$/,'');
+  }
+  function deltaCell(v){
+    // v 为脚本算好的 pct_change（如 -50.0），相对当前 mix
+    if(v==null || !isFinite(v)) return {txt:'—', cls:''};
+    var a=Math.abs(v);
+    if(a < 0.05) return {txt:'持平', cls:'c-flat'};
+    if(v>0) return {txt:'+'+v.toFixed(1)+'%', cls:'c-up'};   // 涨→红
+    return {txt:v.toFixed(1)+'%', cls:'c-down'};             // 跌→绿
+  }
+
+  var GROUP_LABEL={flagship:'旗舰档 · 高能力', mainstream:'主力档 · 均衡型', value:'性价比档 · 轻量高频'};
+
+  // 用活数据填充一行（静态行更新与新建行共用）
+  function fillRow(row, m, isNew){
+    var cols=row.querySelectorAll('.cell');
+    // 列映射：col-in=输入, col-out=输出, col-cache=缓存输入；
+    // in/out 单元格含 .v-price(主价) + 可选 .v-tier(闲时副价)，cache 单元格含 .v-cache
+    var tier = m.tier === 'off_peak' ? (m.off_peak || null) : null;
+    var fillTiered = function(cell, main, sub){
+      var p = cell.querySelector('.v-price'); if(p) p.textContent=fmtPrice(main);
+      var t = cell.querySelector('.v-tier');
+      if(sub && sub!=null){ if(t) t.textContent='闲 '+fmtPrice(sub); }
+      else if(t){ t.parentNode.removeChild(t); }
+    };
+    cols.forEach(function(cell){
+      if(cell.classList.contains('col-in')){
+        if(tier) fillTiered(cell, m.in, tier.in); else { var p=cell.querySelector('.v-price'); if(p) p.textContent=fmtPrice(m.in); }
+      }
+      else if(cell.classList.contains('col-out')){
+        if(tier) fillTiered(cell, m.out, tier.out); else { var p=cell.querySelector('.v-price'); if(p) p.textContent=fmtPrice(m.out); }
+      }
+      else if(cell.classList.contains('col-cache')){
+        var s=cell.querySelector('.v-cache');
+        if(m.cache_in!=null){
+          if(s){ s.textContent=fmtPrice(m.cache_in); s.classList.remove('v-na'); }
+          var ct=cell.querySelector('.v-tier');
+          if(tier && tier.cache_in!=null){
+            if(ct) ct.textContent='闲 '+fmtPrice(tier.cache_in);
+            else { ct=document.createElement('span'); ct.className='v-tier'; ct.textContent='闲 '+fmtPrice(tier.cache_in); cell.appendChild(ct); }
+          } else if(ct){ ct.parentNode.removeChild(ct); }
+        }
+        else { if(s){ s.textContent='—'; s.classList.add('v-na'); } var c2=cell.querySelector('.v-tier'); if(c2) c2.parentNode.removeChild(c2); }
+      }
+    });
+
+    // meta：厂商 · 上下文
+    var meta=row.querySelector('.m-meta');
+    if(meta) meta.textContent=(m.vendor||'')+(m.ctx?(' · '+fmtCtx(m.ctx)):'');
+
+    // 三个对比列：col-d 依次 较昨日/较上周/较上月
+    var seq=['d1','d7','d30'];
+    var dCols=row.querySelectorAll('.col-d .v-delta');
+    dCols.forEach(function(el,i){
+      var d=deltaCell(m.delta && m.delta[seq[i]]);
+      el.textContent=d.txt;
+      el.className='v-delta '+d.cls;
+    });
+
+    // 调价说明：仅新建行写入（静态行的手写文案保留）
+    if(isNew){
+      var noteEl=row.querySelector('.v-note');
+      if(noteEl) noteEl.textContent=m.note||'';
+    }
+  }
+
+  // 构建一行动态 DOM（结构对齐静态行）
+  function buildRow(m){
+    var row=document.createElement('div'); row.className='data-row';
+    var rc=document.createElement('div'); rc.className='row-content';
+    var cm=document.createElement('div'); cm.className='cell cell-model col-model';
+    var nr=document.createElement('span'); nr.className='name-row';
+    var nm=document.createElement('span'); nm.className='m-name'; nm.textContent=m.name||m.key||'';
+    nr.appendChild(nm);
+    if(m.discovered){ var b=document.createElement('span'); b.className='m-new'; b.textContent='新'; nr.appendChild(b); }
+    if(m.pricing_url){
+      var a=document.createElement('a'); a.className='m-link'; a.href=m.pricing_url; a.target='_blank'; a.rel='noopener';
+      var t=document.createElement('span'); t.className='ml-txt'; t.textContent='官网'; a.appendChild(t); nr.appendChild(a);
+    }
+    cm.appendChild(nr);
+    var mt=document.createElement('span'); mt.className='m-meta'; cm.appendChild(mt);
+    rc.appendChild(cm);
+    ['col-in','col-out'].forEach(function(cls){
+      var c=document.createElement('div'); c.className='cell '+cls;
+      var p=document.createElement('span'); p.className='v-price'; p.textContent='—'; c.appendChild(p); rc.appendChild(c);
+    });
+    var cc=document.createElement('div'); cc.className='cell col-cache';
+    var s=document.createElement('span'); s.className='v-cache'; s.textContent='—'; cc.appendChild(s); rc.appendChild(cc);
+    for(var i=0;i<3;i++){
+      var d=document.createElement('div'); d.className='cell col-d';
+      var v=document.createElement('span'); v.className='v-delta'; v.textContent='—'; d.appendChild(v); rc.appendChild(d);
+    }
+    var cn=document.createElement('div'); cn.className='cell col-note';
+    var n=document.createElement('span'); n.className='v-note'; cn.appendChild(n); rc.appendChild(cn);
+    row.appendChild(rc);
+    return row;
+  }
+
+  // 把新行插入对应分组（group-row 之后、下一个 group-row 之前）；找不到分组则追加到末尾
+  function insertIntoGroup(container, row, group){
+    var label=GROUP_LABEL[group];
+    var grs=container.querySelectorAll('.group-row');
+    for(var i=0;i<grs.length;i++){
+      var gn=grs[i].querySelector('.group-name');
+      if(gn && label && gn.textContent.indexOf(label)===0){
+        var sib=grs[i].nextElementSibling, last=grs[i];
+        while(sib && !sib.classList.contains('group-row')){ last=sib; sib=sib.nextElementSibling; }
+        if(last.nextSibling) container.insertBefore(row, last.nextSibling);
+        else container.appendChild(row);
+        return;
+      }
+    }
+    container.appendChild(row);
+  }
+
+  function applyLive(data){
+    var rows=data.models||[];
+    if(!rows.length) return;
+    var modelRows=document.querySelectorAll('#price-table .data-row');
+    var container=modelRows.length ? modelRows[0].parentNode : null;
+    var byName={};
+    rows.forEach(function(m){ byName[m.key]=m; });
+
+    var matched={};
+    modelRows.forEach(function(row){
+      var nameEl=row.querySelector('.m-name');
+      if(!nameEl) return;
+      var name=nameEl.textContent.trim();
+      var m=byName[name];
+      if(!m) return;
+      matched[name]=true;
+      fillRow(row, m, false);
+    });
+
+    // 动态新增行：活数据里有、静态快照没有的模型（如自动发现的新模型）→ 构建行插入对应分组
+    if(container){
+      rows.forEach(function(m){
+        if(matched[m.key]) return;
+        var row=buildRow(m);
+        insertIntoGroup(container, row, m.group);
+        fillRow(row, m, true);
+      });
+    }
+
+    // 顶部时间戳 + 数据源说明
+    var nav=document.getElementById('nav-time');
+    if(nav && data.generated_at){
+      var t=null; try{ t=new Date(data.generated_at); }catch(e){}
+      if(t && !isNaN(t)){ nav.textContent='数据更新于 '+pad(t.getFullYear())+'-'+pad(t.getMonth()+1)+'-'+pad(t.getDate())+' '+pad(t.getHours())+':'+pad(t.getMinutes()); }
+    }
+    var note=document.getElementById('sec-note');
+    if(note){
+      var missing=data.missing && data.missing.length;
+      var officialCount=rows.filter(function(r){ return r.src==='official'; }).length;
+      var srcTxt=officialCount>0
+        ? ('OpenRouter 实时 + '+officialCount+' 款官网官方价')
+        : 'OpenRouter 实时挂牌价';
+      var vc={}; rows.forEach(function(r){ if(r.vendor) vc[r.vendor]=1; });
+      note.textContent=rows.length+' 个模型 · '+Object.keys(vc).length+' 家厂商 · '+srcTxt+(missing?('（'+missing+' 个未匹配）'):'');
+    }
+
+    updateOverviewLive(rows);
+  }
+
+  // ===== 今日速览：随活数据刷新第 1/2 卡（最低综合成本 / 本月最大降幅）=====
+  // 综合成本口径与后端 mix 一致：0.75×输入 + 0.25×输出。
+  function updateOverviewLive(rows){
+    var cheapVal=document.getElementById('ov-cheap-val');
+    var cheapNote=document.getElementById('ov-cheap-note');
+    var dropVal=document.getElementById('ov-drop-val');
+    var dropNote=document.getElementById('ov-drop-note');
+    if(!cheapVal || !dropVal) return;
+
+    var cheap=null;
+    rows.forEach(function(m){
+      var mix=(typeof m.mix==='number') ? m.mix : ((m.in!=null && m.out!=null) ? m.in*0.75+m.out*0.25 : null);
+      if(mix==null) return;
+      if(!cheap || mix<cheap._mix){ cheap=m; cheap._mix=mix; }
+    });
+    if(cheap && cheap._mix!=null){
+      cheapVal.textContent='$'+(Math.round(cheap._mix*100)/100).toFixed(2);
+      if(cheapNote) cheapNote.textContent=cheap.name+' · 输入 '+(+cheap.in).toFixed(2)+' / 输出 '+(+cheap.out).toFixed(2);
+    }
+
+    var drop=null;
+    rows.forEach(function(m){
+      var d=m.delta && typeof m.delta.d30==='number' ? m.delta.d30 : null;
+      if(d==null || d>=0) return;
+      if(!drop || d<drop._d){ drop=m; drop._d=d; }
+    });
+    if(drop){
+      dropVal.textContent='−'+(Math.round(Math.abs(drop._d)*10)/10).toFixed(1)+'%';
+      if(dropNote) dropNote.textContent=drop.name+' · 较上月'+(drop.note?('（'+drop.note+'）'):'调价生效');
+    }
+  }
+
+  // ===== 今日速览：第 3/4 卡随 models.json 刷新（本月新上线 / 能力雷达综合第一）=====
+  (function updateOverviewModels(){
+    var newVal=document.getElementById('ov-new-val');
+    var newNote=document.getElementById('ov-new-note');
+    var radarVal=document.getElementById('ov-radar-val');
+    var radarNote=document.getElementById('ov-radar-note');
+    var radarCard=document.getElementById('ov-radar-card');
+    if(!newVal && !radarVal) return;
+
+    fetch('data/models.json', {cache:'no-store'}).then(function(r){
+      if(!r.ok) throw new Error('http '+r.status);
+      return r.json();
+    }).then(function(cfg){
+      var models=cfg.models||[];
+      var cut=Date.now()-30*86400000;
+      var fresh=models.filter(function(m){ return m.discovered && new Date(m.discovered+'T00:00:00').getTime()>=cut; });
+      if(newVal && fresh.length){
+        newVal.textContent=fresh.length+' 款';
+        if(newNote){
+          var names=fresh.map(function(m){ return m.name; });
+          var txt=names.length>3 ? names.slice(0,3).join(' · ')+' 等 '+names.length+' 款' : names.join(' · ');
+          newNote.textContent=txt;
+        }
+      }
+
+      var best=null;
+      models.forEach(function(m){
+        if(!m.radar || !m.radar.v || m.radar.v.length!==6) return;
+        var s=0; for(var i=0;i<m.radar.v.length;i++) s+=m.radar.v[i];
+        var avg=s/m.radar.v.length;
+        if(!best || avg>best._avg){ best=m; best._avg=avg; }
+      });
+      if(best && radarVal){
+        radarVal.textContent=best.name;
+        if(radarNote) radarNote.textContent='综合分 '+best._avg.toFixed(1)+' / 100 · 点击查看下方雷达图';
+      }
+    }).catch(function(){ /* 静态兜底文案已可用 */ });
+
+    if(radarCard){
+      radarCard.addEventListener('click', function(){
+        var sec=document.getElementById('radar-sec');
+        if(sec) sec.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    }
+  })();
+  // ===== 资讯区动态渲染 =====
+  // 用 data/news.json 重建 .news-grid（最多 9 张），并更新标题下的日期副标题。
+  // 带原文链接（link）的条目整卡渲染为 <a>，新标签打开原文；无链接回退普通卡片。
+  function applyNews(data){
+    if(!data || !Array.isArray(data.news) || !data.news.length) return;
+    var list=data.news.slice(0,9);
+    var grid=document.querySelector('.news-grid');
+    if(!grid) return;
+
+    // 汇总日期范围：取列表里最小与最大 MM-DD（若只有一天则显示单日）
+    var dates=list.map(function(n){ return n.date; }).filter(Boolean);
+    var sub=document.querySelector('.news-sub');
+    if(sub && dates.length){
+      // MM-DD -> X月X日（去前导零）
+      function zh(d){ var p=d.split('-'); return (+p[0])+'月'+(+p[1])+'日'; }
+      var min=dates[0], max=dates[0];
+      dates.forEach(function(d){ if(d<min) min=d; if(d>max) max=d; });
+      var y=new Date().getFullYear();
+      sub.textContent = (min===max)
+        ? (y+'年'+zh(min)+' · '+list.length+' 条精选')
+        : (y+'年'+zh(min)+' – '+zh(max)+' · '+list.length+' 条精选');
+    }
+
+    // 重建卡片
+    var frag=document.createDocumentFragment();
+    list.forEach(function(n){
+      // 带原文链接的条目整卡渲染为 <a>（新标签打开、防 window.opener 泄露）；
+      // 无链接时回退为普通 <article> 卡片。
+      var link=typeof n.link==='string' && /^https?:\/\//i.test(n.link) ? n.link : '';
+      var card=document.createElement(link ? 'a' : 'article');
+      card.className='news-card';
+      if(link){
+        card.href=link;
+        card.target='_blank';
+        card.rel='noopener noreferrer';
+      }
+
+      var meta=document.createElement('span');
+      meta.className='n-meta';
+      meta.textContent=(n.category||'AI 产业')+' · '+(n.date||'');
+
+      var title=document.createElement('h3');
+      title.className='n-title';
+      title.textContent=n.title||'';
+
+      var desc=document.createElement('p');
+      desc.className='n-desc';
+      desc.textContent=(n.desc||'').slice(0,96)+( (n.desc||'').length>96 ? '…' : '');
+
+      var src=document.createElement('span');
+      src.className='n-src';
+      src.textContent='来源：'+(n.source||'');
+      if(link){
+        var ext=document.createElement('span');
+        ext.className='n-ext';
+        ext.textContent='阅读原文 ↗';
+        src.appendChild(ext);
+      }
+
+      card.appendChild(meta);
+      card.appendChild(title);
+      card.appendChild(desc);
+      card.appendChild(src);
+      frag.appendChild(card);
+    });
+    grid.textContent='';
+    grid.appendChild(frag);
+  }
+
+  // ===== 模型能力雷达（单模型六维）=====
+  // 数据驱动：六维评分存于 data/models.json 各模型的 radar 字段（fetch-prices.py
+  // 维护，自动发现的新模型由脚本赋启发式分）。页面加载后全量排序：综合分前 6 内嵌
+  // 展示，其余进入下方点击序列（弹层查看）；30 天内发现的模型带「新」徽章。
+  // 几何与原对决图一致：圆心居中、外圈 R=118、起始角 -90°、步进 60°。
+  var AXES = ['编码能力','逻辑推理','长上下文','多模态','指令遵循','性价比'];
+  var FLAGSHIP_COUNT = 6;
+  var NEW_WINDOW_DAYS = 30;
+  var GROUP_RANK = {flagship:0, mainstream:1, value:2};
+
+  function radarAvg(m){
+    var s=0; for(var i=0;i<m.v.length;i++) s+=m.v[i];
+    return (s/m.v.length).toFixed(1);
+  }
+  function radarSvgStr(m){
+    var cx=180, cy=170, R=118, i, a, r;
+    function pt(i, v){
+      a=(-90+60*i)*Math.PI/180; r=R*v/100;
+      return (cx+r*Math.cos(a)).toFixed(1)+','+(cy+r*Math.sin(a)).toFixed(1);
+    }
+    var rings='', spokes='', dots='', labels='', pts=[];
+    [25,50,75,100].forEach(function(lvl){
+      var ring=[]; for(var j=0;j<6;j++) ring.push(pt(j,lvl));
+      rings+='<polygon points="'+ring.join(' ')+'" fill="none" stroke="#E8E8ED" stroke-width="1"/>';
+    });
+    for(i=0;i<6;i++){
+      a=(-90+60*i)*Math.PI/180;
+      spokes+='<line x1="'+cx+'" y1="'+cy+'" x2="'+(cx+R*Math.cos(a)).toFixed(1)+'" y2="'+(cy+R*Math.sin(a)).toFixed(1)+'" stroke="#E8E8ED" stroke-width="1"/>';
+    }
+    for(i=0;i<6;i++) pts.push(pt(i,m.v[i]));
+    for(i=0;i<6;i++){
+      a=(-90+60*i)*Math.PI/180; r=R*m.v[i]/100;
+      dots+='<circle cx="'+(cx+r*Math.cos(a)).toFixed(1)+'" cy="'+(cy+r*Math.sin(a)).toFixed(1)+'" r="3" fill="'+m.color+'"/>';
+    }
+    for(i=0;i<6;i++){
+      a=(-90+60*i)*Math.PI/180;
+      var c=Math.cos(a), s=Math.sin(a);
+      var lx=cx+(R+16)*c, ly=cy+(R+16)*s;
+      var anchor=Math.abs(c)<0.3 ? 'middle' : (c>0 ? 'start' : 'end');
+      var dy = s < -0.3 ? -4 : (s > 0.3 ? 10 : 4);
+      labels+='<text x="'+lx.toFixed(1)+'" y="'+(ly+dy).toFixed(1)+'" text-anchor="'+anchor+'" font-size="12" font-weight="500" fill="#6E6E73">'+AXES[i]+'</text>';
+    }
+    var poly='<polygon points="'+pts.join(' ')+'" fill="'+m.color+'" fill-opacity="0.12" stroke="'+m.color+'" stroke-width="2.5" stroke-linejoin="round"/>';
+    return '<svg viewBox="0 0 360 330" fill="none" xmlns="http://www.w3.org/2000/svg">'
+      + rings + spokes + poly + dots + labels + '</svg>';
+  }
+  function radarHeadHtml(m){
+    return '<div class="rc-head"><div><div class="rc-name">'+m.name
+      + (m.isNew ? '<span class="rc-new">新</span>' : '')
+      + '</div>'
+      + '<div class="rc-vendor">'+m.vendor+'</div></div>'
+      + '<span class="rc-score">综合 '+radarAvg(m)+'</span></div>';
+  }
+
+  (function renderRadarSection(){
+    var grid=document.getElementById('radar-grid');
+    var more=document.getElementById('radar-more');
+    var modal=document.getElementById('radar-modal');
+    var modalBody=document.getElementById('radar-modal-body');
+    if(!grid || !more || !modal || !modalBody) return;
+    var note=document.getElementById('radar-note');
+    var label=document.getElementById('radar-more-label');
+
+    fetch('data/models.json', {cache:'no-store'}).then(function(r){
+      if(!r.ok) throw new Error('http '+r.status);
+      return r.json();
+    }).then(function(cfg){
+      var cut = Date.now() - NEW_WINDOW_DAYS*86400000;
+      var list = (cfg.models||[]).filter(function(m){ return m.radar && m.radar.v && m.radar.v.length===6; })
+        .map(function(m){
+          var s=0; for(var i=0;i<m.radar.v.length;i++) s+=m.radar.v[i];
+          var disc = m.discovered ? new Date(m.discovered+'T00:00:00').getTime() : 0;
+          return {name:m.name, vendor:m.vendor, group:m.group, color:m.radar.color,
+                  v:m.radar.v, avg:s/m.radar.v.length, disc:disc, isNew: disc>=cut};
+        });
+      // 综合分降序；同分旗舰档优先；再按发现时间新者优先
+      list.sort(function(a,b){
+        if(b.avg!==a.avg) return b.avg-a.avg;
+        var ga=GROUP_RANK[a.group]!==undefined?GROUP_RANK[a.group]:1;
+        var gb=GROUP_RANK[b.group]!==undefined?GROUP_RANK[b.group]:1;
+        if(ga!==gb) return ga-gb;
+        return b.disc-a.disc;
+      });
+
+      list.forEach(function(m, idx){
+        if(idx < FLAGSHIP_COUNT){
+          var card=document.createElement('div');
+          card.className='radar-card';
+          card.innerHTML = radarHeadHtml(m) + '<div class="radar-box">'+radarSvgStr(m)+'</div>';
+          grid.appendChild(card);
+        } else {
+          var chip=document.createElement('button');
+          chip.type='button';
+          chip.className='radar-chip';
+          chip.textContent=m.name + (m.isNew ? '（新）' : '');
+          chip.addEventListener('click', function(){ openRadar(idx); });
+          more.appendChild(chip);
+        }
+      });
+
+      if(note) note.textContent='6 个能力维度 · 单模型雷达 · '+list.length+' 款全打分，页面内嵌综合分前 '+FLAGSHIP_COUNT;
+      if(label) label.textContent='其余 '+(list.length-FLAGSHIP_COUNT)+' 款模型，点击查看雷达：';
+
+      // 六维「领先」卡片按全量数据计算（同分取排序靠前者）
+      for(var a=0;a<AXES.length;a++){
+        var best=null;
+        list.forEach(function(m){ if(!best || m.v[a]>best.v[a]) best=m; });
+        var el=document.querySelector('.dim-lead[data-axis="'+a+'"]');
+        if(el && best) el.textContent='领先 '+best.name;
+      }
+
+      function openRadar(idx){
+        var m=list[idx];
+        modalBody.innerHTML = radarHeadHtml(m) + '<div class="radar-box">'+radarSvgStr(m)+'</div>';
+        modal.hidden=false;
+        document.body.style.overflow='hidden';
+      }
+      function closeRadar(){
+        modal.hidden=true;
+        document.body.style.overflow='';
+      }
+      document.getElementById('radar-modal-close').addEventListener('click', closeRadar);
+      document.getElementById('radar-modal-mask').addEventListener('click', closeRadar);
+      document.addEventListener('keydown', function(e){
+        if(e.key==='Escape' && !modal.hidden) closeRadar();
+      });
+    }).catch(function(){
+      if(note) note.textContent='6 个能力维度 · 单模型雷达 · 数据加载失败，请稍后刷新';
+    });
+  })();
+
+  function pad(n){ return (n<10?'0':'')+n; }
+})();
+</script>
+</body>
+</html>
