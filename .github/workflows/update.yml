@@ -1,0 +1,44 @@
+name: daily-update
+
+# 每天 08:30（北京时间）抓取价格与资讯，写回仓库 data/，Pages 自动更新静态站。
+# 时区说明：GitHub Actions cron 为 UTC，北京时间 08:30 = UTC 00:30。
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch: {}   # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write         # 允许 workflow 把 data/ 变更提交回仓库
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch prices
+        run: python scripts/fetch-prices.py
+
+      - name: Fetch news
+        run: python scripts/fetch-news.py
+
+      - name: Commit data changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "daily data update $(date -u +%F)"
+            git push
+          fi
