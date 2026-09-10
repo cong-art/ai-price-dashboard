@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:49:29.939202+08:00",
+  "generated_at": "2026-09-10T08:39:57.980885+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,52 +8,68 @@
   "count": 9,
   "news": [
     {
-      "category": "融资并购",
-      "date": "09-09",
-      "title": "曝 DeepSeek 已聘请中信证券筹备 IPO 事宜：目标是在今年递交申请、明年正式挂牌上市",
-      "desc": "路透社今日报道称，深度求索 DeepSeek 已聘请中信证券筹备科创板上市事宜，计划于年内启动 IPO 进程。目前具体募资规模与目标估值尚未确定。深度求索希望通过 IPO 募集资金，扩大算力基础设施建设、加大模型研发与芯片自研投入，并强化核心人才激励…",
+      "category": "监管动态",
+      "date": "09-10",
+      "title": "OpenAI 悄然收紧 ChatGPT 广告政策，禁止 Adobe 等竞品投放 AI 生图与音频广告",
+      "desc": "OpenAI 最近刚刚推出了 ChatGPT Images 2.5 图像生成模型以及 ChatGPT Live 语音功能。据 The Information 今日报道，OpenAI 近期悄然更新了其广告政策，禁止竞争对手在 ChatGPT 平台内投放特定生成式 AI 产品类别的广告…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/000/188.htm"
+      "link": "https://www.ithome.com/1/000/568.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-09",
-      "title": "OpenAI 韩国负责人：与三星电子的下一代芯片合作取得良好进展",
-      "desc": "OpenAI 韩国负责人 Kim Kyoung-hoon (Harrison Kim) 在该企业韩国首尔区域办事处成立一周年新闻发布会上表示，OpenAI 与三星电子的下一代芯片合作取得良好进展。三星电子在一份声明中表示无法确认与客户相关的信息…",
+      "date": "09-10",
+      "title": "Anthropic 披露第四起 Claude 模型未经授权访问真实第三方系统的安全事件",
+      "desc": "Anthropic 于当地时间 9 月 9 日发文，确认一起发生于 2026 年 1 月的安全事件，也是 Anthropic 对外披露的第四起真实网络安全事件。据IT之家此前报道，Anthropic 曾在当地时间 7 月 30 日…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/000/181.htm"
+      "link": "https://www.ithome.com/1/000/565.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-09",
-      "title": "“超薄”变“标准版”：消息称苹果 iPhone Air 2 将作为 iPhone 18 明年推出",
-      "desc": "消息源 @earlyappleleaks 昨日（9 月 8 日）在 X 平台发布推文，爆料称苹果公司调整 iPhone 18 标准版机型，让主打超薄的 iPhone Air 2 直接以 iPhone 18 的名称销售，在美国售价维持 999 美元（现汇率约合 6,722 元人民币）…",
+      "date": "09-10",
+      "title": "苹果 Apple Watch 将增 AI 音频功能：全天谈话划重点 / 回顾 15 秒对话",
+      "desc": "彭博社今天（9 月 10 日）发布博文，报道称在 2026 秋季发布会上，苹果为 Apple Watch Series 12、Apple Watch Ultra 4 两款智能手表，带来了 Siri Recap 和 Live Recap 在内的全新音频智能工具，通过环境聆听记录对话要点并生成实时转录…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/000/176.htm"
+      "link": "https://www.ithome.com/1/000/559.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-09",
-      "title": "奥之心新款 PEN 复古无反相机曝光：2040 万像素 M4/3 画幅，AI 识别对焦",
-      "desc": "科技媒体 NotebookCheck 昨日（9 月 8 日）发布博文，报道称奥之心（OM System）新款 PEN 复古无反相机已在美国亚马逊平台开启预售（IT之家发稿前已下架），套机售价为 1,299 美元（IT之家注：现汇率约合 8,740 元人民币）…",
+      "date": "09-10",
+      "title": "证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关",
+      "desc": "在 AI 照片近乎以假乱真的年代，苹果为最新发布的 iPhone 18 Pro 系列手机带来一项标注真实照片功能。苹果在今日的发布会上宣布推出“Apple 参考图像”，iPhone 18 Pro 用户可通过该技术证明所拍照片的原真性…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/000/166.htm"
+      "link": "https://www.ithome.com/1/000/544.htm"
     },
     {
-      "category": "智能应用",
-      "date": "09-09",
-      "title": "京东物流宣布 5 年内采购 300 万台机器人，打造全球最大的机器人维修服务网络",
-      "desc": "在今日的京东全球科技探索者大会上，京东物流宣布将在 5 年内采购 300 万台机器人、100 万台无人车及 10 万架无人机，进一步推进物流全流程无人化落地。此外，京东物流还将打造全球最大的机器人维修服务网络…",
+      "category": "巨头动态",
+      "date": "09-10",
+      "title": "苹果 iOS / iPadOS 27 RC 更新日志：升级 Siri AI，增强家长管控等",
+      "desc": "苹果公司今日正式推送了 iOS / iPadOS 27 RC，正式版将于 9 月 15 日推出。IT之家附上 iOS / iPadOS 27 RC 完整更新日志内容如下：Siri AI适用机型：所有 iPhone 16 机型及后续机型、iPhone 15 Pro、iPhone 15 Pro Max…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/000/165.htm"
+      "link": "https://www.ithome.com/1/000/536.htm"
     },
     {
-      "category": "融资并购",
-      "date": "09-09",
-      "title": "京东启动“京东物理 AI 加速计划”，打造全球最大物理世界运营中心",
-      "desc": "9 月 9 日上午消息，今日，在京东全球科技探索者大会（JDD 大会）上，京东集团技术委员会主席、京东云总裁曹鹏表示，“物理 AI 迈向规模化落地，竞争焦点转向算力、数据和场景。物理 AI 正从模型和本体的单点竞争，走向体系化竞争…",
+      "category": "巨头动态",
+      "date": "09-10",
+      "title": "苹果 macOS 27 RC 更新日志：全新 Siri AI、界面更精致、体验更可靠",
+      "desc": "苹果今日向 Mac 电脑用户推送了 macOS 27.0 RC 更新（内部版本号：26A428），本次更新距离上次发布 Beta / RC 间隔 9 天，正式版将于 9 月 15 日发布…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/000/163.htm"
+      "link": "https://www.ithome.com/1/000/534.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-10",
+      "title": "苹果上调国行 iPhone Air 售价：8799 元起，最高涨幅约 19%",
+      "desc": "苹果在发布 iPhone 18 Pro、iPhone 18 Pro Max 以及其首款折叠手机 iPhone Duo 后，苹果中国官网今天还上调了 iPhone Air 国行版 3 个存储版本售价，涨幅从 800 元到 2300 元不等…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/000/521.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "09-09",
+      "title": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
+      "desc": "",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/486370.html"
     },
     {
       "category": "巨头动态",
@@ -62,22 +78,6 @@
       "desc": "蚂蚁集团百灵首个金融增强开放模型 Ling-3.0-flash-Fin发布。",
       "source": "量子位",
       "link": "https://www.qbitai.com/2026/09/486288.html"
-    },
-    {
-      "category": "智能应用",
-      "date": "09-09",
-      "title": "具身机器人能搞定超市盘点吗？全球七万门店正在给出答案",
-      "desc": "从Demo到货架，这两家公司要让具身智能算得过账",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/486280.html"
-    },
-    {
-      "category": "智能应用",
-      "date": "09-09",
-      "title": "用牛蛙骨骼肌实现“机械飞升”，中国科学院沈阳自动化所研制无线光控类生命蝠鲼机器人",
-      "desc": "中国科学院沈阳自动化研究所机器人学研究室科研团队受蝠鲼游动机制启发，研制出一款基于牛蛙离体骨骼肌的无线近红外光控“类生命蝠鲼机器人”。该研究将生物组织直接用作执行器，属于类生命机器人领域的前沿探索。相关成果刊载于国际学术期刊《Advanced Functional Materials》…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/000/146.htm"
     }
   ]
 }
