@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T08:39:18.278421+08:00",
+  "generated_at": "2026-09-12T08:38:58.683175+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "巨头动态",
-      "date": "09-11",
-      "title": "OpenAI 扩大实时语音模型能力：GPT-Live-1 上线 API，支持打断处理、工具调用和电话语音智能体",
-      "desc": "OpenAI 今日宣布将 GPT-Live-1 引入 API，开发者可据此打造支持实时语音交互的应用和业务流程。该模型支持全双工对话，能够同时听取和输出语音，并在对话过程中处理打断、停顿及背景噪声。GPT-Live-1 还支持电话场景，可用于预订餐厅、客户服务等全双工语音智能体…",
+      "category": "AI 产业",
+      "date": "09-12",
+      "title": "DeepSeek 开口说话了：灰度测试 AI 语音对话，支持四种音色",
+      "desc": "DeepSeek 灰度测试语音对话，测试到的用户在 App 右上角会有一个小喇叭按钮。此外，DeepSeek 的设置页面会出现一个“朗读音色”选项，用户可以选择四种音色：贝壳：百变活泼白浪：明朗坚定海星：俏皮甜美暗潮：低沉浑厚",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/091.htm"
-    },
-    {
-      "category": "产业合作",
-      "date": "09-11",
-      "title": "环球音乐与 ElevenLabs 达成合作，共同打造授权人工智能音乐平台",
-      "desc": "环球音乐集团 (UMG) 美国当地时间 10 日宣布与人工智能音频研究和产品公司 ElevenLabs 达成一项多年许可协议和更广泛的战略合作。这也是后者与主流唱片公司达成的首份合作协议。两家企业将共同构建一个基于授权音乐和艺人参与的全新人工智能音乐创作平台…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/089.htm"
-    },
-    {
-      "category": "开发者研究",
-      "date": "09-11",
-      "title": "马斯克 SpaceXAI 团队将直播用 Grok Bot 从零开始建立一家公司，从创意构思、产品开发到实际工作部署",
-      "desc": "马斯克旗下 SpaceXAI 团队宣布，将于当地时间 9 月 15 日至 17 日开展为期三天的直播活动，展示团队成员如何借助 Grok Bot 从一个想法和一张白纸开始，制定商业计划、确定产品功能并完成实际工程工作，将概念转化为可运行的业务。本次直播将从每天上午 8:30 持续至下午 6:00…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/088.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "09-11",
-      "title": "消息称索尼 PlayStation 实时服务型游戏《Fairgames$》更换马甲，以全新代号“Project Espresso”亮相",
-      "desc": "索尼 PlayStation 实时服务型游戏《Fairgames$》似乎更换了马甲，以全新代号“Project Espresso”重新亮相，官方同步公开了首段实机内容，同时开启玩家测试招募…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/083.htm"
+      "link": "https://www.ithome.com/1/001/498.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-11",
-      "title": "你只是怕了：美国高官公开驳斥 Anthropic“AI 末日论”，称担忧源于对技术革命的恐惧",
-      "desc": "美国国防部（又称“战争部”）首席技术官埃米尔 · 迈克尔（Emil Michael）当地时间 9 月 10 日在华盛顿举行的国防工业会议上，回应了 Anthropic 工程师雅各布 · 考克森（Jacob Coxon）关于 AI 可能杀死全人类的警告…",
+      "date": "09-12",
+      "title": "OpenAI 将 Habitat 从 Python 迁移至 Rust：CPU 效率提升 6 倍，服务 10 亿 ChatGPT 用户",
+      "desc": "OpenAI 今日发文，主要介绍了其在线存储平台 Habitat 如何应对产品规模的快速增长，以及从 Python 迁移至 Rust 的工程实践。OpenAI 称该平台目前每秒处理超过 7000 万次请求，每周服务超 10 亿用户，管理的数据规模超过 500PB…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/080.htm"
+      "link": "https://www.ithome.com/1/001/497.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-11",
-      "title": "商汤科技 AI 办公智能体“小浣熊”移动端 App 上线，提供苹果 iOS / 安卓版本",
-      "desc": "商汤科技宣布 AI 办公智能体“小浣熊”移动端 App 正式上线，提供苹果 iOS 和安卓版本，用户提交 App 反馈问卷，可获 1000 积分。官方表示，移动端“小浣熊”支持使用自然语音快速对话操作，用户长按说出需求，松手即可发送，离开工位，也能随时查看、分享和接续成果…",
+      "date": "09-12",
+      "title": "OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击",
+      "desc": "OpenAI 智能体开发人员参与了一起此前未披露的网络攻击，该攻击使 RubyGems 服务不堪重负。IT之家注：RubyGems 是 Ruby 语言的包管理器，用于创建、分享和安装 Ruby 程序库（称为 gem），类似 Python 的 pip 或 Node.js 的 npm…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/079.htm"
+      "link": "https://www.ithome.com/1/001/492.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "09-12",
+      "title": "冲刺史上最大 IPO：英伟达正洽谈为 Anthropic 投资至多 100 亿美元",
+      "desc": "路透社刚刚报道称，英伟达正与 Anthropic 洽谈，考虑以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元（现汇率约合 672.8 亿元人民币）。报道称，Anthropic 计划通过上市融资最多 1000 亿美元…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/001/488.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-12",
+      "title": "OpenAI 进一步完善 ChatGPT Sites：响应速度提升、新增协作功能、可绑定自定义域名",
+      "desc": "OpenAI 宣布进一步完善 ChatGPT Sites 功能，新增一项“Build Together”协作功能，允许用户邀请其他人共同开发同一个网站 / Web 应用。公开信息显示，ChatGPT Sites 主要用于帮助用户使用自然语言创建网站 / Web 应用，先前相应功能主要面向单人使用…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/001/485.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "09-12",
+      "title": "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭",
+      "desc": "看清「一个真正的人」",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/487631.html"
     },
     {
       "category": "融资并购",
       "date": "09-11",
-      "title": "“AI 教父”辛顿：AI 灾难越来越近，10% 概率灭掉人类不是危言耸听",
-      "desc": "北京时间 9 月 11 日，据《商业内幕》报道，“AI 教父”杰弗里 · 辛顿 (Geoffrey Hinton) 表示，很难估计 AI 将人类全部灭绝的概率，但这个概率并非为零。辛顿周三在接受 BBC《新闻之夜》采访时说：“在我看来，10% 的概率似乎是一个不算离谱的估计…",
+      "title": "高盛：总是盯着“AI 泡沫会不会破”不放，反而可能会低估 AI 创造的价值",
+      "desc": "今年以来，华尔街一直在就 AI 热潮是否已经变成泡沫争论不休。高盛投资银行业务联席主管金 · 波斯内特却认为，真正值得问的问题并不是这个。“大家都在问，我们是不是已经进入 AI 泡沫。但更应该问的是，AI 会不会从根本上改变企业的运营、竞争和价值创造方式。这个问题的答案显然是肯定的…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/076.htm"
+      "link": "https://www.ithome.com/1/001/474.htm"
     },
     {
       "category": "巨头动态",
       "date": "09-11",
-      "title": "OpenAI Agents API 开放公测：支持代码执行、工具调用和跨上下文任务运行，为开发者提供云端智能体基础设施",
-      "desc": "OpenAI 于当地时间 9 月 10 日宣布推出 Agents API 公测版，允许开发者通过 API 调用由 OpenAI 管理的云端 AI 智能体运行环境。该服务复用了 Codex 背后的智能体执行框架和基础设施，开发者可以指定任务、模型、工具及运行环境，打造能够执行多步骤任务的 AI 应用…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/072.htm"
+      "title": "啊？Anthropic最高320万招销售，只为服务Meta",
+      "desc": "原来你俩互相下单呢",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/487573.html"
     },
     {
-      "category": "模型动态",
+      "category": "监管动态",
       "date": "09-11",
-      "title": "办公协作平台 Slack 升级 Slackbot AI 助手，可快速创建交互式报告 / 网站等内容",
-      "desc": "办公协作平台 Slack 发布公告，宣布为旗下 Slackbot AI 助手引入一项 Slackforce Surfaces 功能，用户只需告诉 Slackbot AI 助手自己的需求，即可利用自己先前的对话记录以及连接的 App 创建交互式报告、投票、仪表盘、演示文稿、微型网站等内容…",
+      "title": "美国一律师用 ChatGPT 生成诉讼文书却出现伪造警察证词，被罚款 5000 美元",
+      "desc": "美国新墨西哥州最高法院宣布，辩护律师斯蒂芬 · 阿伦斯在为一名被判谋杀罪的当事人提出上诉时，提交的文书中出现了虚构证人和编造的警察证词。然而，这些内容均由 OpenAI 的 ChatGPT 生成。该法院认定，阿伦斯因未核实提交文书的准确性构成藐视法庭，故对其处以罚款…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/070.htm"
+      "link": "https://www.ithome.com/1/001/451.htm"
     }
   ]
 }
