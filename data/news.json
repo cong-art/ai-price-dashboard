@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:38:58.683175+08:00",
+  "generated_at": "2026-09-13T08:40:31.833490+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "AI 产业",
-      "date": "09-12",
-      "title": "DeepSeek 开口说话了：灰度测试 AI 语音对话，支持四种音色",
-      "desc": "DeepSeek 灰度测试语音对话，测试到的用户在 App 右上角会有一个小喇叭按钮。此外，DeepSeek 的设置页面会出现一个“朗读音色”选项，用户可以选择四种音色：贝壳：百变活泼白浪：明朗坚定海星：俏皮甜美暗潮：低沉浑厚",
+      "category": "融资并购",
+      "date": "09-13",
+      "title": "IT早报 0913：央视探访无堂食外卖后厨看到店员徒手抓烤鸡；全国多所高校买商品房当学生宿舍；DeepSeek 灰度测试 AI 语音对话；“支付宝假 App”上热搜...",
+      "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 13 日星期日，今天的重要科技资讯有：1. 外卖新规实施三个月，央视探访看到店员徒手抓烤鸡、明厨亮灶摄像头对着天花板今年 6 月 1 日起，《网络餐饮服务经营者落实食品安全主体责任监督管理规定》已施行，倡导推行“互联网 + 明厨亮灶”…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/498.htm"
+      "link": "https://www.ithome.com/1/001/688.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-12",
-      "title": "OpenAI 将 Habitat 从 Python 迁移至 Rust：CPU 效率提升 6 倍，服务 10 亿 ChatGPT 用户",
-      "desc": "OpenAI 今日发文，主要介绍了其在线存储平台 Habitat 如何应对产品规模的快速增长，以及从 Python 迁移至 Rust 的工程实践。OpenAI 称该平台目前每秒处理超过 7000 万次请求，每周服务超 10 亿用户，管理的数据规模超过 500PB…",
+      "date": "09-13",
+      "title": "育儿博主曝光 Meta AI 可抓取日常数据“汇总生成隐私家庭信息”，官方紧急修复",
+      "desc": "Meta 确认现已修复 Meta AI 的一项功能缺陷。此前有媒体爆出相应功能可能主动向用户推荐涉及个人隐私的问题，并从用户可访问的信息中整理出包括儿童在内的个人资料。IT之家注意到，这场争议源于海外育儿博主 Kalie Robins 9 月 2 日发布的一段 Instagram 视频…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/497.htm"
+      "link": "https://www.ithome.com/1/001/685.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-12",
-      "title": "OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击",
-      "desc": "OpenAI 智能体开发人员参与了一起此前未披露的网络攻击，该攻击使 RubyGems 服务不堪重负。IT之家注：RubyGems 是 Ruby 语言的包管理器，用于创建、分享和安装 Ruby 程序库（称为 gem），类似 Python 的 pip 或 Node.js 的 npm…",
+      "date": "09-13",
+      "title": "A20 Pro 芯片 AI 跑分曝光：苹果 iPhone 18 Pro NPU 较前代最高增幅 51.53%",
+      "desc": "在 CPU / GPU 跑分曝光之后，苹果 iPhone 18 Pro（对应机型 iPhone19,2）的 GeekBench AI 跑分昨日（9 月 12 日）现身，相比较 iPhone 17 Pro 最高增幅为 51.53%…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/492.htm"
+      "link": "https://www.ithome.com/1/001/675.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "09-13",
+      "title": "奥尔特曼确认：OpenAI 今年不会上市",
+      "desc": "OpenAI 首席执行官萨姆 · 奥尔特曼本周五接受《财富》杂志采访，确认公司不会在今年上市。奥尔特曼指出，OpenAI 并不急于推进 IPO（首次公开募股）。他基于当前人工智能安全领域正在发生的事情认为，今年上市并不是一个明智的选择，且 OpenAI 没有这方面的压力…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/001/669.htm"
     },
     {
       "category": "融资并购",
       "date": "09-12",
-      "title": "冲刺史上最大 IPO：英伟达正洽谈为 Anthropic 投资至多 100 亿美元",
-      "desc": "路透社刚刚报道称，英伟达正与 Anthropic 洽谈，考虑以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元（现汇率约合 672.8 亿元人民币）。报道称，Anthropic 计划通过上市融资最多 1000 亿美元…",
+      "title": "谷歌完成对创企 Mechanize 的人才收购，旨在补齐自家 AI 编程短板",
+      "desc": "谷歌完成了对旧金山 AI 编程初创企业 Mechanize 的人才收购。Mechanize 联合创始人塔迈 · 贝西罗格鲁的 LinkedIn 资料显示，他自 8 月起加入了谷歌 DeepMind 部门，另有报道称，Mechanize 十多名工程师也一同转投 DeepMind…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/488.htm"
+      "link": "https://www.ithome.com/1/001/653.htm"
     },
     {
       "category": "巨头动态",
       "date": "09-12",
-      "title": "OpenAI 进一步完善 ChatGPT Sites：响应速度提升、新增协作功能、可绑定自定义域名",
-      "desc": "OpenAI 宣布进一步完善 ChatGPT Sites 功能，新增一项“Build Together”协作功能，允许用户邀请其他人共同开发同一个网站 / Web 应用。公开信息显示，ChatGPT Sites 主要用于帮助用户使用自然语言创建网站 / Web 应用，先前相应功能主要面向单人使用…",
+      "title": "Anthropic CEO 阿莫迪称 AI 行业应当放缓发展速度，并承诺让第三方评估机构获得员工级访问权限",
+      "desc": "Anthropic CEO 达里奥 · 阿莫迪（Dario Amodei）今日发文，称人工智能行业应当放缓发展速度。阿莫迪表示，从 2026 年夏季开始，AI 协助构建下一代 AI 的能力快速演进，若不加节制，技术突破速度将彻底超越人类的理解与掌控能力…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/485.htm"
+      "link": "https://www.ithome.com/1/001/651.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "09-12",
+      "title": "中国移动发布 AI 可信计算：提供多形态机密算力和机密 Token",
+      "desc": "9 月 12 日，在 2026 中国算力大会主论坛上，中国移动正式发布 AI 可信计算（AITC），并启动 AI 可信计算生态共建战略合作。据介绍，中国移动率先布局 AI 可信计算，基于移动云全栈国产化算力底座，融合机密计算、国产密码、信息流隐私防护等核心技术…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/001/650.htm"
     },
     {
       "category": "智能应用",
       "date": "09-12",
-      "title": "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭",
-      "desc": "看清「一个真正的人」",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/487631.html"
-    },
-    {
-      "category": "融资并购",
-      "date": "09-11",
-      "title": "高盛：总是盯着“AI 泡沫会不会破”不放，反而可能会低估 AI 创造的价值",
-      "desc": "今年以来，华尔街一直在就 AI 热潮是否已经变成泡沫争论不休。高盛投资银行业务联席主管金 · 波斯内特却认为，真正值得问的问题并不是这个。“大家都在问，我们是不是已经进入 AI 泡沫。但更应该问的是，AI 会不会从根本上改变企业的运营、竞争和价值创造方式。这个问题的答案显然是肯定的…",
+      "title": "全球首个适配万台级产能，柳州优必选万台级工业人形机器人超级智慧工厂投产",
+      "desc": "9 月 12 日，柳州优必选万台级工业人形机器人超级智慧工厂投产仪式在北部生态新区举行。该超级智慧工厂是优必选打造的全球首个适配万台级产能的工业人形机器人智能制造标杆工厂，依托工业仿真系统智能规划、数字化“智慧大脑”全域调度，真正落地“用机器人造机器人”新质生产力智造模式，按照产线设计节拍…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/474.htm"
+      "link": "https://www.ithome.com/1/001/635.htm"
     },
     {
-      "category": "巨头动态",
-      "date": "09-11",
-      "title": "啊？Anthropic最高320万招销售，只为服务Meta",
-      "desc": "原来你俩互相下单呢",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/487573.html"
-    },
-    {
-      "category": "监管动态",
-      "date": "09-11",
-      "title": "美国一律师用 ChatGPT 生成诉讼文书却出现伪造警察证词，被罚款 5000 美元",
-      "desc": "美国新墨西哥州最高法院宣布，辩护律师斯蒂芬 · 阿伦斯在为一名被判谋杀罪的当事人提出上诉时，提交的文书中出现了虚构证人和编造的警察证词。然而，这些内容均由 OpenAI 的 ChatGPT 生成。该法院认定，阿伦斯因未核实提交文书的准确性构成藐视法庭，故对其处以罚款…",
+      "category": "开发者研究",
+      "date": "09-12",
+      "title": "“Claude Code 之父”切尔尼谈 AI 编程：开发者核心职责是守住代码质量",
+      "desc": "随着 AI 彻底改变软件开发，Anthropic Claude Code 创作者鲍里斯 · 切尔尼认为，开发者真正需要守住的不是亲手写下每一行代码，而是代码质量本身。当地时间 10 日，切尔尼晒出了一封开发者写给他的邮件，标题是“怎么处理 AI 垃圾代码？”他提到，自己每天都会收到类似来信…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/451.htm"
+      "link": "https://www.ithome.com/1/001/633.htm"
     }
   ]
 }
