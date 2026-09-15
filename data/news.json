@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:41:39.575690+08:00",
+  "generated_at": "2026-09-15T08:42:19.291781+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "巨头动态",
-      "date": "09-14",
-      "title": "苹果新 CEO 特努斯谈 Meta“变态眼镜”风波：AI 智能设备需要让旁人安心",
-      "desc": "苹果新任首席执行官约翰 · 特努斯最近接受媒体采访，谈及 Meta 公司最近陷入的“变态眼镜”风波，以及苹果如何看待 AI 可穿戴设备的隐私问题。当时主持人问道：“我知道你们不能谈论尚未发布的产品，但你怎么看待人们所谓的‘变态眼镜’说法？”针对这个问题…",
+      "category": "模型动态",
+      "date": "09-15",
+      "title": "联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起",
+      "desc": "联想来酷斗战者 AI 私有云主机今日 9:00 正式开售，售价 6999 元起：AI NAS 900（Ultra 7 355、16GB+512GB）：6999 元AI NAS 900 Pro（Ultra X9 388H、64GB+512GB）：17999 元该产品定位 AI 私有云主机…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/906.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "09-14",
-      "title": "法拉第未来预告北京时间 9 月 20 日举办 EAI 机器人“四核全智”新品发布会，将打造“美国最全机器人矩阵”",
-      "desc": "法拉第未来发文，宣布将于美西时间 9 月 19 日下午 5 点（北京时间 9 月 20 日早上 8 点）举办 EAI 机器人“四核全智”新品发布会，官方称将在发布会中推出“9 款机器人本体新品”，相应产品将在发布后直接上市…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/904.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "09-14",
-      "title": "IT早报 0914：马斯克、奥尔特曼响应 Anthropic 呼吁放缓前沿 AI 开发；华为麒麟 9050 Pro 能效实测出炉；智谱官宣 50 亿美元融资；小米 SU7L 谍照再曝...",
-      "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 14 日星期一，今天的重要科技资讯有：1. Anthropic CEO 阿莫迪呼吁放缓前沿 AI 模型开发后，xAI 马斯克、OpenAI 奥尔特曼等业界大佬赞同Anthropic CEO 阿莫迪发文呼吁放缓前沿 AI 模型开发…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/899.htm"
+      "link": "https://www.ithome.com/1/002/373.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-14",
-      "title": "消息称 Anthropic 预计自身有望连续第二个季度实现盈利",
-      "desc": "《金融时报》稍早前报道称，人工智能初创企业 Anthropic 已向部分股东告知，其有望在 2026Q3 继续录得正的经调整营业利润，连续第二个季度实现盈利。Anthropic 在今年二季度首次实现盈利，营业收入规模已达到 115 亿美元（IT之家注：现汇率约合 774.05 亿元人民币）…",
+      "date": "09-15",
+      "title": "Meta 对 Instagram 应用 AI 修图功能新增付费限制，需订阅 Meta One 会员使用",
+      "desc": "Instagram 近期开始对部分 AI 修图功能加入付费限制，用户在使用 AI 修图达到一定程度后，应用便会要求用户订阅 Meta One Core 会员才能继续使用更多 AI 效果，否则需要等到明天再试…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/894.htm"
+      "link": "https://www.ithome.com/1/002/366.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-14",
-      "title": "微软 CEO 纳德拉：支持 AI 审慎发展与独立审计，AI 行为准则明日公布",
-      "desc": "微软首席执行官萨蒂亚 · 纳德拉今天在 X 平台发文，谈及微软的前沿 AI 发展理念。纳德拉表示，任何对超级智能的探索都必须在核心原则约束下运行：如果人们构建的 AI 无法帮助人类，且无法被人类控制，那么它就不值得发展。他认为 AI 需要加速发展，使其成果能够得到广泛传播，惠及不同国家、社区和企业…",
+      "date": "09-15",
+      "title": "Anthropic Claude Opus 5.2 灰度测试曝光：响应更快，告别“偷懒”",
+      "desc": "原标题：《突发！Opus 5.2 深夜上线，RSI 真来了？》今天清晨，Opus 5.2 悄悄上线了。许多开发者发现，新一代神级模型 Claude Opus 5.2，已经在 Claude Code 中开启灰度测试！而且，此前一份内部风险报告显示…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/876.htm"
+      "link": "https://www.ithome.com/1/002/365.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "09-15",
+      "title": "CG3M 版微星 Claw 8 EX AI+ 掌机曝光：10 核 Xe3，最高 90 INT8 TOPS",
+      "desc": "科技媒体 videocardz 昨日（9 月 14 日）发布博文，报道称基于美国零售商 CompSource 页面信息，微星（MSI）将为 Claw 8 EX AI+ 新增 CG3M 版本，采用英特尔锐炫 G3（Intel Arc G3）平台…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/002/363.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-14",
-      "title": "微软宣布将 xAI 旗下 Grok 模型整合进 Office 三件套，为用户提供 OpenAI 以外模型选择",
-      "desc": "微软去年开始逐步放弃 Microsoft 365 Copilot 仅使用 OpenAI 模型的策略，先后将 Anthropic 的 Claude 模型引入 Researcher、Copilot Studio 等产品…",
+      "date": "09-15",
+      "title": "代码显示：苹果 Siri AI 可替换为 Anthropic Claude 或 OpenAI ChatGPT",
+      "desc": "开发者“pdfu”对 iOS 27 和 macOS Golden Gate 进行深入挖掘之后发现，苹果已在其私有框架中将其新版 Siri AI 架构设计为可与第三方 AI 模型深度协作…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/875.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "09-14",
-      "title": "冲击全球最大 IPO：曝 Anthropic 选定纳斯达克上市，目标估值约 2 万亿美元",
-      "desc": "科技媒体 Business Insider 今天（9 月 14 日）发布博文，报道称人工智能公司 Anthropic 已选定纳斯达克作为潜在首次公开募股（IPO）地点，预计 2026 年 10 月启动路演，目标估值约 2 万亿美元（IT之家注：现汇率约合 13.46 万亿元人民币）…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/871.htm"
+      "link": "https://www.ithome.com/1/002/353.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-13",
-      "title": "谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人",
-      "desc": "谷歌 DeepMind 研究员乔希 · 恩格尔斯（Josh Engels）已离开公司的通用人工智能安全团队，加入独立 AI 评估机构 METR。他表示，自己认为未来五年内 AI 系统造成巨大危害的概率“高得吓人”。此事进一步加剧了外界对 AI 研发速度的担忧…",
+      "date": "09-15",
+      "title": "苹果 iOS 27 家庭 AI 功能强制捆绑 2TB 及以上 iCloud+ 套餐：单摄像头月费 9.99 美元、五摄像头 59.99 美元，引 iPhone 用户不满",
+      "desc": "苹果要求用户至少订阅每月 9.99 美元（现汇率约合 67.1 元人民币）的 2TB iCloud+ 套餐，才能将 iOS 27 中“Apple Intelligence Home”功能与 HomeKit 摄像头搭配使用，这使得 iPhone 用户颇为不满…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/001/843.htm"
+      "link": "https://www.ithome.com/1/002/348.htm"
     },
     {
-      "category": "智能应用",
-      "date": "09-13",
-      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
-      "desc": "亮源新创的Physical Al路线清晰了",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/488672.html"
+      "category": "巨头动态",
+      "date": "09-15",
+      "title": "OpenAI 联合创始人布罗克曼：人类已迈入通用人工智能时代",
+      "desc": "在接受 a16z 采访时，OpenAI 联合创始人格雷格 · 布罗克曼（Greg Brockman）表示，人类已经迈入通用人工智能时代。IT之家注：通用人工智能（Artificial General Intelligence，AGI）通常指能在广泛领域处理复杂认知任务…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/002/341.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "09-15",
+      "title": "马斯克旗下 X 和 SpaceXAI 动议撤回针对苹果和 OpenAI 的诉讼指控",
+      "desc": "路透社今天（9 月 15 日）发布博文，报道称基于昨日（9 月 14 日）提交的法庭文件，全球首富埃隆 · 马斯克旗下的 X Corp. 和 SpaceXAI 提出动议，要求撤回去年针对苹果和 OpenAI 提起的诉讼指控…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/002/338.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-15",
+      "title": "苹果 watchOS 27.0 正式版发布：Siri AI 全面升级，健康功能扩展",
+      "desc": "苹果今日向 Apple Watch 用户推送了 watchOS 27.0 更新（内部版本号：24R364），兼容 Apple Watch Series 9 及后续机型、Apple Watch Ultra 2 及后续机型，以及 Apple Watch SE 3…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/002/332.htm"
     }
   ]
 }
