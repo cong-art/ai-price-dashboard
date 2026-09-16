@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:42:19.291781+08:00",
+  "generated_at": "2026-09-16T08:39:55.247190+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "模型动态",
-      "date": "09-15",
-      "title": "联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起",
-      "desc": "联想来酷斗战者 AI 私有云主机今日 9:00 正式开售，售价 6999 元起：AI NAS 900（Ultra 7 355、16GB+512GB）：6999 元AI NAS 900 Pro（Ultra X9 388H、64GB+512GB）：17999 元该产品定位 AI 私有云主机…",
+      "category": "巨头动态",
+      "date": "09-16",
+      "title": "全球首富马斯克谈 AI 安全：主张交叉测试，让对手来“挑刺”",
+      "desc": "昨日（9 月 15 日）召开的 All-In 峰会上，全球首富埃隆 · 马斯克（Elon Musk）以视频方式远程出席，在谈及 AI 时主张头部 AI 公司在发布模型前彼此交叉测试，并认为这一机制应尽快推向全球…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/373.htm"
+      "link": "https://www.ithome.com/1/002/851.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-15",
-      "title": "Meta 对 Instagram 应用 AI 修图功能新增付费限制，需订阅 Meta One 会员使用",
-      "desc": "Instagram 近期开始对部分 AI 修图功能加入付费限制，用户在使用 AI 修图达到一定程度后，应用便会要求用户订阅 Meta One Core 会员才能继续使用更多 AI 效果，否则需要等到明天再试…",
+      "date": "09-16",
+      "title": "OpenAI 奥尔特曼称 AI 行业自律可守住安全底线",
+      "desc": "昨日（9 月 15 日）在旧金山举办的 Salesforce 活动中，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）认为，AI 公司行业自律可以掌控研发风险，不会对广大民众造成重大伤害…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/366.htm"
+      "link": "https://www.ithome.com/1/002/838.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-15",
-      "title": "Anthropic Claude Opus 5.2 灰度测试曝光：响应更快，告别“偷懒”",
-      "desc": "原标题：《突发！Opus 5.2 深夜上线，RSI 真来了？》今天清晨，Opus 5.2 悄悄上线了。许多开发者发现，新一代神级模型 Claude Opus 5.2，已经在 Claude Code 中开启灰度测试！而且，此前一份内部风险报告显示…",
+      "date": "09-16",
+      "title": "影石 Mic Pro 腾讯会议版 AI 录音领夹麦发布，698 元",
+      "desc": "影石昨日发布了 Mic Pro 腾讯会议版 AI 录音领夹麦，售价 698 元。该产品定位 Agent 时代 AI 录音笔，接入了腾讯会议录音转写、纪要能力，按下即可录制，录完自动同步腾讯会议 App，AI 自动对录音内容进行转写、区分发言人、生成专业纪要…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/365.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "09-15",
-      "title": "CG3M 版微星 Claw 8 EX AI+ 掌机曝光：10 核 Xe3，最高 90 INT8 TOPS",
-      "desc": "科技媒体 videocardz 昨日（9 月 14 日）发布博文，报道称基于美国零售商 CompSource 页面信息，微星（MSI）将为 Claw 8 EX AI+ 新增 CG3M 版本，采用英特尔锐炫 G3（Intel Arc G3）平台…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/363.htm"
+      "link": "https://www.ithome.com/1/002/835.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-15",
-      "title": "代码显示：苹果 Siri AI 可替换为 Anthropic Claude 或 OpenAI ChatGPT",
-      "desc": "开发者“pdfu”对 iOS 27 和 macOS Golden Gate 进行深入挖掘之后发现，苹果已在其私有框架中将其新版 Siri AI 架构设计为可与第三方 AI 模型深度协作…",
+      "date": "09-16",
+      "title": "英伟达黄仁勋：AI 行业不需要新法律，开发可兼得速度和安全",
+      "desc": "昨日（9 月 15 日）举办的 Salesforce 活动中，英伟达首席执行官黄仁勋表示，AI 开发不应被理解为“速度”和“安全”二选一。IT之家援引彭博社报道，在对话 Salesforce 首席执行官马克 · 贝尼奥夫时，黄仁勋认为 AI 行业不需要为 AI 安全制定新的法律或监管规定…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/353.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-15",
-      "title": "苹果 iOS 27 家庭 AI 功能强制捆绑 2TB 及以上 iCloud+ 套餐：单摄像头月费 9.99 美元、五摄像头 59.99 美元，引 iPhone 用户不满",
-      "desc": "苹果要求用户至少订阅每月 9.99 美元（现汇率约合 67.1 元人民币）的 2TB iCloud+ 套餐，才能将 iOS 27 中“Apple Intelligence Home”功能与 HomeKit 摄像头搭配使用，这使得 iPhone 用户颇为不满…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/348.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-15",
-      "title": "OpenAI 联合创始人布罗克曼：人类已迈入通用人工智能时代",
-      "desc": "在接受 a16z 采访时，OpenAI 联合创始人格雷格 · 布罗克曼（Greg Brockman）表示，人类已经迈入通用人工智能时代。IT之家注：通用人工智能（Artificial General Intelligence，AGI）通常指能在广泛领域处理复杂认知任务…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/341.htm"
+      "link": "https://www.ithome.com/1/002/834.htm"
     },
     {
       "category": "监管动态",
-      "date": "09-15",
-      "title": "马斯克旗下 X 和 SpaceXAI 动议撤回针对苹果和 OpenAI 的诉讼指控",
-      "desc": "路透社今天（9 月 15 日）发布博文，报道称基于昨日（9 月 14 日）提交的法庭文件，全球首富埃隆 · 马斯克旗下的 X Corp. 和 SpaceXAI 提出动议，要求撤回去年针对苹果和 OpenAI 提起的诉讼指控…",
+      "date": "09-16",
+      "title": "OpenAI 奥尔特曼回应监管：相信行业能安全开发，不会伤害公众",
+      "desc": "北京时间 9 月 16 日，据彭博社报道，OpenAI CEO 萨姆 · 奥尔特曼 (Sam Altman) 表示，他相信 AI 公司能够安全地开发这项技术，不会给广大民众造成重大伤害…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/338.htm"
+      "link": "https://www.ithome.com/1/002/831.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-16",
+      "title": "谷歌 TPU AI 基建规模迈入 100 万级，核心瓶颈从“缺芯”转向“缺电”",
+      "desc": "在 SEMICON Taiwan 2026 活动中，谷歌宣布其 TPU 系统已扩展至 100 万芯片级规模，而电力供应成为 AI 基础设施扩张的核心瓶颈。IT之家注：这里的“100 万芯片级规模”是指谷歌的 TPU 互联架构（包括网络拓扑、通信协议、软件栈等）已经能够支持将最多 100 万颗…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/002/828.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-16",
+      "title": "谷歌推出 Gemini 3.8 Live 和 3.8 Live Extended Thinking 实时对话模型，支持 97 种语言切换",
+      "desc": "谷歌宣布推出 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking。谷歌称这是其迄今最先进的实时对话模型，在智能和并行推理方面有重大升级，让 AI 对话更直观智能…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/002/824.htm"
     },
     {
       "category": "巨头动态",
       "date": "09-15",
-      "title": "苹果 watchOS 27.0 正式版发布：Siri AI 全面升级，健康功能扩展",
-      "desc": "苹果今日向 Apple Watch 用户推送了 watchOS 27.0 更新（内部版本号：24R364），兼容 Apple Watch Series 9 及后续机型、Apple Watch Ultra 2 及后续机型，以及 Apple Watch SE 3…",
+      "title": "Meta One 订阅服务上线：专为“AI 重度用户”、创作者、商业用户准备，最高档每月 499 美元",
+      "desc": "Meta 今天（15 日）晚间宣布上线的 Meta One 套餐，把 Facebook、Instagram 和 WhatsApp 等独立订阅与更高的 AI 使用额度打包销售，面向“AI 重度用户”及创作者、商业用户…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/332.htm"
+      "link": "https://www.ithome.com/1/002/818.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "09-15",
+      "title": "中文互联网基础语料 4.0 发布：数据量 120GB，为大模型训练和 AI 发展提供可信数据支撑",
+      "desc": "9 月 15 日（今天）下午，在济南召开的 2026 年国家网络安全宣传周人工智能安全治理分论坛上，中文互联网基础语料 4.0 正式向社会发布，数据量 120GB，并在“中文互联网语料资源平台”上线…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/002/795.htm"
     }
   ]
 }
