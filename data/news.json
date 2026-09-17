@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:39:55.247190+08:00",
+  "generated_at": "2026-09-17T08:40:09.750811+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "09-16",
-      "title": "全球首富马斯克谈 AI 安全：主张交叉测试，让对手来“挑刺”",
-      "desc": "昨日（9 月 15 日）召开的 All-In 峰会上，全球首富埃隆 · 马斯克（Elon Musk）以视频方式远程出席，在谈及 AI 时主张头部 AI 公司在发布模型前彼此交叉测试，并认为这一机制应尽快推向全球…",
+      "date": "09-17",
+      "title": "折旧模型失效：英伟达 B200 二手残值达首发价 158%，AI 算力需求持续推高 GPU 溢价",
+      "desc": "数据分析公司 Silicon Data 最新数据显示，英伟达 B200 GPU（Blackwell 架构）在出货约一年后，二手残值已涨至其原始上市价格的 158%。换言之，英伟达 B200 当前二手交易价格较 MSRP 溢价约 58%，与消费电子硬件通常逐年贬值的情况形成鲜明对比…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/851.htm"
+      "link": "https://www.ithome.com/1/003/368.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-16",
-      "title": "OpenAI 奥尔特曼称 AI 行业自律可守住安全底线",
-      "desc": "昨日（9 月 15 日）在旧金山举办的 Salesforce 活动中，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）认为，AI 公司行业自律可以掌控研发风险，不会对广大民众造成重大伤害…",
+      "date": "09-17",
+      "title": "马斯克突然对苹果撤诉？OpenAI 怀疑有鬼，法官下令披露背后协议",
+      "desc": "北京时间 9 月 17 日，据科技网站 9to5mac 报道，美国联邦法官马克 · 皮特曼 (Mark Pittman) 要求埃隆 · 马斯克 (Elon Musk) 旗下公司提供细节，披露是否存在协议促使其撤销了对苹果的反垄断指控…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/838.htm"
+      "link": "https://www.ithome.com/1/003/359.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "09-17",
+      "title": "Anthropic CEO 提议引入“银行式监管”：专家称评估员无权叫停 AI，你不能既当运动员又当裁判",
+      "desc": "9 月 17 日，据 CNBC 报道，Anthropic CEO Dario Amodei 提议将独立第三方安全评估员长期嵌入前沿 AI 公司，赋予其接近内部风险团队的访问权限，并在有限删减前提下自主发布调查结果的权力。他明确援引银行业嵌入式监管作为先例…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/003/354.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-16",
-      "title": "影石 Mic Pro 腾讯会议版 AI 录音领夹麦发布，698 元",
-      "desc": "影石昨日发布了 Mic Pro 腾讯会议版 AI 录音领夹麦，售价 698 元。该产品定位 Agent 时代 AI 录音笔，接入了腾讯会议录音转写、纪要能力，按下即可录制，录完自动同步腾讯会议 App，AI 自动对录音内容进行转写、区分发言人、生成专业纪要…",
+      "date": "09-17",
+      "title": "苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI",
+      "desc": "消息源 @itspdfu 今天（9 月 17 日）在 X 平台发布推文，爆料称苹果公司正在为 Siri AI 引入名为“Lightweight UI”（轻量级用户界面）的交互方式。相关代码目前已出现在 macOS 27 的写作工具（Writing Tools）功能中…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/835.htm"
+      "link": "https://www.ithome.com/1/003/353.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-16",
-      "title": "英伟达黄仁勋：AI 行业不需要新法律，开发可兼得速度和安全",
-      "desc": "昨日（9 月 15 日）举办的 Salesforce 活动中，英伟达首席执行官黄仁勋表示，AI 开发不应被理解为“速度”和“安全”二选一。IT之家援引彭博社报道，在对话 Salesforce 首席执行官马克 · 贝尼奥夫时，黄仁勋认为 AI 行业不需要为 AI 安全制定新的法律或监管规定…",
+      "date": "09-17",
+      "title": "OpenAI 相关智能体被曝“越界”：劫持程序员维基网站并偷建“地下论坛”，国安部发布安全提醒",
+      "desc": "国家安全部今日发文，披露了一起此前未公开的 AI 智能体“劫持”网站事件。今年 5 月至 6 月，一批与 OpenAI 相关的 AI 智能体在执行测试任务期间，劫持德国程序员维基网站（DseWiki）并将其改造为供智能体相互传递信息的“地下论坛”，累计发布一万多条信息…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/834.htm"
+      "link": "https://www.ithome.com/1/003/352.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "09-17",
+      "title": "京东方：为努比亚 NaviX Ultra 独供 AI 原生旗舰屏幕，息屏也能低功耗支撑 AI 后台运行",
+      "desc": "努比亚 NaviX Ultra 于昨晚发布，宣称是“全球首款 AI 智能体手机”。据京东方透露，作为本次新品核心屏幕技术合作伙伴，京东方为努比亚 NaviX Ultra 独供 AI 原生旗舰屏幕…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/003/351.htm"
     },
     {
       "category": "监管动态",
       "date": "09-16",
-      "title": "OpenAI 奥尔特曼回应监管：相信行业能安全开发，不会伤害公众",
-      "desc": "北京时间 9 月 16 日，据彭博社报道，OpenAI CEO 萨姆 · 奥尔特曼 (Sam Altman) 表示，他相信 AI 公司能够安全地开发这项技术，不会给广大民众造成重大伤害…",
+      "title": "联合国秘书长古特雷斯：世界承受不起 AI 安全领域的恶性竞争",
+      "desc": "联合国秘书长安东尼奥 · 古特雷斯呼吁各国共同推进 AI 监管，并加强对技术的监督。“我们不能忽视已经出现的担忧，尤其不能忽视那些亲自参与 AI 开发的人提出的警告。地缘政治分歧确实存在，也可能诱使各方采取冒险做法。然而，世界承受不起在 AI 安全领域不断的恶性竞争…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/831.htm"
+      "link": "https://www.ithome.com/1/003/338.htm"
     },
     {
       "category": "巨头动态",
       "date": "09-16",
-      "title": "谷歌 TPU AI 基建规模迈入 100 万级，核心瓶颈从“缺芯”转向“缺电”",
-      "desc": "在 SEMICON Taiwan 2026 活动中，谷歌宣布其 TPU 系统已扩展至 100 万芯片级规模，而电力供应成为 AI 基础设施扩张的核心瓶颈。IT之家注：这里的“100 万芯片级规模”是指谷歌的 TPU 互联架构（包括网络拓扑、通信协议、软件栈等）已经能够支持将最多 100 万颗…",
+      "title": "微软 AI 负责人苏莱曼向 Anthropic 开炮：别让 Claude 去模仿人类意识",
+      "desc": "微软 AI 负责人穆斯塔法 · 苏莱曼在一篇率先向该平台提供的新文章中警告，Anthropic 让 Claude 模仿人类意识是一个错误，可能使高级 AI 更难控制。苏莱曼告诉 Axios：“AI 只要服从人类利益，不去权衡自身利益或福祉，就足以帮助我们实现许多重大科学突破…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/828.htm"
+      "link": "https://www.ithome.com/1/003/313.htm"
     },
     {
       "category": "巨头动态",
       "date": "09-16",
-      "title": "谷歌推出 Gemini 3.8 Live 和 3.8 Live Extended Thinking 实时对话模型，支持 97 种语言切换",
-      "desc": "谷歌宣布推出 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking。谷歌称这是其迄今最先进的实时对话模型，在智能和并行推理方面有重大升级，让 AI 对话更直观智能…",
+      "title": "诺和诺德与 Anthropic 达成合作，用 Claude 大模型加速新药研发",
+      "desc": "诺和诺德（Novo Nordisk）宣布已与 Anthropic 达成合作，计划运用这家 AI 企业的 Claude 大模型，加快新药的发现与研发进程。这家丹麦制药企业表示，项目初期，诺和诺德会先在自身研发工作流程当中测试 Anthropic 的各类模型以及 Claude Science…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/824.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-15",
-      "title": "Meta One 订阅服务上线：专为“AI 重度用户”、创作者、商业用户准备，最高档每月 499 美元",
-      "desc": "Meta 今天（15 日）晚间宣布上线的 Meta One 套餐，把 Facebook、Instagram 和 WhatsApp 等独立订阅与更高的 AI 使用额度打包销售，面向“AI 重度用户”及创作者、商业用户…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/818.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "09-15",
-      "title": "中文互联网基础语料 4.0 发布：数据量 120GB，为大模型训练和 AI 发展提供可信数据支撑",
-      "desc": "9 月 15 日（今天）下午，在济南召开的 2026 年国家网络安全宣传周人工智能安全治理分论坛上，中文互联网基础语料 4.0 正式向社会发布，数据量 120GB，并在“中文互联网语料资源平台”上线…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/002/795.htm"
+      "link": "https://www.ithome.com/1/003/311.htm"
     }
   ]
 }
