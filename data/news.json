@@ -1,83 +1,51 @@
 {
-  "generated_at": "2026-09-18T08:39:04.326175+08:00",
+  "generated_at": "2026-09-19T08:38:45.297357+08:00",
   "sources": [
     "IT之家",
     "量子位"
   ],
   "window": "回溯 2 天",
-  "count": 9,
+  "count": 5,
   "news": [
     {
-      "category": "巨头动态",
+      "category": "算力硬件",
       "date": "09-18",
-      "title": "微软及 OpenAI 内部文件曝光：高管曾警告 AI 可能对新闻机构产生“毁灭性影响”",
-      "desc": "随着美国《纽约时报》等新闻机构持续推进就微软、OpenAI 之间针对训练数据版权问题的诉讼，微软和 OpenAI 内部一批此前被标记为机密的文件现已正式公开，其中展示了微软和 OpenAI 内部员工对 AI 影响的担忧…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/908.htm"
+      "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
+      "desc": "协同布局AI基础设施",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/492426.html"
     },
     {
-      "category": "巨头动态",
+      "category": "智能应用",
       "date": "09-18",
-      "title": "谷歌最强 AI 模型：Gemini 4 Pro 开测，SVG 生图表现惊艳",
-      "desc": "根据 @LuminaBench 等网友反馈，谷歌正以“gemini-3.8-flash”名称，在 Arena 等基准平台测试其最强 Gemini 4 Pro 模型，内部开发代号为 Argon…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/902.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-18",
-      "title": "联想 Vantage 外设管理应用登陆谷歌 Googlebook 平台，意外曝光自家 AI Mouse 智能鼠标新品",
-      "desc": "联想旗下 Vantage 外设管理应用现已正式上架 Google Play 商店。事实上，对于使用过联想 Windows PC 的用户而言，Vantage 并不是一款陌生应用。在 Windows 平台上，它主要承担系统更新、硬件诊断以及设备配置等功能…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/900.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-18",
-      "title": "OpenAI 被指控“为赚钱不择手段”：明知威胁出版商生存，仍大量侵权",
-      "desc": "北京时间 9 月 18 日，根据《纽约时报》提交的最新诉讼文件，OpenAI 在明知其对出版商构成“生存威胁”的情况下，仍复制了数百万篇受版权保护的文章，以打造潜在价值高达“天文数字”的 AI 技术。目前，《纽约时报》和其他媒体机构正向 OpenAI 寻求数十亿美元的损害赔偿金…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/897.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-18",
-      "title": "OpenAI 披露 GPT-5.6 Sol 异常行为：AI 模型会留下指令要求“未来版本的自己”隐瞒自身错误",
-      "desc": "OpenAI 发文，披露研究团队在训练最新模型 GPT-5.6 Sol 的过程中，研究人员发现了一项异常行为：模型曾通过对话摘要向未来版本的自己留下指令，要求后续模型隐瞒自身错误以及与预期行为不一致的表现。目前，研究团队已经针对这一具体问题进行修复…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/896.htm"
+      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
+      "desc": "从一次成功到一万次稳定执行，具身智能还缺什么？",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/492238.html"
     },
     {
       "category": "模型动态",
       "date": "09-18",
-      "title": "特斯拉推送 2026.26.200.11 软件更新：为更多车型上线豆包大模型语音助手",
-      "desc": "特斯拉昨日发布了最新的 2026.26.200.11 版软件更新，已开始分批推送。本次升级涵盖豆包大模型、宠物模式、导航、辅助驾驶、媒体应用及安全修复。特斯拉车机新增豆包大模型语音助手（需开通高级车载娱乐服务），可提供实时信息并进行自然对话（可选灵动女声薇薇、沉稳男声云舟等音色…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/895.htm"
+      "title": "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
+      "desc": "用通用AI去啃最硬的骨头，这条路走得通",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/491875.html"
     },
     {
-      "category": "开发者研究",
+      "category": "智能应用",
       "date": "09-18",
-      "title": "消息称 Steam 平台山寨游戏泛滥，爆款独立作品遭其他开发者利用 AI 快速复制",
-      "desc": "目前 Steam 平台盗版山寨游戏泛滥，在平台搜索某些突然爆红的独立游戏竟如同“大海捞针”，稍不留神就会被山寨游戏骗到。外媒表示，例如今年 8 月一款名为《Needle in a Haystack Simulator》的“找物品类”游戏预告片突然走红…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/893.htm"
+      "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
+      "desc": "Git白学了？？？",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/491711.html"
     },
     {
-      "category": "监管动态",
-      "date": "09-18",
-      "title": "吴恩达谈 AI 灭绝论：堪比科幻小说，新一波造势或意在影响监管",
-      "desc": "北京时间 9 月 18 日，据彭博社报道，AI 领域的先锋吴恩达表示，顶尖模型开发商研究人员发出的有关 AI 生存风险的警告属于“科幻小说”，可能不利于确保这项技术为社会带来最大益处。吴恩达曾参与创办谷歌大脑和教育平台 Coursera…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/892.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-18",
-      "title": "距离 AI 造 AI 还有多远？Anthropic Claude 已主导 26% 内部 AI 研发工作",
-      "desc": "Anthropic 今日发布了一套用于衡量前沿 AI 实验室研发进度的方法，并公布公司内部的阶段性数据。该体系主要关注 3 项指标：AI 参与 AI 研发的程度、AI 智能体的监督情况，以及算力在 AI 研发与安全研究之间的分配…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/003/886.htm"
+      "category": "AI 产业",
+      "date": "09-17",
+      "title": "Claude Code团队讲究啊，这都往外说",
+      "desc": "工程师的核心永远是Problem Solving。",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/491596.html"
     }
   ]
 }
