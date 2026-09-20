@@ -1,51 +1,83 @@
 {
-  "generated_at": "2026-09-19T08:38:45.297357+08:00",
+  "generated_at": "2026-09-20T08:40:35.943551+08:00",
   "sources": [
     "IT之家",
     "量子位"
   ],
   "window": "回溯 2 天",
-  "count": 5,
+  "count": 9,
   "news": [
     {
-      "category": "算力硬件",
-      "date": "09-18",
-      "title": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
-      "desc": "协同布局AI基础设施",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/492426.html"
-    },
-    {
-      "category": "智能应用",
-      "date": "09-18",
-      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
-      "desc": "从一次成功到一万次稳定执行，具身智能还缺什么？",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/492238.html"
+      "category": "巨头动态",
+      "date": "09-20",
+      "title": "用户抱怨 Meta 旗下 AI 助手 Muse 未经授权读取 Mac 通知内容，官方予以否认",
+      "desc": "外媒 The Verge 援引《Inc.》杂志特约编辑 Jason Aten 贴文，认为 Meta 旗下 AI 助手 Muse 存在权限漏洞，会擅自调用自己 macOS 设备上通知窗口弹窗中的内容进行知识补充…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/004/594.htm"
     },
     {
       "category": "模型动态",
-      "date": "09-18",
-      "title": "AGI最难一战，竟在医院！中国AI登上Science，医生不怕失业还催着上线",
-      "desc": "用通用AI去啃最硬的骨头，这条路走得通",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/491875.html"
+      "date": "09-20",
+      "title": "游戏《漫威金刚狼》厕所标识贴图异常引发玩家争议，官方否认使用生成式 AI",
+      "desc": "近期有玩家发现《漫威金刚狼》中一处厕所标识存在异常，其中男性图案一侧看起来像有两个人形重叠，因此有玩家怀疑该素材由生成式 AI 制作。对此，Insomniac Games 社区总监 James Stevenson 在 X 平台回应称，这是一项 UV 贴图错误，团队已经准备修复…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/004/581.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-19",
+      "title": "迪士尼首次任命首席技术官：挖来原 Character.AI 首席执行官阿南德，强化 AI 布局",
+      "desc": "迪士尼宣布，原 Character.AI CEO 卡兰迪普 · 阿南德将于 10 月 2 日出任高级执行副总裁兼公司首位首席技术官（CTO），直接向 CEO 乔什 · 达马罗汇报。达马罗接掌迪士尼只有数月，此后一直强调利用技术推动公司各项业务发展…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/004/570.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "09-19",
+      "title": "美联邦航空管理局斥资 8.75 亿美元打造 AI 空管系统，治理空中交通问题",
+      "desc": "美国联邦航空官员将在全美最繁忙的航空走廊之一启用一套 AI 空中交通管理工具，最快当地时间 21 日上线。据美国政府和航空业官员透露，这套名为 Smart 的软件将率先在华盛顿特区一带投入使用，随后逐步推广至全美…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/004/569.htm"
     },
     {
       "category": "智能应用",
-      "date": "09-18",
-      "title": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
-      "desc": "Git白学了？？？",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/491711.html"
+      "date": "09-19",
+      "title": "比亚迪第二代腾势 D9 车型 OTA 升级，AI 超级智能体“迪迪虾”上新",
+      "desc": "比亚迪第二代腾势 D9 OTA 于近日焕新升级，AI 超级智能体“迪迪虾”上新。IT之家整理如下：新增迪迪虾智能搭子，焕新上线。一站式解锁五大新功能，支持 7 分屏和全屏设置。新增生态智能体服务吃喝玩乐，支持听音乐、刷视频、点外卖、订酒店。新增迪迪虾“AI 空间”功能沉浸式陪聊，语音唤醒即刻交互…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/004/561.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "09-19",
+      "title": "“工作垃圾”飞来飞去，曾大力拥抱 AI 的科技大佬开始“踩刹车”了",
+      "desc": "据《财富》杂志网站报道，曾经把 AI 吹捧为释放员工全部潜力关键的科技行业领导者，正开始逐渐改变说法。Shopify 联合创始人兼 CEO 托比亚斯 · 吕特克就是其中之一。去年，他还要求员工把使用 AI 当作基本要求，在申请更多资源之前，先证明现有工作无法通过 AI 完成…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/004/560.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "09-19",
+      "title": "璇玑动力中型智能四足机器人全球首发：最大陡坡攀爬 45°，支持自动充电",
+      "desc": "璇玑动力中型智能四足机器人及智能技术全球首发，正式推出 Hypertron-SW01 泛行业中型智能四足机器人。IT之家从官方介绍获悉，全新 AT-S240 关节电机模组，为 Hypertron-SW01 注入强劲动力，机身稳如泰山，持续高负载输出不过载、不过热…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/004/558.htm"
     },
     {
       "category": "AI 产业",
-      "date": "09-17",
-      "title": "Claude Code团队讲究啊，这都往外说",
-      "desc": "工程师的核心永远是Problem Solving。",
+      "date": "09-19",
+      "title": "“留给人类阻止AI的时间不多了”",
+      "desc": "AI有可能终结我们所有人",
       "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/491596.html"
+      "link": "https://www.qbitai.com/2026/09/492755.html"
+    },
+    {
+      "category": "AI 产业",
+      "date": "09-19",
+      "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
+      "desc": "设计、前端一口气全干了，结果后端没来上班",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/492573.html"
     }
   ]
 }
