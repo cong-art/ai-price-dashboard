@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:40:36.888179+08:00",
+  "generated_at": "2026-09-22T08:39:34.757563+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "09-21",
-      "title": "Vals AI 使用《我的世界》评测 Open GPT‑6 Astra 模型：显示 AI 遇重大变故可能陷入行为僵局",
-      "desc": "AI 评测机构 Vals AI 利用游戏《我的世界（Minecraft）》对 OpenAI 最新大模型 GPT‑6 Astra 开展长时自主游戏测试，全程在 Twitch 直播，总测试时长达到 141 小时…",
+      "date": "09-22",
+      "title": "AI 编程平台 Bitrig 宣布为苹果 iPhone Duo 引入支持，提供交互式 3D 模拟器供开发者测试应用",
+      "desc": "随着苹果上周发布 Xcode 27.1 Beta 1 并加入 iPhone Duo 应用开发支持，如今一款 AI 编程平台 Bitrig 也宣布支持构建和测试 iPhone Duo 应用…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/026.htm"
+      "link": "https://www.ithome.com/1/005/513.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "09-22",
+      "title": "浪潮信息发布元脑 SD200 Ultra 超节点：单机承载 2.8 万亿参数 Kimi K3，Token 时延首次突破 5.85 毫秒",
+      "desc": "在昨日的 2026 人工智能计算大会（AICC2026）上，浪潮信息宣布推出元脑 SD200 Ultra 超节点 AI 服务器与元脑 HC2000 多元算力机组。据官方介绍，元脑 SD200 Ultra 基于国产 AI 芯片打造，单机可承载运行 2.8 万亿参数的 Kimi K3 大模型…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/005/504.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-21",
-      "title": "英伟达黄仁勋驳斥 AI 末日叙事：吓唬人不负责任，部分人士意在摆脱现有法律约束",
-      "desc": "英伟达联合创始人兼首席执行官黄仁勋昨日接受 CBS News 采访时表示，他不认同某些研究员提出的“AI 可能在几年内灭绝人类”说法。他觉得这类说法是 AI 末日叙事，已经被过度渲染。黄仁勋表示：“2030 年不会是世界末日，2030 年即是世界末日的可能性为 0%。吓唬人不负责任，也没有必要…",
+      "date": "09-22",
+      "title": "OpenAI 宣布成立数学与 AI 顾问组，神秘新模型 24 天攻破 100+ 世界级难题",
+      "desc": "OpenAI 宣布成立“数学与 AI 顾问组”（Advisory Group on Mathematics and Artificial Intelligence）。据介绍，该顾问组设在普林斯顿高等研究院，由九位数学家组成，将独立于 OpenAI 运作…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/017.htm"
+      "link": "https://www.ithome.com/1/005/500.htm"
     },
     {
-      "category": "模型动态",
-      "date": "09-21",
-      "title": "日产第 14 代 Skyline 轿车将于 12 月亮相：利用 AI 缩短开发周期，预计搭载 3.0 升涡轮增压 V6 发动机",
-      "desc": "日产 CEO 伊万・埃斯皮诺萨（Ivan Espinosa）透露第 14 代 Skyline（V38）轿车将于今年 12 月正式亮相。该车为后轮驱动设计，号称是“日产重振品牌的重要产品”…",
+      "category": "巨头动态",
+      "date": "09-22",
+      "title": "2026 上半年全球 AI 眼镜出货量同比大增 263%，“无屏幕”产品占主流",
+      "desc": "外媒 Android Authority 援引 Counterpoint Research《智能眼镜市场追踪“报告，认为目前智能眼镜仍属于相对小众的科技产品，但其市场增长速度正在明显加快…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/015.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "09-20",
-      "title": "智谱 MaaS 平台上线数据内容不留存机制，用户可申请开通",
-      "desc": "智谱 MaaS 平台今日宣布，近期将上线数据内容不留存功能，为企业和开发者用户提供更严格的数据隐私保护。公告称，数据内容不留存机制旨在减少模型调用内容在平台侧的持久化留存。任何用户均可以申请开通，生效后，智谱 MaaS 平台不会对用户的输入和输出进行静态存储，数据仅用于完成当次模型调用…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/012.htm"
+      "link": "https://www.ithome.com/1/005/498.htm"
     },
     {
       "category": "智能应用",
-      "date": "09-20",
-      "title": "贾跃亭的法拉第未来一口气发布九款配置 EAI 机器人，最贵超 92 万元",
-      "desc": "法拉第未来（Faraday Future，简称 FF）于美国当地时间 9 月 19 日举行了 919 FF EAI 机器人“四核全智”系列新品发布会，发布了 FF All-New Futurist、FF Master Mini、FX Aegis Hyper、FX Aegis Mega 及 FX…",
+      "date": "09-22",
+      "title": "英国消费者权益机构 Citizens Advice：基本服务供应商应停止在客服工作中依赖 AI 聊天机器人",
+      "desc": "英国消费者权益机构 Citizens Advice 近日呼吁，能源、银行、电话和互联网等提供基本服务的企业在客服工作中应当停止依赖 AI 机器人，保障用户“与真人沟通的权利”。该机构调查发现，超过一半需要使用聊天机器人的用户因此浪费时间、产生压力或面临问题解决延迟…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/010.htm"
-    },
-    {
-      "category": "AI 产业",
-      "date": "09-20",
-      "title": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
-      "desc": "剪映Hub+剪映助手，好用",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/492973.html"
-    },
-    {
-      "category": "AI 产业",
-      "date": "09-20",
-      "title": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益？",
-      "desc": "AI越来越能干，企业该怎么用",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/493068.html"
+      "link": "https://www.ithome.com/1/005/497.htm"
     },
     {
       "category": "开发者研究",
-      "date": "09-20",
-      "title": "2026 年上半年，我国制造业人工智能重点场景应用普及率达 34.2%",
-      "desc": "9 月 20 日，在安徽省合肥市举办的 2026 世界制造业大会上，国家工业信息安全发展研究中心发布的《制造业数智化转型能力水平（2026）》显示，今年上半年，我国制造业人工智能重点场景应用普及率达 34.2%，全国两化融合发展水平达到 67.1，整体进入数字化、网络化、智能化协同推进的新阶段…",
+      "date": "09-22",
+      "title": "小米 MiMo-V2.6 发布：Pro 与 Flash 双版本价格不变，超越 Kimi K3、GLM-5.3 成为当前 AA 指数排名最高的开源模型",
+      "desc": "小米今日凌晨正式发布并开源了全新的 Xiaomi MiMo-V2.6 系列，包含 Pro 与 Flash 两个原生全模态模型。小米称这是其探索 RSI（递归自我改进）路径的关键一步，通过规模化扩展强化学习算力，让模型在持续的探索与反馈中拓展智能边界…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/004/991.htm"
+      "link": "https://www.ithome.com/1/005/496.htm"
     },
     {
-      "category": "巨头动态",
-      "date": "09-20",
-      "title": "阿里千问开源 Qwen-Image-2.1 图像模型：可生成、编辑透明图像，支持最多 10 张参考图",
-      "desc": "阿里千问今日宣布，开源千问图像系列当前兼顾生成效果、推理效率与使用成本的开源图像模型 Qwen-Image-2.1。Qwen-Image-2.1 将文生图与图像编辑整合在同一模型中，视觉生成部分仅有 7B 参数，并原生支持透明图像的生成与编辑…",
+      "category": "开发者研究",
+      "date": "09-22",
+      "title": "独立开发者称自己游戏新作遭其他开发商使用 AI 工具 1:1 恶意复刻，双方各执一词",
+      "desc": "独立游戏开发者 Rado Klasa 发文，抨击一家名为 Golden Horn Studios 的开发商新作《Potato Please》预告片 1:1 复刻了自己的游戏《1,000,000 Potatoes》…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/004/989.htm"
+      "link": "https://www.ithome.com/1/005/495.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "09-22",
+      "title": "马斯克 SpaceXAI 发布旗下最强编码和知识处理模型 Grok 4.7，百万词元输入 2 美元起",
+      "desc": "SpaceXAI 今日宣布推出新一代 Grok 4.7，主打编程和知识工作场景。官方称其采用全新更大规模基础模型，并通过更长时间的强化学习训练提升复杂任务处理能力，是该公司目前最强的编码和知识处理模型 —— 速度是同类模型的两倍，价格却只有一半…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/005/494.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "09-21",
+      "title": "冲刺 IPO，Nscale 的 1030 亿美元数据中心订单高度依赖微软和 Anthropic 两大客户",
+      "desc": "英国 AI 基础设施公司 Nscale 过去三年客户签约量激增千倍，主要归功于两家对人工智能算力如饥似渴的公司：微软和 Anthropic。这两家公司贡献了该公司在首次公开募股（IPO）前夕披露的 1,030 亿美元（IT之家注：现汇率约合 6,905.85 亿元人民币）合同总额中的 85%…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/005/437.htm"
     }
   ]
 }
