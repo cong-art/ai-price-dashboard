@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T08:39:34.757563+08:00",
+  "generated_at": "2026-09-23T08:38:31.281537+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "09-22",
-      "title": "AI 编程平台 Bitrig 宣布为苹果 iPhone Duo 引入支持，提供交互式 3D 模拟器供开发者测试应用",
-      "desc": "随着苹果上周发布 Xcode 27.1 Beta 1 并加入 iPhone Duo 应用开发支持，如今一款 AI 编程平台 Bitrig 也宣布支持构建和测试 iPhone Duo 应用…",
+      "date": "09-23",
+      "title": "谷歌前安全负责人：AI 对儿童的伤害恐超社交媒体",
+      "desc": "北京时间 9 月 23 日，据路透社报道，谷歌信任与安全团队的创始人汤姆 · 西格尔 (Tom Siegel) 在本周呼吁放缓 AI 发展，并警告称，科技行业正在重蹈社交媒体时代的覆辙，可能对儿童造成更大的伤害。目前，社交媒体公司正因为被指控伤害年轻用户而支付巨额赔偿并面临数千起诉讼…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/513.htm"
+      "link": "https://www.ithome.com/1/006/036.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "09-23",
+      "title": "三菱重工：美国 AI 数据中心需求推动燃气轮机订单创新高",
+      "desc": "9 月 23 日，据日经新闻报道，三菱重工美国公司董事长兼 CEO Takao Tsukui 9 月 21 日在纽约接受采访时表示，受美国人工智能数据中心建设需求推动，从 2026 年 1 至 6 月的订单进度看，全球燃气轮机需求预计与 2025 年持平或更高，全年有望再次超过 100 吉瓦…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/006/032.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-23",
+      "title": "IT早报 0923：中国民企 500 强出炉；高通 2nm 旗舰 SoC 六代骁龙 8 超级至尊版发布；OpenAI 发布 GPT-6 Sol、Luna；OPPO Find X10 系列发布...",
+      "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 23 日星期三，今天的重要科技资讯有：1. “2026 中国民营企业 500 强”发布：京东、阿里、恒力集团、华为、比亚迪位居前五全国工商联 9 月 22 日在天津发布“2026 中国民营企业 500 强”…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/006/030.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "09-23",
+      "title": "李飞飞谈 AI 安全：不能只让开发者评估自己的系统",
+      "desc": "北京时间 9 月 23 日，据彭博社报道，AI 先锋李飞飞呼吁由独立机构和公共部门对 AI 进行更多监督。她认为，对于能力日益强大的 AI 系统，其安全评估不应完全交由开发这些系统的公司负责…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/006/026.htm"
     },
     {
       "category": "模型动态",
-      "date": "09-22",
-      "title": "浪潮信息发布元脑 SD200 Ultra 超节点：单机承载 2.8 万亿参数 Kimi K3，Token 时延首次突破 5.85 毫秒",
-      "desc": "在昨日的 2026 人工智能计算大会（AICC2026）上，浪潮信息宣布推出元脑 SD200 Ultra 超节点 AI 服务器与元脑 HC2000 多元算力机组。据官方介绍，元脑 SD200 Ultra 基于国产 AI 芯片打造，单机可承载运行 2.8 万亿参数的 Kimi K3 大模型…",
+      "date": "09-23",
+      "title": "2799 元起，华为 WATCH 6 系列鸿蒙 AI 手表今日开售",
+      "desc": "华为 WATCH 6 系列鸿蒙 AI 手表今日 10:08 正式开售，售价 2799 元起。IT之家汇总如下：华为 WATCH 642mm 版：2799 元起（国补价 2379.15 元起）46mm 版：2899 元起（国补价 2464.15 元起）华为 WATCH 6 Pro43mm…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/504.htm"
+      "link": "https://www.ithome.com/1/006/019.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-22",
-      "title": "OpenAI 宣布成立数学与 AI 顾问组，神秘新模型 24 天攻破 100+ 世界级难题",
-      "desc": "OpenAI 宣布成立“数学与 AI 顾问组”（Advisory Group on Mathematics and Artificial Intelligence）。据介绍，该顾问组设在普林斯顿高等研究院，由九位数学家组成，将独立于 OpenAI 运作…",
+      "date": "09-23",
+      "title": "消息称苹果搁置研发 AI 吊坠，曾设想以摄像头拓展 Siri 能力",
+      "desc": "彭博社的马克 · 古尔曼（Mark Gurman）昨日（9 月 22 日）发布博文，报道称苹果曾在研发一款配备摄像头的人工智能可穿戴设备，产品形态类似挂坠，可佩戴在颈部、夹在衣物上，或固定于身体其他部位。不过，该项目目前已被推迟，苹果暂未公布后续上市计划…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/500.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-22",
-      "title": "2026 上半年全球 AI 眼镜出货量同比大增 263%，“无屏幕”产品占主流",
-      "desc": "外媒 Android Authority 援引 Counterpoint Research《智能眼镜市场追踪“报告，认为目前智能眼镜仍属于相对小众的科技产品，但其市场增长速度正在明显加快…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/498.htm"
+      "link": "https://www.ithome.com/1/006/017.htm"
     },
     {
       "category": "智能应用",
-      "date": "09-22",
-      "title": "英国消费者权益机构 Citizens Advice：基本服务供应商应停止在客服工作中依赖 AI 聊天机器人",
-      "desc": "英国消费者权益机构 Citizens Advice 近日呼吁，能源、银行、电话和互联网等提供基本服务的企业在客服工作中应当停止依赖 AI 机器人，保障用户“与真人沟通的权利”。该机构调查发现，超过一半需要使用聊天机器人的用户因此浪费时间、产生压力或面临问题解决延迟…",
+      "date": "09-23",
+      "title": "高通 CEO 安蒙：智能体时代并不是让 AI 替我们包办一切，而是让技术变得更实用",
+      "desc": "在北京时间 9 月 23 日凌晨的 2026 高通骁龙峰会现场，高通公司宣布推出第六代骁龙 8 超级至尊版移动平台和第六代骁龙 8 至尊版移动平台，官方表示这是“全球最快移动 CPU”…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/497.htm"
+      "link": "https://www.ithome.com/1/006/015.htm"
     },
     {
-      "category": "开发者研究",
-      "date": "09-22",
-      "title": "小米 MiMo-V2.6 发布：Pro 与 Flash 双版本价格不变，超越 Kimi K3、GLM-5.3 成为当前 AA 指数排名最高的开源模型",
-      "desc": "小米今日凌晨正式发布并开源了全新的 Xiaomi MiMo-V2.6 系列，包含 Pro 与 Flash 两个原生全模态模型。小米称这是其探索 RSI（递归自我改进）路径的关键一步，通过规模化扩展强化学习算力，让模型在持续的探索与反馈中拓展智能边界…",
+      "category": "智能应用",
+      "date": "09-23",
+      "title": "预填充吞吐超 330 Token/s：高通携手阶跃等为第六代骁龙 8 超级至尊版端侧适配 300 亿参数 AI 模型",
+      "desc": "夏威夷时间 9 月 22 日 9 点（北京时间 9 月 23 日 3 点）召开的 2026 骁龙峰会上，高通宣布携手阶跃、无量火及江波龙，基于第六代骁龙 8 超级至尊版移动平台，端侧适配与推理优化阶跃 StepEdge-Omni 30B-MoE 模型，并现场演示相关智能体助手…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/496.htm"
+      "link": "https://www.ithome.com/1/006/008.htm"
     },
     {
-      "category": "开发者研究",
-      "date": "09-22",
-      "title": "独立开发者称自己游戏新作遭其他开发商使用 AI 工具 1:1 恶意复刻，双方各执一词",
-      "desc": "独立游戏开发者 Rado Klasa 发文，抨击一家名为 Golden Horn Studios 的开发商新作《Potato Please》预告片 1:1 复刻了自己的游戏《1,000,000 Potatoes》…",
+      "category": "巨头动态",
+      "date": "09-23",
+      "title": "OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50%",
+      "desc": "OpenAI 今日发布 GPT-6 系列模型的最新成员 GPT-6 Sol 和 GPT-6 Luna。OpenAI 官方表示，两款模型采用与 GPT-6 Astra 类似的方法进行训练，将 Astra 在专业工作、事实性、编码、计算机使用和对齐等方面最先进的性能带入更快、更经济的模型…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/495.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "09-22",
-      "title": "马斯克 SpaceXAI 发布旗下最强编码和知识处理模型 Grok 4.7，百万词元输入 2 美元起",
-      "desc": "SpaceXAI 今日宣布推出新一代 Grok 4.7，主打编程和知识工作场景。官方称其采用全新更大规模基础模型，并通过更长时间的强化学习训练提升复杂任务处理能力，是该公司目前最强的编码和知识处理模型 —— 速度是同类模型的两倍，价格却只有一半…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/494.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "09-21",
-      "title": "冲刺 IPO，Nscale 的 1030 亿美元数据中心订单高度依赖微软和 Anthropic 两大客户",
-      "desc": "英国 AI 基础设施公司 Nscale 过去三年客户签约量激增千倍，主要归功于两家对人工智能算力如饥似渴的公司：微软和 Anthropic。这两家公司贡献了该公司在首次公开募股（IPO）前夕披露的 1,030 亿美元（IT之家注：现汇率约合 6,905.85 亿元人民币）合同总额中的 85%…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/005/437.htm"
+      "link": "https://www.ithome.com/1/006/001.htm"
     }
   ]
 }
