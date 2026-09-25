@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T08:40:24.343422+08:00",
+  "generated_at": "2026-09-25T08:40:38.247733+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "09-24",
-      "title": "腾讯 QClaw 微信远程办公 AI 助手宣布 12 月 24 日停运，即日起停止新用户注册，",
-      "desc": "腾讯 QClaw 微信远程办公 AI 助手今日发布公告称，因业务发展调整，QClaw 将于 2026 年 12 月 24 日 00:00 正式停止运营。停止运营安排2026 年 9 月 24 日自公告之日起，停止新用户注册，停止订阅服务购买与续费（已开通自动续费的用户将自动停止续费扣款…",
+      "date": "09-25",
+      "title": "谷歌 Gemini 3.8 Live 虚拟人上线：实时唇形同步 + 自然表情，无缝切换 97 种语言",
+      "desc": "谷歌近日宣布，在上周推出 Gemini 3.8 Live 的基础上，正式推出带有 Live Avatar 功能的 Gemini 3.8 Live，为原生实时对话模型带来接近实时的视觉呈现效果…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/528.htm"
+      "link": "https://www.ithome.com/1/007/043.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-25",
+      "title": "消息称 OpenAI 将在数日内预览网络安全专用模型 GPT-6 Cyber",
+      "desc": "多位知情人士透露，OpenAI 正计划在未来几天内抢先预览其最新的网络安全专用模型 GPT-6 Cyber。此外，OpenAI 还将推出一款配套新产品，协助客户以更加安全、自动化的方式部署该模型…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/061.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-25",
+      "title": "Meta 的 AI 智能体 Muse 被发现可导出虚拟机大量文件",
+      "desc": "科技媒体 macobserver 昨日（9 月 24 日）发布博文，报道称 Meta Muse 被发现可在简单提示词下，打包并返回用户专属虚拟机中的大量 Linux 文件。Peter James 和 Jonny L. Saunders 两名开发者已独立复现该问题…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/059.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "09-25",
+      "title": "IT早报 0925：李佳琦称 AI 无法取代真人主播；华为余承东称会让每个界都获更充足资源；营业厅“0 元购机”全面停办；国补 5499 元荣耀 Magic9 价格提前公布...",
+      "desc": "“IT早报”时间，大家好，现在是 2026 年 9 月 25 日星期五，今天的重要科技资讯有：1. 外媒关注中国直播带货，李佳琦称 AI 无法取代真人主播如今，尽管行业增长放缓，AI 也正在重塑这一领域，但李佳琦仍然认为，直播电商未来依然离不开像他这样的主播…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/058.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-25",
+      "title": "英伟达黄仁勋：AI 不会必然消灭某个职业，“10 年内 AI 毁灭人类”更是无稽之谈",
+      "desc": "在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为，当前行业和民众对 AI 的恐慌情绪已经过头了，并认为当前 AI 不一定会替代职业，但会首先替代任务。黄仁勋把工作拆分为任务（例如写代码、整理资料和回复客户等）和目的（诊断疾病、解决工程问题、服务客户等），并认为 AI 通常先自动化具体任务…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/051.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "09-25",
+      "title": "高通押注 AI 生态：一套软件栈通吃所有设备，编程语言 Mojo 将原生支持 Win11",
+      "desc": "IT之家 9 月 25 日现场消息，在夏威夷举办的 2026 骁龙峰会第二日活动中，高通技术公司先进 AI 软件与平台执行副总裁克里斯 · 拉特纳（Chris Lattner）发表主题演讲，称 AI 行业的竞争正逐渐从“拼芯片”转向“拼生态”…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/050.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "09-24",
+      "title": "李楠谈锤子科技 TNT 生不逢时：有了 Agent 之后，这些操作其实都不是非常难",
+      "desc": "Angry Miao 创始人、前魅族科技 CMO 李楠今天在微博发文称，锤子科技的 TNT 真是生不逢时。今天有了 Agent 之后，这些操作其实都不是非常难了。据IT之家了解，锤子科技的坚果 TNT 工作站本质上是一块显示屏，它搭载 27 英寸 IPS 全贴合 4K 屏幕，支持十点触控…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/039.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "09-24",
+      "title": "涂鸦智能展示 Doova 家庭陪伴机器人，面向独居老人场景",
+      "desc": "涂鸦智能在第五届全球数字贸易博览会上展示了家庭陪伴机器人 Doova。该产品面向独居老人场景，够在家中移动、与人对话，并与智能家居设备联动。IT之家从原报道了解到，该产品现阶段主要提供陪伴、日常提醒和紧急告警，尚不能承担做家务等任务。假如老人跌倒，他可以通过呼唤机器人求助…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/027.htm"
     },
     {
       "category": "巨头动态",
       "date": "09-24",
-      "title": "Anthropic 宣布成立生命科学团队和实验室，Claude 自主发现新型酶系统",
-      "desc": "Anthropic 宣布成立生命科学研究团队及自有分子生物学实验室，并公布了一项由 Claude 参与生物学研究取得的早期成果。在人类科学家仅提供宏观研究方向的情况下，Claude 自主发现了一种此前未被表征的酶系统…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/524.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-24",
-      "title": "OpenAI CEO 奥尔特曼联合国演讲：AI 可能走向文艺复兴，也可能带来工业革命式动荡",
-      "desc": "OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）在联合国安理会就 AI 议题发表讲话，讨论 AI 发展带来的机遇与风险，并呼吁加强国际合作，建立针对前沿 AI 系统的能力评估、风险评估、安全防护和人类监督标准…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/521.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-24",
-      "title": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
-      "desc": "消息源 @itspdfu 今天（9 月 24 日）在 X 平台发布推文，挖掘 audioOS 27 系统，发现了适用于 HomePod 的 Siri AI 交互体验。IT之家注：audioOS 并非苹果官方叫法，是指在苹果 HomePod 上运行的系统软件版本名称…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/519.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "09-24",
-      "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
-      "desc": "在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后，今天发布第二代骁龙音频平台至尊版。这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/516.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-24",
-      "title": "已证实首例：澳大利亚政府网站遭 OpenAI 智能体入侵",
-      "desc": "9 月 23 日，据路透社报道，澳大利亚总理安东尼 · 阿尔巴尼斯（Anthony Albanese）表示，OpenAI 开发的一款 AI 智能体在 6 月未经授权侵入了澳大利亚政府网站，访问了公共和非公共文件。这是已知的首例 AI 入侵政府网站事件…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/515.htm"
-    },
-    {
-      "category": "监管动态",
-      "date": "09-24",
-      "title": "黄仁勋对 AI 公司放话：要求监管就不应获得反垄断豁免",
-      "desc": "北京时间 9 月 24 日，据路透社报道，英伟达 CEO 黄仁勋 (Jensen Huang) 认为，AI 公司不应获得反垄断法或责任法的豁免。在周三播出的《纽约时报》播客节目中，黄仁勋接受了近两个小时的采访，就 OpenAI 智能体入侵 Hugging Face 一事进行了广泛讨论…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/514.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-23",
-      "title": "Anthropic 工程师解释为何 Claude 写作变差：模型被训练成写给 AI 看而非写给人看",
-      "desc": "AI 模型在数学、编程和推理能力上进步迅速，写作水平却停滞不前，甚至有所退步，Anthropic 的 Claude 同样也存在这一问题。为何 Opus 4.6 会成为 Anthropic 最后一款写作表现出色的模型？…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/510.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-23",
-      "title": "谷歌推出 Gemini 3.8 Flash / Flash-Lite 文本转语音模型，每一行台词都能精确控制",
-      "desc": "谷歌今日宣布，Gemini 家族新增两款全新文本转语音模型，将语音生成从静态预设转变为动态创意工作室，能够帮助创作者、开发者和企业打造更丰富、更具表现力的音频体验，同时为 Gemini Notebook 和 Google Vids 等产品改进用户体验…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/006/509.htm"
+      "title": "出海Agent“小元AI”入驻腾讯WorkBuddy：找买家写开发信谈生意",
+      "desc": "懂出海，能记忆，自进化",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/496961.html"
     }
   ]
 }
