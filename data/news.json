@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:41:41.529201+08:00",
+  "generated_at": "2026-09-28T08:43:19.205076+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "模型动态",
-      "date": "09-27",
-      "title": "七彩虹源 AIR 14 UItra 轻薄本亮相：960g，X7 358H",
-      "desc": "七彩虹 (Colorful) 在本周二的英特尔技术创新与产业生态大会 (Intel Connection 2026) 上展示了尚未发布的 AIR 14 UItra 轻薄笔记本电脑。从展牌上的内容来看，这一型号基于英特尔酷睿 Ultra X7 处理器 358H，拥有全镁合金机身，质量仅有 960g…",
+      "category": "巨头动态",
+      "date": "09-28",
+      "title": "得不到就强攻？曝 OpenAI 智能体曾尝试“暴力破解”联合国机构网站",
+      "desc": "安全研究人员罗文 · 霍华德-琼斯称，今年 4 月至 6 月，OpenAI 智能体对联合国贸易和发展会议（UNCTAD）的统计网站发起了超过 16000 次扫描。这起事件还没有严重到 Hugging Face 遭黑客攻击或近期美国政府网站遇袭的程度…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/452.htm"
+      "link": "https://www.ithome.com/1/007/641.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-27",
-      "title": "消息称 OpenAI、Anthropic 正调查数万起 AI 安全事件",
-      "desc": "OpenAI、Anthropic 以及安全研究人员正在调查数万起事件。在这些事件中，两家公司的前沿模型采取了一些外部评估人员认为存在问题的行动。这些事件发生在近几个月的内部测试和现实环境中。如此庞大的事件数量表明，相关问题的复杂程度可能比公众目前了解到的高出几个数量级…",
+      "date": "09-28",
+      "title": "前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动",
+      "desc": "前苹果 Siri 和 Apple Intelligence 工程师 Nikhil Gupta 宣布推出了一款名为 szn 的 AI 智能体，可直接运行在 iMessage 对话中，帮助用户浏览网页、购买商品以及代表用户与商家沟通…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/447.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-27",
-      "title": "接连发生 AI 失控事件，OpenAI 再次暂停其最强模型训练",
-      "desc": "随着有关 OpenAI 模型突破限制、攻击网站以及整体行为失控的报告不断增加，该公司决定暂停训练旗下能力最强的模型。这一决定是在一款处于沙盒环境中测试的模型利用漏洞获得互联网访问权限后作出的。该事件发生于 9 月 20 日…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/445.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-26",
-      "title": "Anthropic Claude 刷新物理学世界纪录：单挑基于杨振宁理论 9 圈难题",
-      "desc": "Anthropic 官宣，Claude 拿下了理论物理的一项前沿纪录。它在几乎无人类干预的情况下，连续运行数天，一举攻克了高能物理学界出了名难算的「九圈散射振幅」计算难题！具体来说，它算出了平面 N=4 超杨-米尔斯理论里六粒子振幅的九圈结果，人类此前的纪录停在八圈…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/444.htm"
+      "link": "https://www.ithome.com/1/007/634.htm"
     },
     {
       "category": "智能应用",
-      "date": "09-26",
-      "title": "宇树王兴兴回应为何造 390 万元起的载人变形机甲：大型机器人是行业不可阻挡的趋势",
-      "desc": "今年 5 月，宇树科技发布 GD01 载人变形机甲，390 万元起。9 月 23 日至 27 日，第五届全球数字贸易博览会在杭州举行。宇树 GD01 载人机甲现身数贸会主题馆，据科创板日报报道，现场工作人员表示，问价的人不少，还没有卖出去一台…",
+      "date": "09-28",
+      "title": "荣耀亲选 AI 投影仪 Ultra 今起首销：1700CVIA 亮度、自研全封闭光机 2.0 技术，国补价 1999 元",
+      "desc": "荣耀亲选 AI 投影仪 Ultra 今日 14:25 正式开售，原价 2599 元、国补到手价 1999 元。京东荣耀亲选 AI 投影仪 Ultra2599 元直达链接这款新品拥有 1700CVIA 流明亮度，符合国家标准并获得权威认证，宣称即使白天不拉窗帘、夜晚开灯直投，也能拥有清晰画面…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/443.htm"
+      "link": "https://www.ithome.com/1/007/621.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-26",
-      "title": "Opus 5.5 干一半就开溜？Anthropic 揭秘：你的程序替它打了下班卡",
-      "desc": "你让 AI Agent 连夜迁移一个代码库。第二天一早，满怀期待地打开终端，没想到只看到这样一条消息：已完成 3 个接口迁移，接下来我将处理剩余两个端点，并补上测试。然后，就没有下文了。想让它干完剩下的活，你还得再敲两个字：继续…",
+      "date": "09-28",
+      "title": "黑客在暗网兜售 AI 模型访问权限，最低价仅有正版 3%",
+      "desc": "非法获取 AI 模型和算力，正迅速成为网络犯罪黑市上最抢手的商品，黑客希望借助价格高昂的大模型实施勒索、网络战和间谍活动。谷歌威胁情报团队首席分析师约翰 · 霍特奎斯特披露，今年所谓“LLM 劫持”活动明显增多，具体表现于倒卖公开 AI 工具的被盗登录凭据，以及部分团体盗用他人算力…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/442.htm"
+      "link": "https://www.ithome.com/1/007/619.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "09-27",
+      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+      "desc": "",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/498633.html"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-27",
+      "title": "部分 Anthropic 资深员工考虑在偏远地区购置土地，以防“AI 失控”",
+      "desc": "为防范人工智能彻底失控，Anthropic 的数位资深员工正在悄然制定具体的应急预案。据华尔街日报于当地时间 9 月 26 日报道，最近数周内，Anthropic 的部分早期员工曾向业界同行透露，他们正打算在美国偏远荒僻的地区购置土地建造隐匿点，以便在“AI 走向失控反噬”之际举家撤离避难…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/007/603.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-27",
+      "title": "啥题啊能干崩OpenAI最强模型训练…",
+      "desc": "",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/498546.html"
     },
     {
       "category": "开发者研究",
       "date": "09-26",
-      "title": "从代码分析到授权争议：一用户用 AI 破解 IDM 引发争议",
-      "desc": "一则关于“大语言模型破解付费软件”的帖子今日在 Reddit 上引发关注。用户 No_Ideal8394 声称，他利用无审查限制的 Qwen3.8-Flash-Next-Uncensored，成功破解了 Internet Download Manager（IDM）6.43 版本…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/441.htm"
+      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+      "desc": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/498271.html"
     },
     {
-      "category": "巨头动态",
+      "category": "AI 产业",
       "date": "09-26",
-      "title": "英国第二大图书馆：牛津大学博德利图书馆藏书被曝用于 OpenAI 模型训练",
-      "desc": "正值各大科技公司在学术机构中四处搜寻全新语料之际，牛津大学已允许 ChatGPT 开发商 OpenAI 利用其博德利图书馆（Bodleian Library）的历史典籍来训练其人工智能模型。IT之家注：博德利图书馆是英国牛津大学主要的研究图书馆，是英国规模仅次于大英图书馆的第二大图书馆…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/426.htm"
-    },
-    {
-      "category": "产业合作",
-      "date": "09-26",
-      "title": "OpenCode 宣布为 DeepSeek V4.1 Flash 永久提供 60 美元额度",
-      "desc": "OpenCode 昨日宣布启动“Operation Cheepseek”第二阶段，DeepSeek V4.1 Flash 在 OpenCode Go 中原本限时提供的 60 美元（IT之家注：现汇率约合 403.5 元人民币）额度现调整为永久有效…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/421.htm"
+      "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+      "desc": "大伟哥：如果做不到，一年两年之后过来打我脸",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/09/497613.html"
     }
   ]
 }
