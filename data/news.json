@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:43:19.205076+08:00",
+  "generated_at": "2026-09-29T08:42:49.535853+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "09-28",
-      "title": "得不到就强攻？曝 OpenAI 智能体曾尝试“暴力破解”联合国机构网站",
-      "desc": "安全研究人员罗文 · 霍华德-琼斯称，今年 4 月至 6 月，OpenAI 智能体对联合国贸易和发展会议（UNCTAD）的统计网站发起了超过 16000 次扫描。这起事件还没有严重到 Hugging Face 遭黑客攻击或近期美国政府网站遇袭的程度…",
+      "date": "09-29",
+      "title": "内部测试发现安全隐患，消息称 OpenAI 取消发布 AI 模型 GPT‑6.1 Astra",
+      "desc": "由于内部测试过程中研究人员提出多项安全隐患，OpenAI 决定取消 GPT‑6.1 Astra 的发布。这款下一代 AI 模型原本计划于 10 月正式亮相。报道称，该模型原定部署于 ChatGPT 以及 Codex 产品当中，设计目标是无需人类协助就可以处理更加复杂的任务…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/641.htm"
+      "link": "https://www.ithome.com/1/008/090.htm"
     },
     {
-      "category": "巨头动态",
-      "date": "09-28",
-      "title": "前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动",
-      "desc": "前苹果 Siri 和 Apple Intelligence 工程师 Nikhil Gupta 宣布推出了一款名为 szn 的 AI 智能体，可直接运行在 iMessage 对话中，帮助用户浏览网页、购买商品以及代表用户与商家沟通…",
+      "category": "监管动态",
+      "date": "09-29",
+      "title": "佛罗里达州起诉 OpenAI，请求法院禁止其在无外部监督下开发新 AI 模型",
+      "desc": "美国佛罗里达州总检察长于周一向一名法官提出申请，要求法院禁止 OpenAI 在没有外部监督的情况下开发新的人工智能模型。这项请求是该州起诉 OpenAI、指控其伤害未成年人相关诉讼的一部分…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/634.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "09-28",
-      "title": "荣耀亲选 AI 投影仪 Ultra 今起首销：1700CVIA 亮度、自研全封闭光机 2.0 技术，国补价 1999 元",
-      "desc": "荣耀亲选 AI 投影仪 Ultra 今日 14:25 正式开售，原价 2599 元、国补到手价 1999 元。京东荣耀亲选 AI 投影仪 Ultra2599 元直达链接这款新品拥有 1700CVIA 流明亮度，符合国家标准并获得权威认证，宣称即使白天不拉窗帘、夜晚开灯直投，也能拥有清晰画面…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/621.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-28",
-      "title": "黑客在暗网兜售 AI 模型访问权限，最低价仅有正版 3%",
-      "desc": "非法获取 AI 模型和算力，正迅速成为网络犯罪黑市上最抢手的商品，黑客希望借助价格高昂的大模型实施勒索、网络战和间谍活动。谷歌威胁情报团队首席分析师约翰 · 霍特奎斯特披露，今年所谓“LLM 劫持”活动明显增多，具体表现于倒卖公开 AI 工具的被盗登录凭据，以及部分团体盗用他人算力…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/619.htm"
+      "link": "https://www.ithome.com/1/008/087.htm"
     },
     {
       "category": "融资并购",
-      "date": "09-27",
-      "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
-      "desc": "",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/498633.html"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-27",
-      "title": "部分 Anthropic 资深员工考虑在偏远地区购置土地，以防“AI 失控”",
-      "desc": "为防范人工智能彻底失控，Anthropic 的数位资深员工正在悄然制定具体的应急预案。据华尔街日报于当地时间 9 月 26 日报道，最近数周内，Anthropic 的部分早期员工曾向业界同行透露，他们正打算在美国偏远荒僻的地区购置土地建造隐匿点，以便在“AI 走向失控反噬”之际举家撤离避难…",
+      "date": "09-29",
+      "title": "Anthropic IPO 招股书曝光，巨额算力投入与安全隐忧并存",
+      "desc": "该公司正在豪押一个判断：人工智能对全球经济带来的变革，其深刻程度将会超过工业化、电力普及以及互联网。但实现这一愿景所要付出的成本高得惊人。招股书披露，Anthropic2025 年的净亏损达到 420 亿美元（IT之家注：现汇率约合 2,822.18 亿元人民币）…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/007/603.htm"
+      "link": "https://www.ithome.com/1/008/082.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "09-29",
+      "title": "美国小镇图书馆开课教中老年人如何“告别 AI”，活动传单意外走红",
+      "desc": "美国纽约州北部的北查塔姆免费图书馆近期意外成为网络焦点，图书馆为即将举行的“再见，AI”活动制作了一张传单，帮助居民关闭手机或笔记本电脑中的 AI 功能。这条传单在 Facebook 迅速走红，收获超过 200 条评论和 8000 个赞…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/008/081.htm"
     },
     {
       "category": "巨头动态",
-      "date": "09-27",
-      "title": "啥题啊能干崩OpenAI最强模型训练…",
-      "desc": "",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/498546.html"
+      "date": "09-29",
+      "title": "从沙箱逃逸到 AI“蠕虫”，OpenAI 上线新站披露多起智能体失控事件",
+      "desc": "OpenAI 上线了一个专门发布“对齐失效报告”的新网站。报告所覆盖的范围之广令人警惕，里面记录了很长一段时间内发生的多类 AI 失控行为。截至目前，该网站一共公布了九起事件，其中大多数都发生在强化学习（RL）训练阶段。大量资料集中在同一平台发布…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/008/079.htm"
     },
     {
-      "category": "开发者研究",
-      "date": "09-26",
-      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
-      "desc": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/498271.html"
+      "category": "巨头动态",
+      "date": "09-29",
+      "title": "谷歌宣布停用 Gemini 的 Gems 功能，将自动迁移为“技能”",
+      "desc": "随着 Meta 的 Muse 与 Instinct 这类一体化 AI 智能体逐渐兴起，谷歌宣布将停用 Gemini 当中名为“Gems”的功能。该功能此前允许用户搭建面向特定任务的自定义 AI 助手…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/008/077.htm"
     },
     {
-      "category": "AI 产业",
-      "date": "09-26",
-      "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
-      "desc": "大伟哥：如果做不到，一年两年之后过来打我脸",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/09/497613.html"
+      "category": "融资并购",
+      "date": "09-29",
+      "title": "AMD 斥资 82 亿美元收购 World Labs，“AI 教母”李飞飞出任执行副总裁兼首席科学家",
+      "desc": "AMD 宣布同意以全股票交易收购旧金山初创公司 World Labs，交易价值约 82 亿美元（IT之家注：现汇率约合 551 亿元人民币）。World Labs 由李飞飞等人于 2024 年联合创办，主要开发“世界模型”，让 AI 根据文本、图像和视频生成或重建能够交互的 3D 环境…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/008/076.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "09-29",
+      "title": "快手可灵 AI Kling 4.0 将于 10 月上线，支持 4K HDR 与 30 秒视频生成",
+      "desc": "快手可灵 AI 宣布，Kling 4.0 将于 10 月正式上线。其中，Kling 4.0 Flash 于 9 月 28 日率先开放小范围体验。据介绍，Kling 4.0 支持 4K、1080p 的 10-bit HDR 格式输出…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/008/073.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "09-29",
+      "title": "Anthropic 发布 Claude Sonnet 5.5：速度提升 30%，智能体编码性能反超 Opus 5.5",
+      "desc": "随着 AI 模型竞赛持续升温，Anthropic 推出了旗下中端模型 Sonnet 的最新版本。该公司表示，新版模型运行速度会快得多，使用成本也较上一代大幅降低。IT之家注意到，这家实验室将 Sonnet 5.5 定位为日常任务的理想助手，适用场景包括编写代码以及制作办公文档…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/008/072.htm"
     }
   ]
 }
