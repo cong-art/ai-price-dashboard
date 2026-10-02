@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:46:11.297534+08:00",
+  "generated_at": "2026-10-02T08:44:03.766936+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "巨头动态",
-      "date": "10-01",
-      "title": "OpenAI 同新思达成合作，共同开发 GPT-Synopsys 芯片设计模型",
-      "desc": "Synopsys（新思科技）当地时间 30 日宣布与 OpenAI 建立战略合作伙伴关系。两家公司签署了一份范围广泛的多年期协议，共同开发 GPT-Synopsys 模型。GPT-Synopsys 结合了 OpenAI 的先进人工智能能力、Synopsys 的 EDA 工具和代理式人工智能能力…",
+      "category": "算力硬件",
+      "date": "10-02",
+      "title": "索尼 PlayStation 为标准版 PS5 游戏主机带来轻量级 AI 超分辨率技术 QSSR",
+      "desc": "Sony（索尼）PlayStation 官方当地时间 1 日宣布为标准版 PS5 游戏主机推出基于人工智能的超分辨率 QSSR。该技术率先在《漫威金刚狼》《羊蹄山之魂》上得到支持。QSSR 全称 \"Quick Spectral Super Resolution\"，是 PSSR 的“快速”演进版本…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/968.htm"
+      "link": "https://www.ithome.com/1/009/210.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-02",
+      "title": "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录不存视频、仅推送文本提醒",
+      "desc": "在首期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）爆料称，苹果正筹备推出家用智能摄像头（代号为 J450），将配套协同苹果首款智能家居中枢（Home Hub）工作…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/208.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-02",
+      "title": "古尔曼：苹果首款智能家居中枢支持 AI 面部识别，为家人切换呈现专属内容",
+      "desc": "在首期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）爆料称，苹果公司首款智能家居中枢（Home Hub）将采用 AI 面部识别，会判断当前家庭成员并显示对应内容…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/206.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-02",
+      "title": "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险",
+      "desc": "加利福尼亚州总检察长罗布 · 邦塔办公室宣布，邦塔本人已向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。邦塔上个月宣布，加州司法部已就“Hugging Face 事件”正式展开调查。随着 AI 行业面临更严格的审视，该事件受到持续关注…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/204.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-02",
+      "title": "OpenAI 上线“虚拟试穿”功能：ChatGPT 能帮你试衣，还能找“明星同款”",
+      "desc": "OpenAI 再次扩展 ChatGPT 的购物能力。公司宣布在全球推出两项新功能，一项是让用户虚拟试穿服装和配饰，另一项是新增收藏功能，方便用户先把看中的商品存起来，之后再查看。据IT之家了解，新功能基于不久前推出的 ChatGPT Images 2.5 模型…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/197.htm"
     },
     {
       "category": "智能应用",
-      "date": "10-01",
-      "title": "内存高价恐成常态：美光称人形机器人每台需 200GB 内存",
-      "desc": "科技媒体 Wccftech 今天（10 月 1 日）发布博文，报道称在 2026 财年（2025 年 9 月 5 日～2026 年 9 月 3 日）年报电话会议上，美光科技首席财务官指出人形机器人将成为内存需求新引擎：每台设备需超 200GB DRAM 及数 TB NAND 闪存…",
+      "date": "10-02",
+      "title": "马斯克：为推进 Optimus 机器人量产，特斯拉 AI5 芯片内存用量砍半",
+      "desc": "全球首富埃隆 · 马斯克今天（10 月 2 日）在 X 平台发布推文，宣布为了调配充足的内存满足 Optimus 机器人量产，计划削减特斯拉 AI5 和 AI6 芯片的内存用量。本次调整可以追溯到美光科技的预测，在其最新财报电话会议上…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/967.htm"
+      "link": "https://www.ithome.com/1/009/196.htm"
     },
     {
-      "category": "智能应用",
-      "date": "10-01",
-      "title": "美国加州《反机器人老板》法案生效，禁止完全依赖 AI 解雇或惩戒员工",
-      "desc": "IT之家 9 月 11 日消息，美国加利福尼亚州州长 Gavin Newsom（加文 · 纽森）当地时间昨日签署《2026 年反机器人老板法案》(SB 947)，对人工智能在人力资源领域的应用作出规制…",
+      "category": "巨头动态",
+      "date": "10-02",
+      "title": "流式转录 AI 新标杆：微软 MAI-Transcribe-2-Streaming 登场，2.5% 词错误率、0.13 秒延迟夺冠",
+      "desc": "微软昨日（10 月 1 日）发布公告，宣布推出其首个实时流式语音转写模型 MAI‑Transcribe‑2‑Streaming，可在讲话进行时持续输出文字，覆盖 60 种语言，并支持自动语言检测…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/965.htm"
+      "link": "https://www.ithome.com/1/009/183.htm"
     },
     {
-      "category": "行业数据",
-      "date": "10-01",
-      "title": "IT早报 1001：豆包支持出行服务；被罗永浩炮轰后东方甄选溜溜凳退款 2 倍不退货；凯越机车辟谣网传经销商跑路；金融新规实施贷款中介集体“消失”...",
-      "desc": "“IT早报”时间，大家好，现在是 2026 年 10 月 1 日星期四，今天的重要科技资讯有：1. 豆包宣布支持出行服务：覆盖订机票、火车票以及打车导航豆包新增机票、火车票预订及打车导航等服务，动动嘴就能搞定全程出行。豆包出行服务已合作航班管家、高铁管家、曹操出行、百度地图等头部服务商…",
+      "category": "巨头动态",
+      "date": "10-02",
+      "title": "因违反敏感信息访问和共享规定，OpenAI 与三名研究人员终止合作",
+      "desc": "根据《华尔街日报》报道，OpenAI 宣布与三名研究人员终止合作，原因是三人违反了敏感信息访问和共享规定。OpenAI 发言人在声明中说：“我们已与三名违反公司敏感信息访问和处理规定的人员解除关系…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/961.htm"
+      "link": "https://www.ithome.com/1/009/182.htm"
     },
     {
       "category": "巨头动态",
       "date": "10-01",
-      "title": "仅用 22 天：Meta Muse 超越 ChatGPT，成美国下载量破 500 万次最快 AI 应用",
-      "desc": "根据市场调查机构 Sensor Tower 公布数据，Meta 的 AI 助手 Muse 上线约三周，下载量突破 500 万次，成为美国 App Store 免费榜榜首，并连续 12 天保持榜首位置…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/959.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-01",
-      "title": "谷歌最前沿 AI 模型：Gemini 4 Argon 登场，长周期代码工程 DeepSWE 测试超 Claude Opus 5.5",
-      "desc": "谷歌昨日（9 月 30 日）发布 Gemini 4 Argon，称其为公司迄今最先进的 AI 模型，但目前并未面向公众全面开放。定位方面，Gemini 4 Argon 是谷歌当前“最先进”模型，重点是长流程软件工程、企业知识工作和网络安全防御…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/953.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "09-30",
-      "title": "Glow Security：AI 智能体无意间泄露企业敏感信息，超 1.3 万张截图被放在 GitHub 公开仓库",
-      "desc": "网络安全研究机构 Glow Security 近日发现，多个 AI 智能体创建的公开 GitHub 仓库存在超 1.3 万张屏幕截图，其中部分截图包含各种科技公司的敏感信息。IT之家从原报道获悉，这种泄密方式被称为“PixelLeak”…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/938.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-30",
-      "title": "OpenAI Dot 虚拟机配置曝光：AMD 霄龙 9V74 处理器 + 9.73GB 内存，Geekbench 7 多核 9435 分",
-      "desc": "OpenAI 今日凌晨在 DevDay 活动上发布了 Dot 智能体，而每个 Dot 运行在独立的云端虚拟机中。Dot 虚拟机现已出现在 Geekbench 基准测试平台中，显示其搭载了 AMD EPYC 9V74 服务器处理器，每个 Dot 虚拟机实例分配 9 个核心，单核得分 1667…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/936.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "09-30",
-      "title": "曝美国联邦贸易委员会对 Anthropic、OpenAI 及其他 AI 实验室加大调查力度",
-      "desc": "政府官员透露，美国联邦贸易委员会 FTC 正在加大对 Anthropic、OpenAI 及其他前沿人工智能实验室的全面调查力度，旨在彻查其技术可能对消费者造成的潜在风险。FTC 计划向这些科技巨头下达类似于传票的正式要求，强制其提交相关信息…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/008/924.htm"
+      "title": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "desc": "价格只有Astra一半",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/499663.html"
     }
   ]
 }
