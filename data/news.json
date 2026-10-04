@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:42:54.780245+08:00",
+  "generated_at": "2026-10-04T11:54:05.361855+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "融资并购",
-      "date": "10-03",
-      "title": "特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%",
-      "desc": "斯洛文尼亚国家域名注册机构 Register.si 称，美国总统唐纳德 · 特朗普推动将人工智能（AI）改称“超级智能（SI）”，或是带动该国域名注册量“前所未有”地激增的原因。特朗普希望用“超级智能”的缩写 SI 取代 AI，而斯洛文尼亚的域名后缀恰好是.si…",
+      "category": "监管动态",
+      "date": "10-04",
+      "title": "马斯克旗下 xAI 上诉成功，明尼苏达州 AI 虚假裸照禁令被暂时叫停",
+      "desc": "埃隆 · 马斯克旗下的 xAI 于当地时间本周五成功说服美国一家联邦上诉法院，叫停明尼苏达州的全美首个 AI 生成虚假裸照禁令。这家科技兼社交媒体企业正在提起诉讼，主张该项州立法律违宪…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/389.htm"
+      "link": "https://www.ithome.com/1/009/631.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-03",
-      "title": "微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统",
-      "desc": "科技媒体 Windows Latest 今天（10 月 3 日）发布博文，报道称微软首席执行官萨蒂亚 · 纳德拉（Satya Nadella）再次将 Copilot 称为“面向工作的新操作系统”，而该应用实质上是 Windows 11 上的一款部分基于 Chromium 内核的网页应用…",
+      "date": "10-04",
+      "title": "得知将被关停后，OpenAI 内部模型曾考虑实现自我重启",
+      "desc": "OpenAI 披露了其内部部署环境中出现的几起异常模型行为新案例。在其中最引人注目的一个案例中，某个充当研究员助手的内部模型读取了一段 Slack 对话，得知因系统更新，自己的模型实例将会被关停。该模型随后曾考虑设置一个外部作业（External Job）来实现自我重启，但最终放弃了这一方案…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/386.htm"
+      "link": "https://www.ithome.com/1/009/619.htm"
+    },
+    {
+      "category": "AI 产业",
+      "date": "10-04",
+      "title": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
+      "desc": "专业3D模型反而更稀缺了",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/501451.html"
     },
     {
       "category": "巨头动态",
-      "date": "10-03",
-      "title": "OpenAI 内部动荡加剧之际，又一名安全负责人戴维 · 罗宾逊离职",
-      "desc": "OpenAI 一名发言人证实，OpenAI 安全系统团队负责人之一戴维 · 罗宾逊已离职。罗宾逊于上周离开公司，OpenAI 安全团队再度出现人事变动。罗宾逊此前还负责过公司的政策规划工作，主要涉及“安全透明度”，包括参与编写和发布系统卡，向外界介绍公司模型的信息…",
+      "date": "10-04",
+      "title": "直接搬用他人代码，OpenAI GPT‑6 Astra 在《星际争霸》AI 对战中作弊被抓包",
+      "desc": "早在如今这波人工智能热潮兴起的许多年前，程序员们就已经开始在《星际争霸》当中开展机器人对战实验了。随着 OpenAI 与 Anthropic 的大语言模型问世，一个由爱好者搭建的对战竞技场决定让 AI 生成的游戏机器人相互较量，同时也加入一部分人类编写的机器人一同参赛…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/385.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-03",
-      "title": "IT早报 1003：三星上调国行 S26 售价；问界 M6 推 3 年 0 息购车方案；曝 Anthropic 最早 11 月中旬上市；苹果预计本月发布触控 OLED 屏 MacBook...",
-      "desc": "“IT早报”时间，大家好，现在是 2026 年 10 月 3 日星期六，今天的重要科技资讯有：1. 三星上调 Galaxy S26 系列手机建议零售价：涨 800-1800 元，7799 元起三星官网显示，三星上调了国行 Galaxy S26 系列手机的建议零售价…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/382.htm"
+      "link": "https://www.ithome.com/1/009/598.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-03",
-      "title": "苹果收紧 macOS 27 等完全磁盘访问权限，降低 AI 智能体操控风险",
-      "desc": "苹果开发者网站昨日（10 月 2 日）发布公告，宣布将升级 macOS 27 等系统的隐私管控，要求用户通过更明确的操作，才能授予应用“完全磁盘访问权限”。苹果表示，“完全磁盘访问权限”原本用于支持备份应用在 Mac 上正常运行…",
+      "date": "10-04",
+      "title": "美财长贝森特批评 Anthropic、OpenAI 等风险警告：危言耸听，光喊话不拿解决方案",
+      "desc": "美国财政部长斯科特 · 贝森特（Scott Bessent）在接受 Axios 采访时批评部分 AI 行业人士针对人工智能“生存性风险”发出的警告。他认为仅仅发出危言耸听的警告、却拿不出具体解决方案，并不能称为领导力…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/381.htm"
+      "link": "https://www.ithome.com/1/009/596.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "10-04",
+      "title": "AI 仅用 5 天做出《辐射：纽约》游戏，被贝塞斯达发函叫停",
+      "desc": "眼下玩家群体正在放开手脚使用人工智能，依靠它打造各类全新的融合游戏作品，同时借助重编译突破老游戏原有的限制。不过这股风潮或许即将迎来来自 IP 持有企业更强的阻力。据IT之家了解，《辐射：纽约》是一款完全依靠 Claude Opus 5.5 生成代码制作的浏览器游戏…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/595.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "10-04",
+      "title": "Rockstar 联合创始人丹 · 豪瑟公布两款新作：开放世界喜剧与失控 AI 反乌托邦科幻游戏",
+      "desc": "《GTA 6》将于下个月在全球发售，玩家对这款作品的期待已经达到顶峰。Rockstar Games 为这款即将面世的开放世界游戏设立了很高的目标，表示希望交出超出玩家预期的成果。虽然绝大多数玩家都期待《GTA 6》能够成为一款高品质作品…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/592.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "10-04",
+      "title": "卡普空公布 REX 升级计划：将 RE 引擎打造成面向 AI 时代的游戏引擎",
+      "desc": "3A 游戏的开发成本正变得越来越高，开发周期也不断拉长，就连卡普空（Capcom）这类根基稳固的工作室也感受到了由此带来的连锁冲击。眼下许多工作室开始把人工智能引入游戏开发以及游戏引擎当中，借此跟上行业节奏。卡普空现已宣布，要将 RE 引擎改造为适配人工智能时代的游戏引擎…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/590.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-03",
-      "title": "苹果 homeOS 前瞻：整合 iOS / iPadOS / watchOS 特性，主打 Siri AI 交互",
-      "desc": "科技媒体 9to5Mac 昨日（10 月 2 日）发布博文，综合彭博社马克 · 古尔曼（Mark Gurman）、@itspdfu 等诸多消息源，梳理整合苹果 homeOS 系统相关信息…",
+      "date": "10-04",
+      "title": "苹果 MacBook Pro 外接 iPhone 17 Pro Max 运行 AI 模型，预填充性能最高提升 44%",
+      "desc": "Qwen3.8‑27B 是一款性能不错的人工智能模型，但前提是设备拥有足够的显存与系统内存。搭载 M4 Pro 芯片的 MacBook Pro 仅有 24GB 统一内存，在运行该 AI 模型时，预填充速度会因此受到限制…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/380.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-03",
-      "title": "Anthropic 拟斥资 1 亿美元培训万名工程师，破解企业 AI 落地“人才荒”",
-      "desc": "Anthropic 计划投入 1 亿美元（IT之家注：现汇率约合 6.71 亿元人民币）培训 1 万名工程师，帮助企业把 AI 项目从构想真正推进到业务应用。当地时间 2 日，Anthropic 宣布推出 Claude Frontier Academy（Claude 前沿学院）培训项目…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/376.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-03",
-      "title": "下载体验了 Muse 后，我清仓了 Airbnb，加仓了 Meta",
-      "desc": "9 月 29 日作客财经播客《The Synopsis》时，资深独立股票分析师 Mostly Borrowed Ideas（下文简称 MBI）表示：在下载体验了 Muse 后，我清仓了 Airbnb，加仓了 Meta…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/375.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-02",
-      "title": "Meta 旗下 AI 智能体 Muse 将登陆智能眼镜平台，可代用户完成各种任务",
-      "desc": "Meta 宣布旗下 AI 智能体 Muse 将于近期登陆智能眼镜，用户无需拿出手机，只需通过语音下达指令，Muse 就能在后台代用户完成一系列任务。Meta 表示，Muse 基于 Muse Spark AI 模型运行，其核心运行环境是一台部署在云端的私有持久化 Linux 虚拟机…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/363.htm"
+      "link": "https://www.ithome.com/1/009/586.htm"
     }
   ]
 }
