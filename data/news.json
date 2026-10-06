@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:47:35.131016+08:00",
+  "generated_at": "2026-10-06T08:47:44.379011+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "融资并购",
-      "date": "10-05",
-      "title": "“机器人通用大脑”受追捧：FieldAI 拟融资 7 亿美元，估值达 100 亿美元",
-      "desc": "FieldAI 正在为人形机器人、无人机等各类机器人打造一款通用大脑。投资者正为重押这一发展愿景投入巨资。据《商业内幕》报道，一位了解本次交易的人士透露，这家机器人企业正在融资 7 亿美元（IT之家注：现汇率约合 46.97 亿元人民币）…",
+      "date": "10-06",
+      "title": "对标中国 AI 模型：英伟达投资的 Reflection AI 发布旗下首款开放权重模型 Beam",
+      "desc": "由英伟达投资的初创企业 Reflection AI 于当地时间周一推出了自家首款开放权重大模型 Beam。这家初创公司希望在代码编写与智能体任务领域，同 DeepSeek、Kimi 等中国 AI 模型展开竞争…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/746.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-05",
-      "title": "OpenAI GPT-6 Sol 被破解，30 万字系统提示词已泄露",
-      "desc": "大模型圈的核心机密，终究还是保不住了！继前阵子 Opus 5.5 被爆出 190 万字提示词泄露后，AI 圈的「地心引力」再次失效 ——OpenAI 的现役代码模型 GPT-6 Sol Codex 惨遭「开盒」，老底被扒得一干二净！据外网爆料者（@elder_plinius）放出的大瓜…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/745.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-05",
-      "title": "TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token，硅谷巨头火速跟进复刻",
-      "desc": "一款仅问世三周的人工智能模型 Jev 已经在硅谷圈子引发热议，人们开始探讨大语言模型之外的替代路线，同时这款模型也已经催生出不少跟风仿制产品。初创企业 TypeSafe AI 于当地时间 9 月 15 日发布了 Jev。该模型的运行方式不同于聊天机器人，它并不生成文本…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/744.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-05",
-      "title": "人人都能有自己的智能体设备：Meta 开源 Muse Gadgets，用 ESP32 和树莓派打造自定义 AI 硬件",
-      "desc": "Meta 于当地时间 10 月 2 日宣布推出开源项目 Muse Gadgets，允许开发者为旗下个人 AI 智能体 Muse 打造自定义硬件。Meta 同时也已经在 GitHub 上按照 Apache 2.0 许可发布了 ESP32 固件和 Linux 设备 SDK…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/743.htm"
-    },
-    {
-      "category": "算力硬件",
-      "date": "10-05",
-      "title": "IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...",
-      "desc": "“IT早报”时间，大家好，现在是 2026 年 10 月 5 日星期一，今天的重要科技资讯有：1. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”网传视频显示文保工人给大佛掏耳朵、掏鼻孔，还出现猴子抢安全帽等离谱画面…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/742.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-05",
-      "title": "英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元",
-      "desc": "美国上周逮捕了一名嫌疑人，此人被控走私含有受出口管制的英伟达芯片的高端计算机服务器进入中国。美国司法部于当地时间上周四发布新闻稿，指控 38 岁的格雷格 · 刘（Greg Lui）使用虚假文件掩盖一批货值超过 3 亿美元（IT之家注：现汇率约合 20.16 亿元人民币）的服务器货物…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/741.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "10-04",
-      "title": "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动",
-      "desc": "一家机器人格斗公司在旧金山举办了一场人机格斗赛后，收到了加州政府发来的停止侵权禁令。加州州立体育委员会（CSAC）要求该公司停止举办、宣传或赞助这类未经审批的格斗赛事，并称在未取得许可的情况下组织此类活动属于轻罪…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/736.htm"
+      "link": "https://www.ithome.com/1/009/932.htm"
     },
     {
       "category": "监管动态",
-      "date": "10-04",
-      "title": "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”",
-      "desc": "近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上…",
+      "date": "10-06",
+      "title": "麦当劳在美遭集体诉讼，被指用 AI 系统非法操纵菜单价格",
+      "desc": "麦当劳已在芝加哥联邦法院被提起诉讼，这是一起拟议的全国性集体诉讼。原告指控这家快餐企业借助一套人工智能定价系统，非法协调其特许经营店和直营餐厅的菜单价格。IT之家注意到，这起诉讼于当地时间上周五提交。诉状称，麦当劳与独立特许经营商合谋，利用基于非公开数据训练的算法操纵价格，此举违反了美国反垄断法…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/728.htm"
+      "link": "https://www.ithome.com/1/009/924.htm"
     },
     {
-      "category": "智能应用",
-      "date": "10-04",
-      "title": "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心",
-      "desc": "DeepSeek Harness 组成员崔添翼今日回应了“如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？”，他本人是这次 v0.2.1-alpha.1 版本中加入 Claude Code Mods 兼容层的作者…",
+      "category": "巨头动态",
+      "date": "10-06",
+      "title": "谷歌有望升级 Call for Me 功能：Gemini 将支持代用户拨打私人亲友电话",
+      "desc": "有多少通电话，仅仅因为要跟其他人沟通实在太过麻烦，你就一拖再拖？人工智能早已承诺，会帮我们把生活里大量费力不讨好的杂事实现自动化。对于一部分人来说，其中最有吸引力的设想或许就是由 AI 替我们打电话…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/701.htm"
+      "link": "https://www.ithome.com/1/009/921.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-06",
+      "title": "tvOS 27.2 代码显示苹果 Apple TV 4K（第四代）将支持 Siri AI 和 Apple Intelligence",
+      "desc": "科技媒体 MacRumors 昨日（10 月 5 日）发布博文，通过挖掘 tvOS 27.2 Beta 3 更新代码，发现新的线索，表明苹果 Apple TV 4K（第四代）将支持 Siri AI 与 Apple Intelligence…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/920.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-05",
+      "title": "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印",
+      "desc": "OpenAI 今日宣布，为配合《欧盟人工智能法案》的内容透明要求，未来几周将在欧盟地区符合条件的 ChatGPT 和 Codex 文本输出中加入机器可识别的隐形水印。据介绍，文本水印技术名为 textGrain（文本粒水印），会在模型选词过程中嵌入不可见的统计信号…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/903.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-05",
+      "title": "OpenAI 将在 ChatGPT 中推出全新图片广告形式，不会影响生成结果",
+      "desc": "OpenAI 今日宣布，将在 ChatGPT 中推出全新的图片广告形式，扩充广告效果衡量工具与合作生态，并研发新方案用于评估品牌适配性。IT之家从官方介绍获悉，ChatGPT 每周覆盖 12 亿用户，是全球规模最大的原生 AI 消费平台…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/009/901.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-05",
+      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
+      "desc": "有改进就体验，没改进就重置，横竖不亏。",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/501700.html"
+    },
+    {
+      "category": "算力硬件",
+      "date": "10-04",
+      "title": "AI算力硬合作，马斯克还是更相信中国制造",
+      "desc": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/501605.html"
+    },
+    {
+      "category": "AI 产业",
+      "date": "10-04",
+      "title": "最火AI岗位FDE：月薪5万，都干这些…",
+      "desc": "什么是FDE？它会一直存在吗？",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/501506.html"
     }
   ]
 }
