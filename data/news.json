@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:47:44.379011+08:00",
+  "generated_at": "2026-10-07T08:49:08.896871+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "融资并购",
-      "date": "10-06",
-      "title": "对标中国 AI 模型：英伟达投资的 Reflection AI 发布旗下首款开放权重模型 Beam",
-      "desc": "由英伟达投资的初创企业 Reflection AI 于当地时间周一推出了自家首款开放权重大模型 Beam。这家初创公司希望在代码编写与智能体任务领域，同 DeepSeek、Kimi 等中国 AI 模型展开竞争…",
+      "date": "10-07",
+      "title": "AI 颠覆担忧消退，美国软件股创 2026 年阶段新高",
+      "desc": "受盈利预期大幅上调的推动，美国软件类股票正创出 2026 年阶段新高；多位分析师据此认为，此前市场对于人工智能将颠覆整个软件行业的担忧很大程度上被夸大了。IT之家注意到，标普 500 软件与服务指数周二上涨 1.3%，创下自 2025 年 11 月以来的最高点位…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/932.htm"
+      "link": "https://www.ithome.com/1/010/141.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-07",
+      "title": "OpenAI 发布又一批 AI 数学研究成果，攻破数百个悬而未决难题",
+      "desc": "OpenAI 在一批包含 722 份手稿、涵盖 372 个结果家族的文件中，公布了某款未发布的前沿模型解决的多项长期存在的数学难题。IT之家注意到，这一举措延续了其一系列突破性成果，这些成果既给数学界部分人士留下了深刻印象，也引发了不安，同时还带来了关于研究伦理和学术行为的疑问…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/137.htm"
     },
     {
       "category": "监管动态",
-      "date": "10-06",
-      "title": "麦当劳在美遭集体诉讼，被指用 AI 系统非法操纵菜单价格",
-      "desc": "麦当劳已在芝加哥联邦法院被提起诉讼，这是一起拟议的全国性集体诉讼。原告指控这家快餐企业借助一套人工智能定价系统，非法协调其特许经营店和直营餐厅的菜单价格。IT之家注意到，这起诉讼于当地时间上周五提交。诉状称，麦当劳与独立特许经营商合谋，利用基于非公开数据训练的算法操纵价格，此举违反了美国反垄断法…",
+      "date": "10-07",
+      "title": "落实特朗普行政令，美国司法部要求员工改称 AI 为“超级智能”",
+      "desc": "路透社看到的一份备忘录显示，美国司法部于当地时间周二向内部工作人员下达指示：在绝大多数场合提及这项技术时（包括法庭相关文书当中），应当使用“超级智能”，而不再使用“人工智能”一词。代理副总检察长特伦特 · 麦科特（Trent McCotter）签发了这项指令…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/924.htm"
+      "link": "https://www.ithome.com/1/010/135.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-06",
-      "title": "谷歌有望升级 Call for Me 功能：Gemini 将支持代用户拨打私人亲友电话",
-      "desc": "有多少通电话，仅仅因为要跟其他人沟通实在太过麻烦，你就一拖再拖？人工智能早已承诺，会帮我们把生活里大量费力不讨好的杂事实现自动化。对于一部分人来说，其中最有吸引力的设想或许就是由 AI 替我们打电话…",
+      "date": "10-07",
+      "title": "消息称 SpaceX 计划募资 400 亿美元，用于采购英伟达 AI 芯片",
+      "desc": "埃隆 · 马斯克（Elon Musk）旗下的 SpaceX 正计划募资 400 亿美元（IT之家注：现汇率约合 2,685.79 亿元人民币）。本轮融资由阿波罗全球管理（Apollo Global Management）牵头，资金将用于采购英伟达芯片…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/921.htm"
+      "link": "https://www.ithome.com/1/010/134.htm"
+    },
+    {
+      "category": "产业合作",
+      "date": "10-07",
+      "title": "LibreOffice：短期内默认版本不内置 AI 功能，用户可通过扩展自行接入本地模型",
+      "desc": "如果你正在寻找一款不使用人工智能的文档编辑软件，LibreOffice 或许正是适合你的选择。开发这款开源文档编辑软件 LibreOffice 的非营利机构文档基金会（The Document Foundation），于本周在一篇博客文章中表示，该机构并非一味排斥人工智能，但在可预见的未来…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/132.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-06",
-      "title": "tvOS 27.2 代码显示苹果 Apple TV 4K（第四代）将支持 Siri AI 和 Apple Intelligence",
-      "desc": "科技媒体 MacRumors 昨日（10 月 5 日）发布博文，通过挖掘 tvOS 27.2 Beta 3 更新代码，发现新的线索，表明苹果 Apple TV 4K（第四代）将支持 Siri AI 与 Apple Intelligence…",
+      "date": "10-07",
+      "title": "已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型",
+      "desc": "Anthropic 正在扩大一项计划，允许经过审核的网络安全专业人员在更少安全防护的情况下测试其最强大的人工智能模型，此前该公司的“玻璃翼计划（Project Glasswing）”今年已帮助发现了超过 10 万个软件漏洞。据IT之家了解，玻璃翼计划旨在保障全球关键软件的安全…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/920.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-05",
-      "title": "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印",
-      "desc": "OpenAI 今日宣布，为配合《欧盟人工智能法案》的内容透明要求，未来几周将在欧盟地区符合条件的 ChatGPT 和 Codex 文本输出中加入机器可识别的隐形水印。据介绍，文本水印技术名为 textGrain（文本粒水印），会在模型选词过程中嵌入不可见的统计信号…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/903.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-05",
-      "title": "OpenAI 将在 ChatGPT 中推出全新图片广告形式，不会影响生成结果",
-      "desc": "OpenAI 今日宣布，将在 ChatGPT 中推出全新的图片广告形式，扩充广告效果衡量工具与合作生态，并研发新方案用于评估品牌适配性。IT之家从官方介绍获悉，ChatGPT 每周覆盖 12 亿用户，是全球规模最大的原生 AI 消费平台…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/009/901.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-05",
-      "title": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
-      "desc": "有改进就体验，没改进就重置，横竖不亏。",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/10/501700.html"
+      "link": "https://www.ithome.com/1/010/127.htm"
     },
     {
       "category": "算力硬件",
-      "date": "10-04",
-      "title": "AI算力硬合作，马斯克还是更相信中国制造",
-      "desc": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/10/501605.html"
+      "date": "10-06",
+      "title": "AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产",
+      "desc": "AMD 盘初涨近 3%，报 649.88 美元（IT之家注：现汇率约合 4,364 元人民币），创历史新高，市值达 1.06 万亿美元（现汇率约合 7.12 万亿元人民币）。开盘后 AMD 股价有所回落，目前涨超 2%，报 646.48 美元（现汇率约合 4,335 元人民币）…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/114.htm"
     },
     {
-      "category": "AI 产业",
-      "date": "10-04",
-      "title": "最火AI岗位FDE：月薪5万，都干这些…",
-      "desc": "什么是FDE？它会一直存在吗？",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/10/501506.html"
+      "category": "开发者研究",
+      "date": "10-06",
+      "title": "宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重",
+      "desc": "法国公司 Mistral AI 正式推出 Mistral Large 4 模型的公开预览版（Public Preview），简称 ML4，代号 le Chonk。即日起，用户可以在 Mistral Studio 上体验预览版 API，模型权重将于本月底正式开放下载…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/108.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "10-06",
+      "title": "Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品",
+      "desc": "法国人工智能初创企业 Mistral AI 首席执行官 Arthur Mensch 当地时间今日在阿拉伯联合酋长国首都阿布扎比举行的 Ai Everything 会议上表示，该企业将在本日发布新的人工智能模型…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/043.htm"
     }
   ]
 }
