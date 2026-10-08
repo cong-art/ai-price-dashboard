@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T08:49:08.896871+08:00",
+  "generated_at": "2026-10-08T08:48:52.869829+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "融资并购",
-      "date": "10-07",
-      "title": "AI 颠覆担忧消退，美国软件股创 2026 年阶段新高",
-      "desc": "受盈利预期大幅上调的推动，美国软件类股票正创出 2026 年阶段新高；多位分析师据此认为，此前市场对于人工智能将颠覆整个软件行业的担忧很大程度上被夸大了。IT之家注意到，标普 500 软件与服务指数周二上涨 1.3%，创下自 2025 年 11 月以来的最高点位…",
+      "date": "10-08",
+      "title": "New Constructs 给 Anthropic 估值 1500 亿美元，称其“2026 年最荒唐 IPO”",
+      "desc": "北京时间 10 月 8 日，据 CNBC 报道，就在 Anthropic 即将登陆纳斯达克、冲击 2 万亿美元（现汇率约合 13.42 万亿元人民币）估值之际，一家研究机构却仅给予了这家 AI 公司 1,500 亿美元（现汇率约合 1.01 万亿元人民币）的估值…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/141.htm"
+      "link": "https://www.ithome.com/1/010/360.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "10-08",
+      "title": "马斯克：Grok Bot 不再只认自家模型，按用户任务择优用 Claude 等最佳 AI",
+      "desc": "全球首富埃隆 · 马斯克（Elon Musk）昨日（10 月 7 日）在 X 平台发布重要说明，宣布旗下 Grok Bot 不再局限于 SpaceXAI 自研的 Grok 系列模型，将根据具体任务自动选择“最好的后端模型”…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/359.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-07",
-      "title": "OpenAI 发布又一批 AI 数学研究成果，攻破数百个悬而未决难题",
-      "desc": "OpenAI 在一批包含 722 份手稿、涵盖 372 个结果家族的文件中，公布了某款未发布的前沿模型解决的多项长期存在的数学难题。IT之家注意到，这一举措延续了其一系列突破性成果，这些成果既给数学界部分人士留下了深刻印象，也引发了不安，同时还带来了关于研究伦理和学术行为的疑问…",
+      "date": "10-08",
+      "title": "OpenAI 首份青少年报告：日均使用不足 15 分钟，安全提醒机制遭质疑",
+      "desc": "北京时间 10 月 8 日，OpenAI 周三发布了首份青少年使用情况报告，称青少年用户平均每天使用 ChatGPT 的时间不足 15 分钟，连续使用超过 3 小时的青少年用户占比不到 2%。与此同时，第三方机构的测试对其家长安全提醒机制提出了质疑…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/137.htm"
-    },
-    {
-      "category": "监管动态",
-      "date": "10-07",
-      "title": "落实特朗普行政令，美国司法部要求员工改称 AI 为“超级智能”",
-      "desc": "路透社看到的一份备忘录显示，美国司法部于当地时间周二向内部工作人员下达指示：在绝大多数场合提及这项技术时（包括法庭相关文书当中），应当使用“超级智能”，而不再使用“人工智能”一词。代理副总检察长特伦特 · 麦科特（Trent McCotter）签发了这项指令…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/135.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-07",
-      "title": "消息称 SpaceX 计划募资 400 亿美元，用于采购英伟达 AI 芯片",
-      "desc": "埃隆 · 马斯克（Elon Musk）旗下的 SpaceX 正计划募资 400 亿美元（IT之家注：现汇率约合 2,685.79 亿元人民币）。本轮融资由阿波罗全球管理（Apollo Global Management）牵头，资金将用于采购英伟达芯片…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/134.htm"
-    },
-    {
-      "category": "产业合作",
-      "date": "10-07",
-      "title": "LibreOffice：短期内默认版本不内置 AI 功能，用户可通过扩展自行接入本地模型",
-      "desc": "如果你正在寻找一款不使用人工智能的文档编辑软件，LibreOffice 或许正是适合你的选择。开发这款开源文档编辑软件 LibreOffice 的非营利机构文档基金会（The Document Foundation），于本周在一篇博客文章中表示，该机构并非一味排斥人工智能，但在可预见的未来…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/132.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-07",
-      "title": "已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型",
-      "desc": "Anthropic 正在扩大一项计划，允许经过审核的网络安全专业人员在更少安全防护的情况下测试其最强大的人工智能模型，此前该公司的“玻璃翼计划（Project Glasswing）”今年已帮助发现了超过 10 万个软件漏洞。据IT之家了解，玻璃翼计划旨在保障全球关键软件的安全…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/127.htm"
-    },
-    {
-      "category": "算力硬件",
-      "date": "10-06",
-      "title": "AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产",
-      "desc": "AMD 盘初涨近 3%，报 649.88 美元（IT之家注：现汇率约合 4,364 元人民币），创历史新高，市值达 1.06 万亿美元（现汇率约合 7.12 万亿元人民币）。开盘后 AMD 股价有所回落，目前涨超 2%，报 646.48 美元（现汇率约合 4,335 元人民币）…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/114.htm"
-    },
-    {
-      "category": "开发者研究",
-      "date": "10-06",
-      "title": "宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重",
-      "desc": "法国公司 Mistral AI 正式推出 Mistral Large 4 模型的公开预览版（Public Preview），简称 ML4，代号 le Chonk。即日起，用户可以在 Mistral Studio 上体验预览版 API，模型权重将于本月底正式开放下载…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/108.htm"
+      "link": "https://www.ithome.com/1/010/358.htm"
     },
     {
       "category": "融资并购",
-      "date": "10-06",
-      "title": "Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品",
-      "desc": "法国人工智能初创企业 Mistral AI 首席执行官 Arthur Mensch 当地时间今日在阿拉伯联合酋长国首都阿布扎比举行的 Ai Everything 会议上表示，该企业将在本日发布新的人工智能模型…",
+      "date": "10-08",
+      "title": "消息称博通拟为 OpenAI 定制 AI 芯片筹资超 500 亿美元，SpaceX 洽谈 400 亿美元融资",
+      "desc": "AI 基础设施建设的资金需求，正推动一系列大规模私人债务融资交易。据《华尔街日报》及彭博社今日报道，博通近几周来一直在为 OpenAI 的定制 AI 芯片安排超 500 亿美元（IT之家注：现汇率约合 3,355.97 亿元人民币）的融资，并已与阿波罗全球管理和黑石集团等私人信贷机构展开早期洽谈…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/043.htm"
+      "link": "https://www.ithome.com/1/010/352.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-08",
+      "title": "原 OpenAI 安全负责人戴维 · 罗宾逊“炮轰”老东家：对待 AI 安全说一套做一套",
+      "desc": "上周从 OpenAI 离职的安全系统团队前负责人之一戴维 · 罗宾逊认为，公司在 AI 安全问题上存在明显的言行不一。罗宾逊表示，OpenAI 一边反复警告新模型能力增强可能带来的风险，一边公开谈论放慢 AI 开发速度，公司内部却仍在全速推进…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/351.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-08",
+      "title": "微软重构 Copilot 图标：升级动态交互语言，可表达思考、规划与检索",
+      "desc": "微软设计（Microsoft Design）博客于 10 月 5 日发布博文，介绍了新版 Copilot 图标的设计过程，将原有静态标识重构为由两个方形组成的动态系统。新版 Copilot 图标由两个独立方形构成，二者可改变位置并共同形成完整轮廓…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/336.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-08",
+      "title": "Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%",
+      "desc": "Anthropic 昨日（10 月 7 日）发布博文，宣布推出 Claude Haiku 5.5 模型，称其为目前速度最快、最便宜、功能最强的 Haiku 系列小型模型。定价方面，IT之家援引博文介绍…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/333.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-08",
+      "title": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元",
+      "desc": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，微软宣布 GitHub Copilot 将在本月底前支持本地 AI 模型推理，开发者可在云端模型与设备端模型之间自动或手动切换…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/330.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-08",
+      "title": "10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗",
+      "desc": "微软 AI 首席执行官穆斯塔法 · 苏莱曼（Mustafa Suleyman）于 10 月 6 日在 X 平台发布推文，援引诺贝尔经济学奖得主达龙 · 阿西莫格鲁（Daron Acemoglu）的预测称，未来 10 年内仅有约 5% 的人类工作会被人工智能取代…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/329.htm"
     }
   ]
 }
