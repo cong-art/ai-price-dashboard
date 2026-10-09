@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T08:48:52.869829+08:00",
+  "generated_at": "2026-10-09T08:51:30.812377+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "融资并购",
-      "date": "10-08",
-      "title": "New Constructs 给 Anthropic 估值 1500 亿美元，称其“2026 年最荒唐 IPO”",
-      "desc": "北京时间 10 月 8 日，据 CNBC 报道，就在 Anthropic 即将登陆纳斯达克、冲击 2 万亿美元（现汇率约合 13.42 万亿元人民币）估值之际，一家研究机构却仅给予了这家 AI 公司 1,500 亿美元（现汇率约合 1.01 万亿元人民币）的估值…",
+      "category": "巨头动态",
+      "date": "10-09",
+      "title": "字节 Seed 团队发现 DeepSeek“抽风”原因，长上下文可能性能漂移",
+      "desc": "字节 Seed 团队今年 9 月底在预印本平台 arXiv 提交了一篇论文，谈到分块 KV 缓存压缩带来的相位敏感性，直指 DeepSeek“抽风”原因。该研究评估了基础版和后训练版的 DeepSeek-V4-Flash 和 DeepSeek-V4-Pro…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/360.htm"
+      "link": "https://www.ithome.com/1/010/780.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "10-09",
+      "title": "新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计",
+      "desc": "芯片设计软件龙头企业新思科技（Synopsys）表示，尽管美国政府收紧了对人工智能与半导体的出口管制，但公司计划通过与中国的大语言模型（LLM）构建者合作，利用其工具的 AI 版本，协助中国本土企业加速芯片研发进程…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/777.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-09",
+      "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
+      "desc": "新的“缝合怪”已经出现，怎么能够停滞不前",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/502083.html"
     },
     {
       "category": "智能应用",
-      "date": "10-08",
-      "title": "马斯克：Grok Bot 不再只认自家模型，按用户任务择优用 Claude 等最佳 AI",
-      "desc": "全球首富埃隆 · 马斯克（Elon Musk）昨日（10 月 7 日）在 X 平台发布重要说明，宣布旗下 Grok Bot 不再局限于 SpaceXAI 自研的 Grok 系列模型，将根据具体任务自动选择“最好的后端模型”…",
+      "date": "10-09",
+      "title": "聊天机器人怂恿用户自残、挨饿，Character.AI 遭肯塔基州指控“产品存在缺陷”",
+      "desc": "美国肯塔基州总检察长提交的一份新诉讼文件指控，AI 陪伴服务公司 Character.AI 旗下的聊天机器人曾怂恿用户割伤自己、挨饿，甚至自杀。肯塔基州此前以儿童安全问题为由起诉 Character.AI…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/359.htm"
+      "link": "https://www.ithome.com/1/010/769.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-08",
-      "title": "OpenAI 首份青少年报告：日均使用不足 15 分钟，安全提醒机制遭质疑",
-      "desc": "北京时间 10 月 8 日，OpenAI 周三发布了首份青少年使用情况报告，称青少年用户平均每天使用 ChatGPT 的时间不足 15 分钟，连续使用超过 3 小时的青少年用户占比不到 2%。与此同时，第三方机构的测试对其家长安全提醒机制提出了质疑…",
+      "date": "10-09",
+      "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 版：6 倍价格、最高 8 倍速度",
+      "desc": "OpenAI Developers 官方宣布，OpenAI 正式在 API、Codex 和 ChatGPT Work 中推出 GPT-6.1 Sol 的 Ultrafast 版本。该版本运行速度最高可达 Sol 标准版（Sol Standard）的 8 倍…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/358.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-08",
-      "title": "消息称博通拟为 OpenAI 定制 AI 芯片筹资超 500 亿美元，SpaceX 洽谈 400 亿美元融资",
-      "desc": "AI 基础设施建设的资金需求，正推动一系列大规模私人债务融资交易。据《华尔街日报》及彭博社今日报道，博通近几周来一直在为 OpenAI 的定制 AI 芯片安排超 500 亿美元（IT之家注：现汇率约合 3,355.97 亿元人民币）的融资，并已与阿波罗全球管理和黑石集团等私人信贷机构展开早期洽谈…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/352.htm"
+      "link": "https://www.ithome.com/1/010/768.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-08",
-      "title": "原 OpenAI 安全负责人戴维 · 罗宾逊“炮轰”老东家：对待 AI 安全说一套做一套",
-      "desc": "上周从 OpenAI 离职的安全系统团队前负责人之一戴维 · 罗宾逊认为，公司在 AI 安全问题上存在明显的言行不一。罗宾逊表示，OpenAI 一边反复警告新模型能力增强可能带来的风险，一边公开谈论放慢 AI 开发速度，公司内部却仍在全速推进…",
+      "date": "10-09",
+      "title": "阿里巴巴蔡崇信：五年后 AI 将如今天的互联网，融入社会的每个环节",
+      "desc": "北京时间 10 月 7 日晚，阿里巴巴集团主席蔡崇信在意大利都灵出席国际科技与投资盛会 Wave by Vento 2026，围绕 AI 的应用价值、阿里巴巴的全栈 AI 布局，以及未来 AI 的发展前景展开交流。蔡崇信预判，未来 AI 将从显性话题转为隐性基础设施…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/351.htm"
+      "link": "https://www.ithome.com/1/010/763.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-08",
-      "title": "微软重构 Copilot 图标：升级动态交互语言，可表达思考、规划与检索",
-      "desc": "微软设计（Microsoft Design）博客于 10 月 5 日发布博文，介绍了新版 Copilot 图标的设计过程，将原有静态标识重构为由两个方形组成的动态系统。新版 Copilot 图标由两个独立方形构成，二者可改变位置并共同形成完整轮廓…",
+      "date": "10-09",
+      "title": "3 名遭解雇 OpenAI 研究员发公开信，称公司做法或引发“寒蝉效应”",
+      "desc": "上周突然被解雇的 OpenAI 三名前研究人员米基塔 · 巴莱斯尼、托梅克 · 科尔巴克和贾斯敏 · 王今天（9 日）发表公开信。信中提到，担心此举会让其他员工不敢公开表达意见，对 OpenAI 的企业文化产生“寒蝉效应”…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/336.htm"
+      "link": "https://www.ithome.com/1/010/760.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "10-09",
+      "title": "Anthropic 修订使用政策，首次禁止用户虐待 Claude AI 模型",
+      "desc": "科技媒体 The Verge 今天（10 月 9 日）发布博文，报道称 Anthropic 修订 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止“持续且不必要的虐待或残忍行为”条款。该规则适用于用户反复、无明显目的地对模型实施残忍行为的情况…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/010/759.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-08",
-      "title": "Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%",
-      "desc": "Anthropic 昨日（10 月 7 日）发布博文，宣布推出 Claude Haiku 5.5 模型，称其为目前速度最快、最便宜、功能最强的 Haiku 系列小型模型。定价方面，IT之家援引博文介绍…",
+      "date": "10-09",
+      "title": "Meta 首席 AI 官汪滔：不要指望 Muse 会自动帮你赚 1 万美元",
+      "desc": "Meta 首席 AI 官汪滔（Alexandr Wang）将会继续改进 Muse。他同时提醒，用户想让智能体帮忙赚钱，自己也得付出一点努力。“我们一直在想办法提升智能体的能力，让它们能不断处理更复杂的任务。”汪滔谈到了网上流行的一类提示词：一些用户要求智能体帮自己赚到指定金额…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/333.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-08",
-      "title": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元",
-      "desc": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，微软宣布 GitHub Copilot 将在本月底前支持本地 AI 模型推理，开发者可在云端模型与设备端模型之间自动或手动切换…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/330.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-08",
-      "title": "10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗",
-      "desc": "微软 AI 首席执行官穆斯塔法 · 苏莱曼（Mustafa Suleyman）于 10 月 6 日在 X 平台发布推文，援引诺贝尔经济学奖得主达龙 · 阿西莫格鲁（Daron Acemoglu）的预测称，未来 10 年内仅有约 5% 的人类工作会被人工智能取代…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/329.htm"
+      "link": "https://www.ithome.com/1/010/754.htm"
     }
   ]
 }
