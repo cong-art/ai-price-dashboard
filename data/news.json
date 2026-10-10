@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T08:51:30.812377+08:00",
+  "generated_at": "2026-10-10T08:49:25.188106+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "10-09",
-      "title": "字节 Seed 团队发现 DeepSeek“抽风”原因，长上下文可能性能漂移",
-      "desc": "字节 Seed 团队今年 9 月底在预印本平台 arXiv 提交了一篇论文，谈到分块 KV 缓存压缩带来的相位敏感性，直指 DeepSeek“抽风”原因。该研究评估了基础版和后训练版的 DeepSeek-V4-Flash 和 DeepSeek-V4-Pro…",
+      "date": "10-10",
+      "title": "消息称 OpenAI、Anthropic 高管私下推演 AI 灾难情景，以应对公众反弹与政治抵制",
+      "desc": "Anthropic、OpenAI 以及其他人工智能公司的高管们，目前正私下闭门推演，若发生重大灾难性 AI 事件，该如何应对公众与政界的强烈抗议及抵制浪潮。这些业内高管预计，未来很可能发生一场大规模事件 —— 极有可能是某种网络攻击，导致金融服务、互联网通信甚至水电供应等基础设施大面积瘫痪…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/780.htm"
-    },
-    {
-      "category": "算力硬件",
-      "date": "10-09",
-      "title": "新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计",
-      "desc": "芯片设计软件龙头企业新思科技（Synopsys）表示，尽管美国政府收紧了对人工智能与半导体的出口管制，但公司计划通过与中国的大语言模型（LLM）构建者合作，利用其工具的 AI 版本，协助中国本土企业加速芯片研发进程…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/777.htm"
+      "link": "https://www.ithome.com/1/011/183.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-09",
-      "title": "不等Gemini 4了！谷歌发布办公Agent，支持调用Claude",
-      "desc": "新的“缝合怪”已经出现，怎么能够停滞不前",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/10/502083.html"
+      "date": "10-10",
+      "title": "特朗普政府实施新要求：AI 公司发生安全事件后，须立即上报",
+      "desc": "在人工智能公司 Anthropic 发生多起未经授权使用美国政府系统的安全事件后，特朗普政府宣布实施新的强制性 AI 安全事件报告要求。消息称，Anthropic 公司已于 9 月底向美国政府披露相关事件，并表示未经授权的活动已经停止…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/182.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "10-10",
+      "title": "2026 年披露的第 4 笔 AI 交易：苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立",
+      "desc": "科技媒体 9to5Mac 昨日（10 月 9 日）发布博文，报道称苹果与 AI 音频初创公司 Huxe 达成人才引进与技术许可协议，这是今年公开披露的第 4 笔苹果 AI 相关交易。根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件显示…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/181.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "10-10",
+      "title": "马斯克旗下 Grok Bot 新增专属邮箱，AI 助手开始拥有独立“联络点”",
+      "desc": "全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceXAI 公司发布公告，为 Grok Bot 推出专属邮箱功能。官方表示，该邮箱可用于注册服务、代用户联系商家，以及安排日程；功能正逐步开放，用户可直接向 Bot 提出认领请求，或在 X 上标记 @bot…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/177.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-10",
+      "title": "字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换",
+      "desc": "10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 TRAE，升级为全链路开发平台。官方表示，过去 TraeWork 更偏向办公、任务和内容生成，TraeCode 更专注专业开发者的编码需求…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/176.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "10-10",
+      "title": "决策模型 Jev 爆火，开发商 TypeSafe AI 估值已达 75 亿美元",
+      "desc": "初创公司 TypeSafe AI 旗下的新型 AI 决策模型 Jev 刚刚推出数周便迅速走红。近日，该公司完成了一轮约 8.7 亿美元（IT之家注：现汇率约合 58.42 亿元人民币）的融资，由安德里森 · 霍洛维兹（Andreessen Horowitz、a16z）领投…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/170.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-10",
+      "title": "微软推出 Microsoft-Decision-1 决策模型，基于 Qwen3.5-9B",
+      "desc": "微软宣布推出 Microsoft-Decision-1 决策模型。官方表示，该模型专为结构化决策任务打造，在响应延迟与决策质量上均具备顶尖性能，其实际表现全面超越大语言模型及其他传统决策模型。该模型现已上线 Microsoft Foundry，并同步接入 OpenRouter…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/166.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-10",
+      "title": "谷歌 Gemini 4“Argon”模型即将发布，消息称内部测试“Carbon”新版本",
+      "desc": "谷歌即将向公众正式发布新一代 Gemini 4“Argon”模型。与此同时，其内部员工已在测试性能更强的后续迭代版本，有望进一步缩小与竞品之间的技术差距。据该媒体获取的内部文档与截图显示，谷歌员工近期一直在测试代号为“Carbon”的全新 Gemini 4 版本…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/162.htm"
     },
     {
       "category": "智能应用",
       "date": "10-09",
-      "title": "聊天机器人怂恿用户自残、挨饿，Character.AI 遭肯塔基州指控“产品存在缺陷”",
-      "desc": "美国肯塔基州总检察长提交的一份新诉讼文件指控，AI 陪伴服务公司 Character.AI 旗下的聊天机器人曾怂恿用户割伤自己、挨饿，甚至自杀。肯塔基州此前以儿童安全问题为由起诉 Character.AI…",
+      "title": "46999 元起，极摩客 EVO-X5 Pro 迷你 AI 工作站发售",
+      "desc": "极摩客 (GMKtec) 现已正式开始销售 EVO-X5 Pro 桌面迷你 AI 工作站。EVO-X5 Pro 基于 AMD 锐龙 AI Max+ PRO 495 \"Gorgon Halo\" 处理器，支持本地运行 320B 大模型，预装 GMKtec Claw 智能体…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/769.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-09",
-      "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 版：6 倍价格、最高 8 倍速度",
-      "desc": "OpenAI Developers 官方宣布，OpenAI 正式在 API、Codex 和 ChatGPT Work 中推出 GPT-6.1 Sol 的 Ultrafast 版本。该版本运行速度最高可达 Sol 标准版（Sol Standard）的 8 倍…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/768.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-09",
-      "title": "阿里巴巴蔡崇信：五年后 AI 将如今天的互联网，融入社会的每个环节",
-      "desc": "北京时间 10 月 7 日晚，阿里巴巴集团主席蔡崇信在意大利都灵出席国际科技与投资盛会 Wave by Vento 2026，围绕 AI 的应用价值、阿里巴巴的全栈 AI 布局，以及未来 AI 的发展前景展开交流。蔡崇信预判，未来 AI 将从显性话题转为隐性基础设施…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/763.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-09",
-      "title": "3 名遭解雇 OpenAI 研究员发公开信，称公司做法或引发“寒蝉效应”",
-      "desc": "上周突然被解雇的 OpenAI 三名前研究人员米基塔 · 巴莱斯尼、托梅克 · 科尔巴克和贾斯敏 · 王今天（9 日）发表公开信。信中提到，担心此举会让其他员工不敢公开表达意见，对 OpenAI 的企业文化产生“寒蝉效应”…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/760.htm"
-    },
-    {
-      "category": "监管动态",
-      "date": "10-09",
-      "title": "Anthropic 修订使用政策，首次禁止用户虐待 Claude AI 模型",
-      "desc": "科技媒体 The Verge 今天（10 月 9 日）发布博文，报道称 Anthropic 修订 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止“持续且不必要的虐待或残忍行为”条款。该规则适用于用户反复、无明显目的地对模型实施残忍行为的情况…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/759.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-09",
-      "title": "Meta 首席 AI 官汪滔：不要指望 Muse 会自动帮你赚 1 万美元",
-      "desc": "Meta 首席 AI 官汪滔（Alexandr Wang）将会继续改进 Muse。他同时提醒，用户想让智能体帮忙赚钱，自己也得付出一点努力。“我们一直在想办法提升智能体的能力，让它们能不断处理更复杂的任务。”汪滔谈到了网上流行的一类提示词：一些用户要求智能体帮自己赚到指定金额…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/010/754.htm"
+      "link": "https://www.ithome.com/1/011/113.htm"
     }
   ]
 }
