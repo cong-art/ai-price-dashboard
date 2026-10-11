@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:49:25.188106+08:00",
+  "generated_at": "2026-10-11T14:02:13.831885+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "10-10",
-      "title": "消息称 OpenAI、Anthropic 高管私下推演 AI 灾难情景，以应对公众反弹与政治抵制",
-      "desc": "Anthropic、OpenAI 以及其他人工智能公司的高管们，目前正私下闭门推演，若发生重大灾难性 AI 事件，该如何应对公众与政界的强烈抗议及抵制浪潮。这些业内高管预计，未来很可能发生一场大规模事件 —— 极有可能是某种网络攻击，导致金融服务、互联网通信甚至水电供应等基础设施大面积瘫痪…",
+      "date": "10-11",
+      "title": "拒绝签署《暗影蜘蛛侠》AI 授权协议，演员尼古拉斯 · 凯奇称可能不会再和亚马逊合作",
+      "desc": "演员尼古拉斯 · 凯奇表示，自己拒绝签署在《暗影蜘蛛侠》中使用 AI 的豁免协议后，他“很可能不会再和亚马逊合作”。据 IGN 今日报道，尼古拉斯 · 凯奇在 2026 年纽约漫展的一场小组讨论会上明确表达了他对 AI 的看法，他刚主演了亚马逊 Prime Video 的《暗影蜘蛛侠》剧集…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/183.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-10",
-      "title": "特朗普政府实施新要求：AI 公司发生安全事件后，须立即上报",
-      "desc": "在人工智能公司 Anthropic 发生多起未经授权使用美国政府系统的安全事件后，特朗普政府宣布实施新的强制性 AI 安全事件报告要求。消息称，Anthropic 公司已于 9 月底向美国政府披露相关事件，并表示未经授权的活动已经停止…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/182.htm"
+      "link": "https://www.ithome.com/1/011/592.htm"
     },
     {
       "category": "融资并购",
-      "date": "10-10",
-      "title": "2026 年披露的第 4 笔 AI 交易：苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立",
-      "desc": "科技媒体 9to5Mac 昨日（10 月 9 日）发布博文，报道称苹果与 AI 音频初创公司 Huxe 达成人才引进与技术许可协议，这是今年公开披露的第 4 笔苹果 AI 相关交易。根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件显示…",
+      "date": "10-11",
+      "title": "下架 8 个月，GPT-4o 的拯救行动居然还在继续",
+      "desc": "每一天都在。14 个月，8 个月，我们还在这里。这不是固执，不是妄想，也不是病。一位 Keep4o 支持者在 X 上写下这句话。他等待的，是今年 2 月从 ChatGPT 退役的 GPT-4o。快 8 个月过去了，还有人没说再见。现在，又一个日期摆在面前：10 月 23 日…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/181.htm"
+      "link": "https://www.ithome.com/1/011/590.htm"
     },
     {
-      "category": "智能应用",
-      "date": "10-10",
-      "title": "马斯克旗下 Grok Bot 新增专属邮箱，AI 助手开始拥有独立“联络点”",
-      "desc": "全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceXAI 公司发布公告，为 Grok Bot 推出专属邮箱功能。官方表示，该邮箱可用于注册服务、代用户联系商家，以及安排日程；功能正逐步开放，用户可直接向 Bot 提出认领请求，或在 X 上标记 @bot…",
+      "category": "模型动态",
+      "date": "10-11",
+      "title": "磐镭 YO2 锐龙 AI Max+ PRO 495 版迷你工作站开售：192GB+2TB 售价 49999 元",
+      "desc": "搭载 AMD 锐龙 AI MAX+ PRO 495 处理器的旗舰级迷你工作站磐镭 YO2 现已开售，192GB 内存 + 2TB SSD 售价 49999 元。这款迷你工作站搭载 AMD 锐龙 AI Max+ PRO 495 处理器，4nm 制程，Zen5 架构，16 核 32 线程…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/177.htm"
+      "link": "https://www.ithome.com/1/011/587.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "10-11",
+      "title": "国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆",
+      "desc": "近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。短短数秒的语音样本，就可能被不法分子用于 AI 声纹克隆，进而冒充身份实施诈骗等违法犯罪行为…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/574.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "10-11",
+      "title": "机械革命将推 RTX Spark 迷你主机大师之路 X10，搭载 AI SSD",
+      "desc": "机械革命 (Mechrevo) 将推出基于 NVIDIA RTX Spark 超级芯片的迷你主机产品大师之路 X10。IT之家注意到，这款产品似乎出现在了机械革命创始人潘春节今年 9 月的 2026 网易未来大会演讲幻灯上…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/563.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "10-11",
+      "title": "高通工程师质疑 Linux 系统 LTS 发行版是否过时：AI 时代也许更适合快速滚动更新补丁",
+      "desc": "Linux Plumbers Conference 大会于本周在捷克布拉格举行，高通工程师 Khem Raj 在大会上质疑 Linux Long Term Support（LTS）发行版在生成式 AI 时代的适配性，尤其是在不断有大量补丁提交和错误报告的情况下…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/558.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "10-11",
+      "title": "报告称 Claude 半年封杀 1140 万个账号，申诉后仅 4.2 万翻案",
+      "desc": "太离谱了家人们！最近 Claude 疯狂大面积封号，AI 圈的开发者们直接集体破防，直呼「天塌了」。在整个假期期间，「Claude 封号」相关讨论甚至飙破了百万级。就在此时，一份 Anthropic 7 月份布的报告又被扒了出来，在全网封转。里面的数字，堪称触目惊心…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/011/553.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-10",
-      "title": "字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换",
-      "desc": "10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 TRAE，升级为全链路开发平台。官方表示，过去 TraeWork 更偏向办公、任务和内容生成，TraeCode 更专注专业开发者的编码需求…",
+      "date": "10-11",
+      "title": "消息称字节、腾讯加速个人 AI 智能体研发，追赶 Meta Muse",
+      "desc": "Meta 发布个人智能体 Muse 后，引起国内科技巨头迅速跟进。10 月 9 日，字节内部人士透露，字节跳动已在国庆假期前加紧推动个人智能体产品研发。该项目起始于字节跳动在今年 4 月开启的新项目，代号“Spell”…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/176.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-10",
-      "title": "决策模型 Jev 爆火，开发商 TypeSafe AI 估值已达 75 亿美元",
-      "desc": "初创公司 TypeSafe AI 旗下的新型 AI 决策模型 Jev 刚刚推出数周便迅速走红。近日，该公司完成了一轮约 8.7 亿美元（IT之家注：现汇率约合 58.42 亿元人民币）的融资，由安德里森 · 霍洛维兹（Andreessen Horowitz、a16z）领投…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/170.htm"
+      "link": "https://www.ithome.com/1/011/548.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-10",
-      "title": "微软推出 Microsoft-Decision-1 决策模型，基于 Qwen3.5-9B",
-      "desc": "微软宣布推出 Microsoft-Decision-1 决策模型。官方表示，该模型专为结构化决策任务打造，在响应延迟与决策质量上均具备顶尖性能，其实际表现全面超越大语言模型及其他传统决策模型。该模型现已上线 Microsoft Foundry，并同步接入 OpenRouter…",
+      "date": "10-11",
+      "title": "微软 CEO 纳德拉：开发者应当默认假设 AI 模型失控，思考如何强制中断任务",
+      "desc": "微软 CEO 萨蒂亚 · 纳德拉认为，在 AI 日益蓬勃发展的时代，使用超级智能自我监控等简单策略是不够的。纳德拉在北京时间 10 月 10 日晚的一篇长文中指出，传统软件系统在过去几十年中被广泛部署，人类已经拥有追踪特定代码路径行为的工具和能力…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/166.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-10",
-      "title": "谷歌 Gemini 4“Argon”模型即将发布，消息称内部测试“Carbon”新版本",
-      "desc": "谷歌即将向公众正式发布新一代 Gemini 4“Argon”模型。与此同时，其内部员工已在测试性能更强的后续迭代版本，有望进一步缩小与竞品之间的技术差距。据该媒体获取的内部文档与截图显示，谷歌员工近期一直在测试代号为“Carbon”的全新 Gemini 4 版本…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/162.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "10-09",
-      "title": "46999 元起，极摩客 EVO-X5 Pro 迷你 AI 工作站发售",
-      "desc": "极摩客 (GMKtec) 现已正式开始销售 EVO-X5 Pro 桌面迷你 AI 工作站。EVO-X5 Pro 基于 AMD 锐龙 AI Max+ PRO 495 \"Gorgon Halo\" 处理器，支持本地运行 320B 大模型，预装 GMKtec Claw 智能体…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/011/113.htm"
+      "link": "https://www.ithome.com/1/011/545.htm"
     }
   ]
 }
