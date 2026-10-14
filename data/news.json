@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:54:50.254954+08:00",
+  "generated_at": "2026-10-14T13:05:35.450874+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "智能应用",
-      "date": "10-13",
-      "title": "特斯拉自动驾驶出租车因学区超速遭 NHTSA 调查，涉及约 1000 台车辆",
-      "desc": "特斯拉在美国再度迎来一轮联邦监管审查，本次调查的缘由是指控其自动驾驶出租车在活跃学区路段超速。美国国家公路交通安全管理局（NHTSA）于当地时间 2026 年 10 月 9 日启动了一项缺陷请愿调查，涉及约 1000 台特斯拉车辆，包含 Model Y 与 Cybercab…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/369.htm"
-    },
-    {
       "category": "模型动态",
-      "date": "10-13",
-      "title": "导演徐克谈 AI：幻觉与真实交织，边界日益模糊",
-      "desc": "媒体 variety 昨日（10 月 12 日）发布博文，报道称在法国卢米埃尔电影节上，导演徐克表示，AI 正日益模糊现实与幻觉的边界。10 月 12 日在法国里昂卢米埃尔电影节期间，徐克出席大师班活动，谈及 AI 对现实感知的影响…",
+      "date": "10-14",
+      "title": "豆包工作上线数据导入与同步功能：支持从 ChatGPT 等一键导入对话与记忆",
+      "desc": "今日豆包工作宣布上线数据导入与同步功能，支持用户将已有对话、技能和记忆迁移至豆包工作继续使用。用户可一键导入任务偏好指令、技能、连接器、工作记忆、项目及历史会话，支持从 ChatGPT、Claude Code、Trae Work 等产品迁移…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/357.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "10-13",
-      "title": "惠普推出 EliteBoard G2a 键盘 PC，升级锐龙 AI PRO 400 处理器",
-      "desc": "HP（惠普）现已在其官网列出第二代键盘 PC 产品 EliteBoard G2a。新品处理器升级到 AMD \"Gorgon Point\"，可选锐龙 AI 7 PRO 450 / 锐龙 AI 5 PRO 435…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/349.htm"
-    },
-    {
-      "category": "产业合作",
-      "date": "10-13",
-      "title": "美国核反应堆开始陆续接入 AI",
-      "desc": "核能行业历来是非常谨慎且极力规避风险的行业，因为事故或失误可能带来灾难性后果，按照常理来说并不适合部署未知风险的新技术，然而现实却讲述了一个截然不同的故事。据 IEEE Spectrum 上周报道，多家公司已开始为核电提供 AI 解决方案…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/338.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-13",
-      "title": "消息称 Anthropic 即将谈妥其首座日本数据中心：500MW 规模，落地大阪",
-      "desc": "《日经亚洲》当地时间今日报道称，Anthropic 与 NTT DATA 之间有关前者首座在日数据中心项目的谈判已进入最后阶段。双方预计将在本财年内达成最终协议，最早 2028 年部分投运…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/333.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-13",
-      "title": "微软调整 Win10/Win11 新版 Outlook AI 功能，10 月全球停用 Copilot 主题",
-      "desc": "科技媒体 Windows Latest 今天（10 月 13 日）发布博文，报道称微软将于 2026 年 10 月中下旬在全球停用 Microsoft Outlook 中的 Copilot 主题功能，覆盖 macOS 和 Windows 新版 Outlook，以及网页版 Outlook.com…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/288.htm"
-    },
-    {
-      "category": "算力硬件",
-      "date": "10-13",
-      "title": "彭博行业研究分析 AI 数据中心成本：1GW 容量恐超 300 亿美元",
-      "desc": "Bloomberg Intelligence（彭博行业研究）近日发布了一份 AI 数据中心成本简报：综合 Cushman & Wakefield 提供的数据和其内部分析，在美国得克萨斯州阿比林市建设一座 1GW 数据中心的开销可达 307 亿美元（IT之家注：现汇率约合 2,058.69…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/275.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-13",
-      "title": "国内首家，字节 Seed 设立单独的大模型安全与对齐部门",
-      "desc": "字节跳动 Seed 近日发出内部邮件，宣布将成立“Seed Model-Alignment Preparedness”部门，由严林负责，汇报给 Seed 负责人吴永辉，原 Responsible AI 团队及部分 Chat 团队成员将转入新部门…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/270.htm"
+      "link": "https://www.ithome.com/1/012/807.htm"
     },
     {
       "category": "融资并购",
-      "date": "10-13",
-      "title": "华为哈勃投资参投，视塔机器人完成天使轮融资",
-      "desc": "深圳视塔机器人科技有限公司完成天使轮融资，投资方包括华为旗下哈勃投资、深高新投旗下基金及高轩投资等，多维资本担任独家财务顾问。本轮融资将用于产品研发迭代与商业化，拓展具身智能、消费电子和工业等多场景应用。视塔以柔性光子晶体材料为技术起点，聚焦触觉感知与机器人操作…",
+      "date": "10-14",
+      "title": "彭博社报告：云游戏与 AI 或将终结传统游戏主机",
+      "desc": "彭博社今天（14 日）发布的《深度分析：云游戏与 AI 或最终终结游戏主机》行业研究报告预测，到 2035 年，云游戏市场规模将达到 380 亿美元（IT之家注：现汇率约合 2,547.91 亿元人民币）。随着云游戏日益普及，传统游戏主机可能最终失去自身在大众消费市场的地位…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/012/265.htm"
+      "link": "https://www.ithome.com/1/012/783.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "10-14",
+      "title": "雷神 ZERO Air 15 双十一开启优惠：1.54kg 轻量机身搭载 RTX 5060，支持 160W 性能释放",
+      "desc": "双十一大促已经开启，笔记本市场也迎来集中优惠。对于不少用户来说，如今一台电脑的使用场景已经不再局限于单纯游戏，日常办公、内容创作、影音娱乐等需求也越来越常见。因此，在选择游戏本时，除了关注处理器和显卡性能，机身重量、屏幕体验以及移动便携性也成为不少消费者考虑的因素…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/012/769.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-14",
+      "title": "微软 Win11 26H2 首个累积更新：Copilot 键可改回右 Ctrl，上线 Emoji 17.0",
+      "desc": "在 10 月补丁星期二活动日（10 月 13 日），微软面向 Windows 11 24H2、25H2 以及 26H2 系统推送累积更新 KB5127648，对应系统版本号为 26100.9711、26200.9711、26300.9711，这也是 26H2 推送的首个累积更新…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/012/719.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "10-14",
+      "title": "9 月“AI 魔改”视频治理成果：清理违规视频近 1.3 万条、处置违规账号 30 余个",
+      "desc": "国家广播电视总局消息称，2026 年 1 月开展的“AI 魔改”视频专项治理工作已取得实效。部分重点网络视听平台近期公布了 9 月的处置情况，共清理违规视频近 13000 条、处置违规账号 30 余个。截至IT之家发稿，具体平台清理信息暂未公布…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/012/701.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "10-14",
+      "title": "消息称具身智能独角兽公司智元启动新一轮融资，估值约 500 亿元",
+      "desc": "具身智能独角兽公司智元创新近期启动了新一轮融资，融资额约 10 亿元 —15 亿元，本轮融资已接近收尾，最新估值约 500 亿元。报道提到，根据港交所的相关要求，上市申请公司如果在递表后、上市前完成新融资，除非获得特殊豁免，上市申请公司需要等到融资完成后满 120 日，才可挂牌交易…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/012/674.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "10-13",
+      "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+      "desc": "让VLA从“演示可用”逼近“产线可用”",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/503107.html"
+    },
+    {
+      "category": "智能应用",
+      "date": "10-13",
+      "title": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
+      "desc": "Winverse AI",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/503093.html"
+    },
+    {
+      "category": "智能应用",
+      "date": "10-13",
+      "title": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
+      "desc": "让材料感知压力，造出超薄高密度电子皮肤",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/502954.html"
     }
   ]
 }
