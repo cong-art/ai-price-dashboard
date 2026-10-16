@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:54:34.474432+08:00",
+  "generated_at": "2026-10-16T12:45:05.152087+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "10-15",
-      "title": "Anthropic 国际业务负责人普兰森：开放式 AI 模型比我们的模型风险更高",
-      "desc": "Anthropic 国际业务负责人、负责美国以外市场销售的纪尧姆 · 普兰森认为，与 Anthropic 自家的 AI 模型相比，开放式模型发生网络安全事件或造成其他危害的风险更高。普兰森在都柏林国际人工智能峰会期间接受采访时表示：“对开源模型的安全问题，我们必须格外小心…",
+      "date": "10-16",
+      "title": "腾讯 WorkBuddy 和 CodeBuddy 宣布 DeepSeek 服务故障用户 7 天内积分全额返还，额外送 500 积分",
+      "desc": "DeepSeek 网页 / API 服务 10 月 15 日早间出现服务问题，经过近 5 个小时的修复恢复正常。对此，DeepSeek 官方开放平台宣布补偿所有 API 用户 7 天内的消耗金额…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/337.htm"
+      "link": "https://www.ithome.com/1/013/848.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "10-16",
+      "title": "本季度上市：比亚迪第三代唐将首搭全新巨幕 UI 交互系统，还有 AI 萌宠桌面",
+      "desc": "今天（16 日）上午，比亚迪王朝网销售事业部总经理路天在微博发文预告第三代唐将首发搭载的全新巨幕 UI 交互系统。根据介绍，该车将拥有“非常有生命感”的 AI 萌宠桌面，官方命名为“小面包”，会看、会听、会迎宾、会撒娇、能卖萌，有呼必应…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/013/844.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-15",
-      "title": "OpenAI 伦敦分部去年人均薪酬超 230 万英镑，堪比英超球星",
-      "desc": "OpenAI 伦敦分部员工去年人均薪酬达到 231.8181 万英镑（IT之家注：现汇率约合 2,053.9 万元人民币）。这家 ChatGPT 开发商投入堪比英超球星级别的薪资，全力争夺全球 AI 竞赛的主导地位。OpenAI 英国有限公司注册于威斯敏斯特，新总部落地伦敦国王十字区…",
+      "date": "10-16",
+      "title": "微软完成 SOTA 基模 MAI-Base-2 预训练，性能强于所有参测开源权重模型",
+      "desc": "Microsoft（微软）当地时间昨日宣布，其已经完成了新一代 SOTA 基础模型 MAI-Base-2 的预训练工作。这一模型在性能方面强于所有参测开源权重模型。MAI-Base-2 总参数规模达 2.8T，活跃参数规模 80B…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/331.htm"
+      "link": "https://www.ithome.com/1/013/835.htm"
     },
     {
       "category": "智能应用",
-      "date": "10-15",
-      "title": "瑞典一综艺节目整季制作文件疑被 AI 智能体删除，团队只能从头重剪",
-      "desc": "随着 Claude、Muse 等 AI 智能体日益普及，AI 失控当今已不算什么新鲜事，出了问题就把责任推给 AI 似乎更成了一种风气。瑞典真人竞技节目《The Challenge Sverige》最近也卷入了一场这样的风波…",
+      "date": "10-16",
+      "title": "魅族 Flyme 12.7 超级 Aicy 个人事务 AI 智能体开放首批内测名额，今日 14:00 开始招募",
+      "desc": "FlymeAIOS 今日宣布，个人事务 AI 智能体超级 Aicy 开放首批内测名额，10 月 16 日 14:00 起开始招募，10 月 19 日起系统陆续推送更新。官方表示，个人事务 AI 智能体 Aicy 看得懂（视觉）、聊得顺（交互）、想得深（大模型）、接得住（海量互联网服务）…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/288.htm"
+      "link": "https://www.ithome.com/1/013/811.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-15",
-      "title": "算力不够：苹果确认初代 HomePod mini 无缘全新 Siri AI",
-      "desc": "科技媒体 CNET 昨日（10 月 14 日）发布博文，报道称受限于硬件配置，苹果公司已确认初代 HomePod mini 智能音箱无缘 Siri AI，继任产品 HomePod mini 2 可支持 Siri AI…",
+      "date": "10-16",
+      "title": "英伟达黄仁勋公开反驳 OpenAI 奥尔特曼观点：对 AI 网络安全必须“零容忍”",
+      "desc": "《财富》于 10 月 14 日发布博文，报道称英伟达首席执行官黄仁勋公开表示，人工智能（AI）行业不应容忍任何由 AI 引发的网络安全事件。该观点和 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）观点形成鲜明分歧…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/285.htm"
+      "link": "https://www.ithome.com/1/013/808.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "10-16",
+      "title": "TypeSafe AI 发布 Jev 1.14 决策模型仅一天， Liquid AI 便以 d1-ultra 全面超车",
+      "desc": "Jev 决策模型开发方 TypeSafe AI 在太平洋时间 10 月 14 日下午 1:14 发布了 Jev 决策模型的 1.14 预览版本。TypeSafe AI 表示 Jev 1.14 是一个全新且改进的模型，支持图像输入、更长的上下文，拥有新的 \"box\" 类型…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/013/794.htm"
+    },
+    {
+      "category": "监管动态",
+      "date": "10-16",
+      "title": "美国推动全球“AI”改口“SI”，谋求写入国际货币基金组织声明",
+      "desc": "路透社昨日（10 月 15 日）发布博文，报道称美国正力推国际社会以“超级智能”（Super Intelligence，简称 SI）取代“人工智能”（AI）这一通用称呼，并希望将新术语写入国际货币与金融委员会（IMFC）的共识声明中…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/013/788.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-15",
-      "title": "消息称字节跳动洽谈采购联发科 AI 芯片用于数据中心，或成其 ASIC 业务第二大客户",
-      "desc": "字节跳动即将达成协议，采购联发科的数据中心芯片。这笔交易既能为字节跳动拿到关键算力元器件，也能帮助联发科与高通展开竞争。知情人士透露，字节跳动正与联发科深入洽谈定制芯片供货事宜，这批芯片将用于支撑字节跳动数据中心运行。联发科将提供数量待定的专用集成电路（ASIC），也就是为客户平台量身定制的芯片…",
+      "date": "10-16",
+      "title": "在 OpenAI 擅长的领域打败 OpenAI：微软称自研模型仅凭对方 1/4 算力就超越同类产品",
+      "desc": "微软 AI 业务 CEO 穆斯塔法 · 苏莱曼在员工大会上称，微软自研的一款 AI 模型性能超过 OpenAI 的同类产品，而且训练成本有望更低。“我们的预训练基础模型性能超过了目前驱动 GPT-5.6 Sol 的模型，训练时使用的算力实际上只有 OpenAI 的四分之一…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/279.htm"
-    },
-    {
-      "category": "开发者研究",
-      "date": "10-15",
-      "title": "中国科学家首次用中国大模型攻克世界级数学难题，曾困扰学界 30 余年",
-      "desc": "上海人工智能实验室今日发文，困扰数学界 30 余年的世界级难题 —— 三维 Ghys 猜想迎来了破解。上海人工智能实验室访问学者、大湾区大学教授许地生团队依托书生科学多模态大模型 S2（书生-S2），基于“通专融合”技术路径，通过人机协同完成了三维 Ghys 猜想证明…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/269.htm"
+      "link": "https://www.ithome.com/1/013/761.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-15",
-      "title": "阶跃 Step 5 Preview 大模型权重开放，支持 100 万 token 上下文窗口",
-      "desc": "阶跃今天正式释放 Step5Preview 权重。本次开放：BF16 与 FP8 模型权重、技术博客、配套开源开发工具。据官方介绍，Step 5 Preview 面向长程 Agent 任务而设计，采用稀疏 MoE 架构，总参数量 600B、每 token 激活参数仅 27B…",
+      "date": "10-16",
+      "title": "修复“假满载”：OpenAI 优化系统 / 增加算力，减少“AI 容量上限”报错",
+      "desc": "OpenAI 的 Codex / ChatGPT 负责人 @thsottiaux 昨日（10 月 15 日）在 X 平台发布推文，表示团队已上线一系列改动，并投入了更多算力，修复“所选模型已达容量上限，请尝试其他模型”报错…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/268.htm"
-    },
-    {
-      "category": "算力硬件",
-      "date": "10-15",
-      "title": "华硕发布 ExpertBook A7 (14\" AMD) 商务轻薄本：锐龙 AI 300 + OLED",
-      "desc": "华硕 (ASUS) 昨日宣布推出 ExpertBook A7 (14\" AMD) 商务轻薄笔记本电脑，型号为 AM7406CKA。这两款产品拥有铝合金一体成型机身，内置 65Whr 电池，厚度 10.0~11.85mm，起始质量 1.2kg…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/264.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-15",
-      "title": "苹果 AI 国内供应商浮出水面：阿里、百度，消息称 12 月 iOS 27.3 上线",
-      "desc": "苹果 Apple Intelligence（苹果智能）在中国大陆的上线有望进入最后阶段。据彭博社今日报道，苹果计划于今年 12 月通过 iOS 27.3 系统更新正式推出苹果智能，首批上线的是两年前已在美国发布的 AI 功能，覆盖 iPhone、iPad 和 Mac…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/013/257.htm"
+      "link": "https://www.ithome.com/1/013/753.htm"
     }
   ]
 }
