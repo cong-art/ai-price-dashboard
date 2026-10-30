@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:03:51.696336+08:00",
+  "generated_at": "2026-10-30T14:05:03.619257+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -9,75 +9,75 @@
   "news": [
     {
       "category": "巨头动态",
-      "date": "10-29",
-      "title": "腾讯与 Visa 宣布战略合作，包含跨境支付、企业级 AI、智能体支付等领域",
-      "desc": "腾讯与 Visa 今日宣布已签署合作备忘录，将探索更广泛的合作，升级腾讯生态的全球支付和商务体验。在服务来华国际访客的既有合作基础上，腾讯与 Visa 将通过腾讯旗下跨境支付平台 TenPay Global 及 Visa Pay，进一步提升出入境旅客的跨境支付体验…",
+      "date": "10-30",
+      "title": "告别知识截止日：谷歌让 AI 学会“睡觉”，边用边学还不忘旧知识",
+      "desc": "谷歌研究团队于 10 月 27 日发布博文，介绍一项名为“睡眠框架”（Sleep Framework）的持续学习研究成果，试图解决大语言模型发布后知识固化、难以吸收新信息的难题。该研究已于 10 月 27 日由 Google Research 公开…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/425.htm"
+      "link": "https://www.ithome.com/1/020/044.htm"
     },
     {
-      "category": "智能应用",
-      "date": "10-29",
-      "title": "韩国政府将投入 5 万亿韩元，支持中小企业普及物理 AI",
-      "desc": "韩国政府计划到 2030 年投入至少 5 万亿韩元（IT之家注：现汇率约合 251.45 亿元人民币），推动中小制造企业引入物理 AI，并通过数字化、人工智能和机器人三项转型相结合的“3X 战略”，将中小制造企业的 AI 应用率从 1% 提高至 10%…",
+      "category": "监管动态",
+      "date": "10-30",
+      "title": "美媒曝五角大楼安全事故：被禁用的 AI，在美军网络里运行了两个月",
+      "desc": "北京时间 10 月 30 日，据美国《连线》杂志报道，埃森哲一名承包商员工被指将个人 Claude Code 账号接入美国国防部的安全系统，让 AI 智能体代为编写和部署代码。知情人士称，该智能体在国防部网络中运行了两个月才被发现…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/421.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "10-29",
-      "title": "全国首个华为昇腾 950DT 超节点集群在武汉上线，全面支撑万亿参数大模型训练与智能体推理",
-      "desc": "以“数智荆楚、跃升有为”为主题的华为中国行 2026· 湖北省人工智能创新发展大会昨日（28 日）在武汉举办。会上，由湖北科投投资建设的昇腾 950 千卡超节点智算集群正式点亮，全国首个昇腾 950DT 1024 卡智算集群在武汉上线…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/419.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "10-29",
-      "title": "三星：新版睡眠呼吸暂停检测算法下月率先向韩版 Galaxy Watch 9/Ultra2 手表及 Galaxy Ring 智能戒指推送",
-      "desc": "三星宣布旗下 Galaxy 设备新版睡眠呼吸暂停检测算法已获得韩国食品医药品安全处（MFDS）批准，新版算法相较原版不仅能够检测中重度睡眠呼吸暂停的相关迹象，还可借助 AI 统计用户睡眠期间每小时出现的呼吸中断次数，并根据发生频率划分为轻度、偶发和频繁三个等级…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/413.htm"
+      "link": "https://www.ithome.com/1/020/039.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-29",
-      "title": "腾讯推出跨应用 AI 协同体系 Buddy One：打通腾讯多款办公产品，共享 WorkBuddy Agent 底座",
-      "desc": "在今日举行的腾讯全球数字生态大会上，腾讯正式官宣发布面向个人用户的跨应用 AI 协同体系 —— Buddy One。IT之家获悉，该体系打通腾讯文档、腾讯会议、腾讯网盘、ima 等办公协同产品，共享 WorkBuddy Agent 底座，并统一账号和积分池…",
+      "date": "10-30",
+      "title": "Meta 悄悄推出穿搭应用 Style Sketch：AI 帮你搭衣服，还能虚拟试穿",
+      "desc": "Meta 悄悄推出了 AI 穿搭应用 Style Sketch，用户可以借助这款软件，利用自己已有的衣物搭配出穿搭方案。这款应用可以关联 Instagram，根据用户发布过的照片生成虚拟衣橱；用户也可以手动添加衣物，方式包括现场拍照、录制短视频或者上传相册里的图片…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/412.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "10-29",
-      "title": "巴慕达推出 AI 个性化电台“Good Morning Radio”，可根据用户生活习惯与兴趣生成 10 分钟每日播客",
-      "desc": "巴慕达（BALMUDA）宣布推出 AI 个性化电台服务 BALMUDA Good Morning Radio，计划于 2026 年 11 月 2 日起面向旗下 The Clock 时钟用户开放 Beta 测试版…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/368.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-29",
-      "title": "韩芯片创企 FuriosaAI 挑战英伟达：新一轮融资后估值翻两番至 29 亿美元",
-      "desc": "韩国 AI 芯片初创公司 FuriosaAI 完成新一轮融资，估值增至 29 亿美元（IT之家注：现汇率约合 193.74 亿元人民币），接近此前的 4 倍，为挑战英伟达等行业巨头增添了筹码…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/329.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-29",
-      "title": "首次引入视觉理解，腾讯混元 Hy4 、Hy4 flash AI 模型即将发布",
-      "desc": "腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生现场宣布，Hy4 即将发布。据介绍，相比 Hy4 preview，Hy4 实现了全面大幅提升，尤其强化了各类长程和真实生产力任务的能力，显著提升了思维链效率，并首次引入了视觉理解…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/328.htm"
+      "link": "https://www.ithome.com/1/020/029.htm"
     },
     {
       "category": "开发者研究",
-      "date": "10-29",
-      "title": "Valve 回应“Steam 平台低质量 AI 游戏泛滥”：正持续优化作品推荐机制",
-      "desc": "Valve 商务团队于 10 月 27 日在韩国 BIC Festival 2026 举办的开发者活动“Steam Indie Connect”上，回应了近期 Steam 平台低质量 AI 生成游戏（AI Slop）、仿冒作品泛滥，以及独立游戏难以获得曝光等问题…",
+      "date": "10-30",
+      "title": "新研究称 AI 模型使用成本受不同语种影响，Token 消耗量最高可相差 17 倍",
+      "desc": "使用人数较少的语言的用户，使用 AI 服务时，可能需要支付比英语及其他主流语言用户更高的费用。当地时间 28 日，据外媒 Rest of World 报道，人工智能语言公平研究联盟上月发布的一项研究发现，AI 模型处理不同语言时，消耗的 Token（词元）数量可能相差悬殊…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/309.htm"
+      "link": "https://www.ithome.com/1/020/026.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "10-30",
+      "title": "Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫",
+      "desc": "Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。Reddit 正在筹划一项影响深远的调整，这可能会从根本上改变数百万用户访问这个平台的方式…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/019/988.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "10-30",
+      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
+      "desc": "让机器人成为彼此的“老师”",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/506662.html"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-30",
+      "title": "苹果 CarPlay 现接入 Claude，用户开车也能语音问 AI",
+      "desc": "Anthropic 官方 @claudeai 账号昨日（10 月 29 日）在 X 平台发布系列推文，宣布升级其移动应用，覆盖 iPhone、iPad、Android、Chromebook 及网页与桌面端…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/019/966.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-30",
+      "title": "推出不到两年，谷歌 AI 编程助手 Jules 将逐步停止服务",
+      "desc": "谷歌正在逐步停用其人工智能编程助手 Jules。该公司于 2024 年 12 月推出了 Jules，将其定位为一款能完成“你不想做的”编程工作的工具。但如今，Jules 即将停止服务。谷歌表示，该公司会将从该工具中获得的经验应用到人工智能编码平台 Antigravity 中…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/019/963.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "10-30",
+      "title": "马斯克旗下脑机公司 Neuralink 新突破：渐冻症患者植入首周实现每分钟 75 词输出，接近正常对话",
+      "desc": "全球首富埃隆 · 马斯克旗下脑机接口公司 Neuralink 于 10 月 28 日发布博文，公开语音恢复项目 VOICE 的早期可行性研究，让肌萎缩侧索硬化症（ALS，俗称“渐冻症”）参与者以接近对话的速度，将大脑信号转换为文字和语音输出…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/019/960.htm"
     }
   ]
 }
