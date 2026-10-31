@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:05:03.619257+08:00",
+  "generated_at": "2026-10-31T13:58:48.718137+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "巨头动态",
-      "date": "10-30",
-      "title": "告别知识截止日：谷歌让 AI 学会“睡觉”，边用边学还不忘旧知识",
-      "desc": "谷歌研究团队于 10 月 27 日发布博文，介绍一项名为“睡眠框架”（Sleep Framework）的持续学习研究成果，试图解决大语言模型发布后知识固化、难以吸收新信息的难题。该研究已于 10 月 27 日由 Google Research 公开…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/044.htm"
-    },
-    {
-      "category": "监管动态",
-      "date": "10-30",
-      "title": "美媒曝五角大楼安全事故：被禁用的 AI，在美军网络里运行了两个月",
-      "desc": "北京时间 10 月 30 日，据美国《连线》杂志报道，埃森哲一名承包商员工被指将个人 Claude Code 账号接入美国国防部的安全系统，让 AI 智能体代为编写和部署代码。知情人士称，该智能体在国防部网络中运行了两个月才被发现…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/039.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-30",
-      "title": "Meta 悄悄推出穿搭应用 Style Sketch：AI 帮你搭衣服，还能虚拟试穿",
-      "desc": "Meta 悄悄推出了 AI 穿搭应用 Style Sketch，用户可以借助这款软件，利用自己已有的衣物搭配出穿搭方案。这款应用可以关联 Instagram，根据用户发布过的照片生成虚拟衣橱；用户也可以手动添加衣物，方式包括现场拍照、录制短视频或者上传相册里的图片…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/029.htm"
-    },
-    {
       "category": "开发者研究",
-      "date": "10-30",
-      "title": "新研究称 AI 模型使用成本受不同语种影响，Token 消耗量最高可相差 17 倍",
-      "desc": "使用人数较少的语言的用户，使用 AI 服务时，可能需要支付比英语及其他主流语言用户更高的费用。当地时间 28 日，据外媒 Rest of World 报道，人工智能语言公平研究联盟上月发布的一项研究发现，AI 模型处理不同语言时，消耗的 Token（词元）数量可能相差悬殊…",
+      "date": "10-31",
+      "title": "11 小时影响约 5000 开发者：AI 编程工具 Cursor 官方商城出现恶意 Claude Code 插件",
+      "desc": "科技媒体 bleepingcomputer 昨日（10 月 30 日）发布博文，报道称 AI 编程工具 Cursor 的插件商城于 10 月 29 日上线被篡改的 Anthropic Claude Code 扩展，持续约 11 小时，影响全球约 5,000 名开发者…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/026.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "10-30",
-      "title": "Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫",
-      "desc": "Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。Reddit 正在筹划一项影响深远的调整，这可能会从根本上改变数百万用户访问这个平台的方式…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/988.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "10-30",
-      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
-      "desc": "让机器人成为彼此的“老师”",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/10/506662.html"
+      "link": "https://www.ithome.com/1/020/466.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-30",
-      "title": "苹果 CarPlay 现接入 Claude，用户开车也能语音问 AI",
-      "desc": "Anthropic 官方 @claudeai 账号昨日（10 月 29 日）在 X 平台发布系列推文，宣布升级其移动应用，覆盖 iPhone、iPad、Android、Chromebook 及网页与桌面端…",
+      "date": "10-31",
+      "title": "腾讯地图公布 Agent 能力全景图，元宝、微信小微、OPPO 小布助手等已接入",
+      "desc": "10 月 30 日，2026 腾讯全球数字生态大会在深圳举行。在腾讯地图产业应用专场上，腾讯正式对外公布 Agent 能力全景图，面向产业客户、智能硬件及开发者全面开放地图 Agent 能力…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/966.htm"
+      "link": "https://www.ithome.com/1/020/457.htm"
     },
     {
       "category": "巨头动态",
-      "date": "10-30",
-      "title": "推出不到两年，谷歌 AI 编程助手 Jules 将逐步停止服务",
-      "desc": "谷歌正在逐步停用其人工智能编程助手 Jules。该公司于 2024 年 12 月推出了 Jules，将其定位为一款能完成“你不想做的”编程工作的工具。但如今，Jules 即将停止服务。谷歌表示，该公司会将从该工具中获得的经验应用到人工智能编码平台 Antigravity 中…",
+      "date": "10-31",
+      "title": "苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体",
+      "desc": "苹果中国区官网今日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。苹果今日宣布首批 Apple 智能功能即将在中国推出，并与阿里巴巴达成合作，在部分体验中接入千问。这是 Apple 智能自 2024 年发布以来，国行版本首次获得实质性落地进展…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/963.htm"
+      "link": "https://www.ithome.com/1/020/456.htm"
     },
     {
-      "category": "开发者研究",
-      "date": "10-30",
-      "title": "马斯克旗下脑机公司 Neuralink 新突破：渐冻症患者植入首周实现每分钟 75 词输出，接近正常对话",
-      "desc": "全球首富埃隆 · 马斯克旗下脑机接口公司 Neuralink 于 10 月 28 日发布博文，公开语音恢复项目 VOICE 的早期可行性研究，让肌萎缩侧索硬化症（ALS，俗称“渐冻症”）参与者以接近对话的速度，将大脑信号转换为文字和语音输出…",
+      "category": "融资并购",
+      "date": "10-31",
+      "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
+      "desc": "Anthropic 近日提交 IPO 招股文件，有望成为人类史上最大 IPO。据彭博社今日报道，招股文件显示，Anthropic 计划通过未来在服务器、建筑和电力等领域投入近 9,000 亿美元（IT之家注：现汇率约合 6 万亿元人民币）债务，远超资产负债表上报告的流动负债…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/019/960.htm"
+      "link": "https://www.ithome.com/1/020/444.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "10-31",
+      "title": "揭露“女版乔布斯”骗局的人警告：AI 热潮或催生下一个 Theranos",
+      "desc": "北京时间 10 月 31 日，曾参与揭露美国血液检测公司 Theranos 造假丑闻的泰勒 · 舒尔茨（Tyler Shultz）近日警告称，AI 投资热潮正在为下一个类似 Theranos 的骗局创造条件…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/415.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-31",
+      "title": "绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验",
+      "desc": "《连线》（Wired）昨日（10 月 30 日）发布博文，采访了苹果现任首席执行官约翰 · 特努斯（John Ternus），并围绕着苹果公司产品未来发展方向、AI 领域发展等内容展开讨论…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/409.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-31",
+      "title": "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI",
+      "desc": "字节跳动 Seed 核心负责人周畅已离职创业，方向为 Physical AI（物理 AI），并获得头部美元基金支持。具体投资方、融资金额及估值暂未披露。周畅此前是 Seed 内管理范围较广的技术负责人之一，向 Seed 负责人吴永辉汇报，业务曾覆盖多模态交互、世界模型、视觉生成及机器人等方向…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/408.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "10-31",
+      "title": "快手旗下可灵 AI 完成约 198 亿元增资",
+      "desc": "10 月 30 日晚，快手科技发布公告，旗下可灵 AI 独立融资正式完成交割。交割完成后，北京可灵全部投资者实际支付的增资款总额约为 198.0184 亿元（相当于约 29.0533 亿美元）。今年 7 月，快手宣布对可灵 AI 相关业务进行重组，并通过北京可灵引入外部投资者…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/406.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "10-31",
+      "title": "谷歌宣布达成“Hello World”里程碑：在轨运行的数据中心级 TPU 首次给出 AI 响应，生成了一首俳句",
+      "desc": "谷歌成功发射了“逐日者计划”（Project Suncatcher）的原型卫星。此后数周，团队逐步完成了在轨测试与调试清单，其中包括为主机与 TPU 托盘通电，并顺利完成了早期的机器学习测试…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/402.htm"
     }
   ]
 }
