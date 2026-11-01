@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T13:58:48.718137+08:00",
+  "generated_at": "2026-11-01T14:28:20.104925+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
+      "category": "监管动态",
+      "date": "11-01",
+      "title": "响应欧盟 AI 法案，Grok 模型生成的文本将添加隐形水印",
+      "desc": "SpaceXAI 将于 11 月 7 日起为 Grok 模型生成的文本添加隐形水印。检测器通过识别该信号，判断一段文本是否带有肉眼不可见水印。官方表示，本次调整是为了响应欧盟《人工智能法案》要求，全球所有地区的 SpaceXAI API 均已启用水印…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/721.htm"
+    },
+    {
       "category": "开发者研究",
-      "date": "10-31",
-      "title": "11 小时影响约 5000 开发者：AI 编程工具 Cursor 官方商城出现恶意 Claude Code 插件",
-      "desc": "科技媒体 bleepingcomputer 昨日（10 月 30 日）发布博文，报道称 AI 编程工具 Cursor 的插件商城于 10 月 29 日上线被篡改的 Anthropic Claude Code 扩展，持续约 11 小时，影响全球约 5,000 名开发者…",
+      "date": "11-01",
+      "title": "Roblox 平台 AI 游戏突破 7 万款，排名前 100 作品超 80% 使用 AI 辅助开发",
+      "desc": "Roblox 在 2026 财年第三季度报告中透露，该平台内使用 Build 创建的 AI 游戏总数已超过 7 万款。9 月游玩时长排名前 100 游戏中，超 80% 使用 AI 辅助开发。据介绍，Roblox 已有超 50 万名用户使用 Build 工具…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/466.htm"
+      "link": "https://www.ithome.com/1/020/651.htm"
+    },
+    {
+      "category": "行业数据",
+      "date": "11-01",
+      "title": "被 AI 假学生薅了 2 亿美元贷款羊毛，美国司法部紧急调查",
+      "desc": "美国司法部（DOJ）于当地时间 10 月 30 日公布了“Operation Ghostbusters”行动的结果，该行动主要是调查广泛的学生贷款欺诈行为。据该机构称，不良分子使用被盗身份申请学生贷款，并利用人工智能完成申请，使假学生看起来像是在参加在线课程…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/649.htm"
+    },
+    {
+      "category": "模型动态",
+      "date": "11-01",
+      "title": "消息称 Spotify 计划于明年初推出 AI 音乐混音服务，用户可自制歌曲混音与翻唱版本",
+      "desc": "Spotify 正在积极推进版权授权谈判，并努力说服音乐人拥抱新技术。Spotify 计划在 2027 年初推出一项由人工智能驱动的新服务，允许用户自行制作歌曲的混音与翻唱版本。知情人士透露，Spotify 计划在明年的第一季度推出该产品…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/020/647.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "10-31",
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "desc": "AI已经自己找到Bug并提交PR",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/506904.html"
+    },
+    {
+      "category": "AI 产业",
+      "date": "10-31",
+      "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+      "desc": "200美元Ultra用户先用",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/506855.html"
+    },
+    {
+      "category": "AI 产业",
+      "date": "10-30",
+      "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
+      "desc": "之前还连登昇腾三榜第一",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/506785.html"
+    },
+    {
+      "category": "模型动态",
+      "date": "10-30",
+      "title": "“超能模式”重磅登场！联想天禧AI 4.5全端升级，三大场景打造“职场超能搭档”",
+      "desc": "10月30日，联想天禧AI 4.5迎来AIPC端正式发布。",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/506779.html"
     },
     {
       "category": "巨头动态",
-      "date": "10-31",
-      "title": "腾讯地图公布 Agent 能力全景图，元宝、微信小微、OPPO 小布助手等已接入",
-      "desc": "10 月 30 日，2026 腾讯全球数字生态大会在深圳举行。在腾讯地图产业应用专场上，腾讯正式对外公布 Agent 能力全景图，面向产业客户、智能硬件及开发者全面开放地图 Agent 能力…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/457.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-31",
-      "title": "苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体",
-      "desc": "苹果中国区官网今日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。苹果今日宣布首批 Apple 智能功能即将在中国推出，并与阿里巴巴达成合作，在部分体验中接入千问。这是 Apple 智能自 2024 年发布以来，国行版本首次获得实质性落地进展…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/456.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-31",
-      "title": "Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节",
-      "desc": "Anthropic 近日提交 IPO 招股文件，有望成为人类史上最大 IPO。据彭博社今日报道，招股文件显示，Anthropic 计划通过未来在服务器、建筑和电力等领域投入近 9,000 亿美元（IT之家注：现汇率约合 6 万亿元人民币）债务，远超资产负债表上报告的流动负债…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/444.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-31",
-      "title": "揭露“女版乔布斯”骗局的人警告：AI 热潮或催生下一个 Theranos",
-      "desc": "北京时间 10 月 31 日，曾参与揭露美国血液检测公司 Theranos 造假丑闻的泰勒 · 舒尔茨（Tyler Shultz）近日警告称，AI 投资热潮正在为下一个类似 Theranos 的骗局创造条件…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/415.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-31",
-      "title": "绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验",
-      "desc": "《连线》（Wired）昨日（10 月 30 日）发布博文，采访了苹果现任首席执行官约翰 · 特努斯（John Ternus），并围绕着苹果公司产品未来发展方向、AI 领域发展等内容展开讨论…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/409.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-31",
-      "title": "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI",
-      "desc": "字节跳动 Seed 核心负责人周畅已离职创业，方向为 Physical AI（物理 AI），并获得头部美元基金支持。具体投资方、融资金额及估值暂未披露。周畅此前是 Seed 内管理范围较广的技术负责人之一，向 Seed 负责人吴永辉汇报，业务曾覆盖多模态交互、世界模型、视觉生成及机器人等方向…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/408.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "10-31",
-      "title": "快手旗下可灵 AI 完成约 198 亿元增资",
-      "desc": "10 月 30 日晚，快手科技发布公告，旗下可灵 AI 独立融资正式完成交割。交割完成后，北京可灵全部投资者实际支付的增资款总额约为 198.0184 亿元（相当于约 29.0533 亿美元）。今年 7 月，快手宣布对可灵 AI 相关业务进行重组，并通过北京可灵引入外部投资者…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/406.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "10-31",
-      "title": "谷歌宣布达成“Hello World”里程碑：在轨运行的数据中心级 TPU 首次给出 AI 响应，生成了一首俳句",
-      "desc": "谷歌成功发射了“逐日者计划”（Project Suncatcher）的原型卫星。此后数周，团队逐步完成了在轨测试与调试清单，其中包括为主机与 TPU 托盘通电，并顺利完成了早期的机器学习测试…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/020/402.htm"
+      "date": "10-30",
+      "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
+      "desc": "",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/10/506771.html"
     }
   ]
 }
