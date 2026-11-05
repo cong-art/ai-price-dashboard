@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:44:27.897732+08:00",
+  "generated_at": "2026-11-05T15:03:29.866765+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "监管动态",
-      "date": "11-04",
-      "title": "苹果警告：AI 智能体行为或难以预测，恐引发诉讼、损害公司声誉",
-      "desc": "11 月 3 日，苹果在年度财务报告中警告，AI 智能体可能做出不符合预期、难以预测的行为，给公司带来法律诉讼和声誉受损的风险，进而影响业务。苹果的报告称：“AI 智能体及其他技术可以自主执行操作，例如与内部或外部系统交互，有时甚至会访问没有权限访问的系统，还可以运行或修改代码、发送消息及完成交易…",
+      "category": "巨头动态",
+      "date": "11-05",
+      "title": "苹果葛越：AI 不会取代 App，将推动应用生态进一步发展",
+      "desc": "11 月 4 日，在 2026 年世界互联网大会乌镇峰会人工智能技术创新与治理论坛上，苹果公司副总裁、中华区董事总经理葛越表示，人工智能正在加速改变应用开发模式，但 AI 不会取代 App，而是将推动下一代 App 变得更强大、更具个性化，成为人们生活中更加不可或缺的工具…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/137.htm"
+      "link": "https://www.ithome.com/1/022/751.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "11-05",
+      "title": "OpenAI 总裁布罗克曼：目前公司大部分营收来自企业客户，明年具备上市条件",
+      "desc": "OpenAI 总裁格雷格 · 布罗克曼（Greg Brockman）当地时间周三表示，公司目前的营收大部分来自企业客户业务，并且他认为 OpenAI 将在 2027 年具备上市条件。布罗克曼表示，OpenAI 正在加大面向企业客户的销售力度，与竞争对手 Anthropic 展开竞争…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/022/734.htm"
     },
     {
       "category": "智能应用",
-      "date": "11-04",
-      "title": "CrowdStrike 造出“终止开关”，宣称能立即阻止失控 AI 智能体",
-      "desc": "据美国 CNBC 报道，网络安全公司 CrowdStrike 的 CEO 乔治 · 库尔茨宣称，公司推出了一项新功能，可以直接关停失控的 AI 智能体。CrowdStrike 在 Fal.Con 欧洲大会上发布了“AI 终止开关”，安全人员可以借此停止异常智能体的运行、阻止其重新启动…",
+      "date": "11-05",
+      "title": "丰田成立机器人部门，整合研发资源加速技术落地",
+      "desc": "丰田汽车公司（Toyota Motor Corp.）成立了专门的机器人部门，加入全球主要汽车制造商的行列，加速布局机器人技术。丰田在一份声明中表示，该部门将由公司首席生产官志贺武文（Takefumi Shiga）负责，重点推动机器人在生产一线的实际应用、商业化及部署…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/112.htm"
+      "link": "https://www.ithome.com/1/022/709.htm"
+    },
+    {
+      "category": "智能应用",
+      "date": "11-05",
+      "title": "以“真实工作”检验机器人价值，XROGO在CeMAT ASIA发布机器人到岗计划",
+      "desc": "像雇人一样雇机器人",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/11/507767.html"
     },
     {
       "category": "巨头动态",
-      "date": "11-04",
-      "title": "谷歌调整美国中小学账户设置：要么开放 AI 搜索，要么彻底禁用搜索",
-      "desc": "谷歌宣布调整面向美国中小学的服务权限。今后，学校如果想让学生使用谷歌搜索，必须由管理员主动开启，但搜索服务内置的 AI 功能也会一并开放。谷歌教育业务副总裁兼总经理克里斯 · 菲利普斯表示…",
+      "date": "11-05",
+      "title": "前 Anthropic Claude Code 产品负责人 Cat Wu 跳槽加入 OpenAI，负责核心产品管理",
+      "desc": "前 Anthropic Claude Code 产品负责人 Cat Wu 今日宣布加入 OpenAI，担任核心产品（Core Products）产品管理负责人。她将参与 OpenAI 核心产品及智能体相关工作…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/039.htm"
+      "link": "https://www.ithome.com/1/022/604.htm"
     },
     {
-      "category": "巨头动态",
-      "date": "11-04",
-      "title": "腾讯混元 Hy4 正式版发布，号称首次跻身最强开源模型之列、为真实生产力而生",
-      "desc": "腾讯混元今天（4 日）发布最新一代大语言模型 Hy4 正式版。官方表示，随着模型能力的再次全面跃升，Hy 首次跻身最强开源模型之列。Hy4 将于近期开源模型权重，发布模型系统卡片，并积极推进更负责任的开源，重点关注网络和生物安全等风险…",
+      "category": "开发者研究",
+      "date": "11-05",
+      "title": "AI 帮用户“越狱”跑步机：Claude 干掉了 iFIT 订阅墙",
+      "desc": "网友 u/Beloved_Misanthrope 于 11 月 2 日在 Reddit 社区发帖，称其借助 AI 编程工具 Claude Code，成功越狱 NordicTrack Commercial 2250 跑步机，绕开了设备对 iFIT 订阅的强制要求…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/035.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-04",
-      "title": "Anthropic 工程师警告：AI 越准人类越容易丧失独立思考能力，越依赖越难保持警惕",
-      "desc": "Anthropic Claude Code 团队工程师、前谷歌技术高管 Addy Osmani 在 X 上发表长文《当 AI 智能体完成工作时，如何保持批判性思维》。他认为，随着 AI 智能体越来越强大，人类可能在逐步依赖 AI 的同时，逐渐丧失独立思考、验证结果和理解复杂系统的能力…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/031.htm"
+      "link": "https://www.ithome.com/1/022/603.htm"
     },
     {
       "category": "算力硬件",
-      "date": "11-04",
-      "title": "马斯克回应太空 AI 数据中心散热质疑：可轻松做到每平方米约 1300 瓦散热",
-      "desc": "科技媒体 Wccftech 昨日（11 月 3 日）发布博文，报道称针对太空 AI 数据中心散热争议，全球首富埃隆 · 马斯克（Elon Musk）回应表示，称背向太阳的铝制散热器可实现约 1,300 瓦 / 平方米的热辐射功率…",
+      "date": "11-05",
+      "title": "AI 抢走产能，任天堂实体游戏卡带供应链告急",
+      "desc": "科技媒体 Ars Technica 昨日（11 月 4 日）发布博文，报道称由于 AI 抢走产能，任天堂实体游戏卡带的核心零部件正遭遇罕见供应压力。任天堂实体卡带的主要 ROM 存储芯片供应商旺宏电子（Macronix）第三季度（2026 年 7 月 1 日至 2026 年 9 月 30…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/029.htm"
+      "link": "https://www.ithome.com/1/022/574.htm"
     },
     {
       "category": "智能应用",
-      "date": "11-04",
-      "title": "宇树王兴兴：大概率明年是机器人行业或机器人模型临界点",
-      "desc": "宇树科技创始人王兴兴在 2026 世界互联网大会乌镇峰会互联网企业家论坛上表示，大概率明年将是机器人行业或机器人模型的临界点。综合IT之家此前报道，在 2026 世界物理 AI 大会暨宇树合作伙伴生态大会上，王兴兴曾表示全世界几乎所有人，对 AI 的重视程度和信仰都还不够，包括他自己…",
+      "date": "11-05",
+      "title": "Kimi Hosted Agents 托管智能体发布，将 Harness 作为云端服务提供",
+      "desc": "Kimi 今日宣布推出 Kimi Hosted Agents（托管智能体），将支撑 Agent 运行的 Harness 作为云端服务提供（Harness as a Service）。企业和开发者无需自行搭建和维护运行框架，即可获得 7×24 小时的托管环境，支持长程任务执行与多智能体高效协作…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/026.htm"
+      "link": "https://www.ithome.com/1/022/572.htm"
     },
     {
       "category": "智能应用",
-      "date": "11-04",
-      "title": "6 台智元机器人直播在便利店 24 小时打工，4 台成功“转正”",
-      "desc": "智元 11 月 2 日发起机器人直播在便利店“打工”挑战，6 台精灵 G2 机器人连续 24 小时在岗。11 月 3 日 10:00，智元“机器人打工不能停”便利店直播挑战结束，在全网超 200 万人的围观下，最终 4 台机器人成功“转正”。在考核期间，机器人共完成任务 1730 次 / 件…",
+      "date": "11-05",
+      "title": "比亚迪与 vivo 达成战略合作，实现 AI 智能体跨端融合",
+      "desc": "比亚迪今日官宣与 vivo 达成战略合作，实现 AI 智能体跨端融合，共建智慧出行新生态。vivo 官方也公布了这一消息：“自 2019 年起，双方持续深耕手车互联、智能进入等方向，积累了丰硕成果…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/022/015.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "11-04",
-      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
-      "desc": "长视频记忆精度飙升，问答时延最高降97%",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/11/507533.html"
+      "link": "https://www.ithome.com/1/022/545.htm"
     }
   ]
 }
