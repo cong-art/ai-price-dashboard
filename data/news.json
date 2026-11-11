@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T15:32:06.909419+08:00",
+  "generated_at": "2026-11-11T14:50:09.279712+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "融资并购",
-      "date": "11-10",
-      "title": "广汽埃安 Ray 7 将于 11 月 12 日正式上市：配备华为 192 线激光雷达、搭文远知行 L4 级 Robotaxi 同源大模型",
-      "desc": "广汽宣布旗下埃安 Ray 7 车型将于 11 月 12 日上市，该车是 Ray 系列的首款中大型纯电轿车，车长近 5 米，采用低趴宽体设计，风阻系数低至 0.22Cd，面向年轻市场打造…",
+      "category": "巨头动态",
+      "date": "11-11",
+      "title": "亚马逊 Ring 推出两款安防机器人：一款飞着看家，一款巡逻商铺",
+      "desc": "亚马逊旗下安防品牌 Ring 昨日（11 月 10 日）宣布扩展推出 Ring Robotics 产品线，首批产品包括面向家庭的飞行摄像头 Drone Cam，以及面向商业场所的轮式机器人 Rover Cam…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/845.htm"
+      "link": "https://www.ithome.com/1/025/465.htm"
     },
     {
-      "category": "监管动态",
-      "date": "11-10",
-      "title": "澳大利亚拟强制 AI 公司上报安全违规事件，并考虑修订刑事法律",
-      "desc": "澳大利亚总理安东尼 · 阿尔巴尼斯（Anthony Albanese）当地时间周二表示，澳大利亚将要求人工智能公司强制报告安全违规事件，并考虑修改刑事法律，以应对 AI 领域的“严重不当行为”…",
+      "category": "巨头动态",
+      "date": "11-11",
+      "title": "百度文心发布 ERNIE 5.5 Flash Preview 模型，11 月 25 日前开源权重",
+      "desc": "百度文心大模型今日发布 ERNIE 5.5 Flash Preview，这是基于此前发布的 Base 模型的首个后训练版本。该模型总参数 280B，激活参数 14B，支持 1M 上下文，官方称在编程、3D 建模、知识工作、内容创作等方面表现出色…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/843.htm"
+      "link": "https://www.ithome.com/1/025/451.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "11-11",
+      "title": "DEEPX 2nm 低功耗 AI 芯片 DX-M2 实物芯片预计 2027 年初面世",
+      "desc": "韩国边缘能效 AI 芯片开发商 DEEPX 昨日宣布，其下一代芯片 DX-M2 荣获 CES 2027 人工智能类别创新奖。DX-M2 基于三星晶圆代工 2nm 工艺，集成 80TOPs NPU 算力，至高支持 128bit 的 LPDDR5X-9600 内存…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/025/442.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "11-11",
+      "title": "北京：建立具身智能机器人企业上市“一对一”服务机制，培育优势龙头企业",
+      "desc": "为加快推动北京市具身智能机器人产业高质量发展，北京市经济和信息化局今日印发《北京市具身智能机器人产业高质量发展行动方案（2026-2028 年）》。IT之家注意到，该《行动方案》提到建立具身智能机器人企业上市“一对一”服务机制，培育优势龙头企业…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/025/432.htm"
     },
     {
       "category": "模型动态",
-      "date": "11-10",
-      "title": "小米联合北京大学发布《物联网设备模型技术白皮书》，11.6 亿台 AIoT 设备技术经验开放给全行业",
-      "desc": "小米技术官方微博今日宣布，在 2026 CCF 中国软件大会现场，由中国计算机学会（CCF）泛在操作系统开放社区牵头，小米科技联合北京大学编写的《物联网设备模型（Thing Model）技术白皮书》正式发布。据介绍，物模型是智能设备的“数字化通用语言”…",
+      "date": "11-11",
+      "title": "Nordic 推出支持边缘 AI 推理的 Wi-Fi SoC「nRF71」系列，待机功耗最高降低 1/20",
+      "desc": "Nordic Semiconductor（IT之家注：诺迪克半导体）现已推出 nRF71 系列 Wi-Fi SoC，该产品内置 NPU，可直接在芯片上执行 AI 推理。据介绍，该系列芯片包含 nRF7120、nRF7120E 两种型号…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/842.htm"
+      "link": "https://www.ithome.com/1/025/414.htm"
+    },
+    {
+      "category": "产业合作",
+      "date": "11-11",
+      "title": "Adobe Photoshop 迎来 AI 进化：照片能重新打光，删物体还能清理倒影",
+      "desc": "美国当地时间昨日（11 月 10 日）召开的 Adobe MAX 2026 大会上，Adobe 宣布为 Photoshop、Premiere、Lightroom、Illustrator、InDesign 等创意软件带来一波 AI 新功能…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/025/403.htm"
     },
     {
       "category": "智能应用",
-      "date": "11-10",
-      "title": "马斯克描绘 AI 时代的“童话”：未来想要一座城堡，AI 就能帮你实现",
-      "desc": "人人都能拥有一座城堡，听起来像是童话故事才会出现的情节。不过，马斯克却认为 AI 将让这个梦想成为现实。据《商业内幕》今天（10 日）凌晨报道，马斯克出席了巴伦资本年度会议并作出预测：“超级智能（SI）不仅能满足人类的一切需求，而且能力还将远远超出所需…",
+      "date": "11-11",
+      "title": "特斯拉推出 Cybertruck 遥控模型车、2.5 代人形机器人摆件，199 元起",
+      "desc": "特斯拉今日宣布在官网商城推出 Cybertruck 遥控模型车、全新 2.5 代特斯拉人形机器人摆件。IT之家从商品页面了解到，Tesla Cybertruck 遥控模型车 1:10 还原标志性不锈钢棱角造型，PC 材质车壳，尺寸为 56.5 x 25.0 x 20.5 cm，定价 1,769 元…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/841.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-10",
-      "title": "苹果 iPhone Air 2 机模曝光：厚度 5.2 毫米、新增 4800 万像素超广角镜头",
-      "desc": "苹果将在明年初推出 iPhone Air 2 手机，目前已有不少外设制造商通过各种渠道获悉相应手机规格信息，以便提前制造外设抢占市场。例如，目前消息源 Lusi Roy 便曝光了 iPhone Air 2 的机模，显示该机厚度进一步变薄，从初代的 5.6 毫米缩减至 5.2 毫米…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/840.htm"
-    },
-    {
-      "category": "AI 产业",
-      "date": "11-10",
-      "title": "金鸡百花电影节首次设立 AI 单元",
-      "desc": "2026 年中国金鸡百花电影节“金鸡电影 AI 单元 · 推介仪式”今日在福建厦门举行。本届电影节首次设立电影 AI 单元，探索人工智能技术在影视创作中的应用，为不同背景的创作者提供展示和交流的平台…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/835.htm"
-    },
-    {
-      "category": "AI 产业",
-      "date": "11-10",
-      "title": "派拉蒙天舞 CEO：AI 可能成为电影史上最大创意突破，助力原创叙事诞生",
-      "desc": "派拉蒙天空之舞 CEO 大卫 · 埃里森近日在电话会议中表示，AI 有可能成为电影史上最大的创意突破。埃里森表示，从宏观角度审视电影制作的话，他认为 AI 有潜力成为现代影史最大的创意突破。上一次规模类似的技术变革，应该是 20 世纪 90 年代初的 CGI（电脑产生图像）…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/831.htm"
+      "link": "https://www.ithome.com/1/025/401.htm"
     },
     {
       "category": "智能应用",
-      "date": "11-10",
-      "title": "50℃ 热水喷淋定点拖地：小米米家扫拖机器人 7 Max 国补后 4999 → 3602 元",
-      "desc": "小米米家扫拖机器人 7 Max 开售于 2026 年 10 月 20 日，水箱版首销到手价 4999 元。京东 11.11 大促期间，标价 5020 元；PLUS 会员立减 20.08 元；PLUS 会员可用满 800-80 元补贴（每天 10 点 / 20 点抢）；领取 8.8 折优惠券…",
+      "date": "11-11",
+      "title": "2026 世界计算大会 11 月 19 日长沙举行：首设太空计算论坛，具身智能机器人、脑机接口将亮相",
+      "desc": "湖南省政府新闻办今日召开新闻发布会，宣布 2026 世界计算大会将于 11 月 19 日至 21 日在长沙国际会议中心举行。本届大会以“计算万物湘约未来 —— 打造智能经济新形态”为主题，设置“1+5+N+1”共 21 场主题活动…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/828.htm"
+      "link": "https://www.ithome.com/1/025/399.htm"
     },
     {
       "category": "巨头动态",
-      "date": "11-10",
-      "title": "谷歌 Gemini 上线记忆摘要，可查看 / 编辑 / 删除 AI 记住的个人信息",
-      "desc": "科技媒体 Android Authority 昨日（11 月 9 日）发布博文，报道称谷歌正在为 Gemini 推出“记忆摘要”（Memory summary）功能，让用户能查看、编辑和删除 AI 记住的个人信息，从而更好管理“AI 到底知道我什么”…",
+      "date": "11-11",
+      "title": "阿里 Qwen Code 1.0 发布：Qoder 与 Qwen Code Harness 融合开源",
+      "desc": "阿里今日官宣推出 Qwen Code 1.0 版本，Qoder 与 Qwen Code 融合开源。阿里把在 Qoder 中打磨的 Harness 能力融入 Qwen Code，随 Qwen Code 1.0 Preview 一起开放，为开发者提供可嵌入自身产品的 Agent 运行基础…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/024/823.htm"
+      "link": "https://www.ithome.com/1/025/393.htm"
     }
   ]
 }
