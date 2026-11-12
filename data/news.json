@@ -1,83 +1,43 @@
 {
-  "generated_at": "2026-11-11T14:50:09.279712+08:00",
+  "generated_at": "2026-11-12T15:27:05.607762+08:00",
   "sources": [
     "IT之家",
     "量子位"
   ],
   "window": "回溯 2 天",
-  "count": 9,
+  "count": 4,
   "news": [
     {
-      "category": "巨头动态",
+      "category": "AI 产业",
       "date": "11-11",
-      "title": "亚马逊 Ring 推出两款安防机器人：一款飞着看家，一款巡逻商铺",
-      "desc": "亚马逊旗下安防品牌 Ring 昨日（11 月 10 日）宣布扩展推出 Ring Robotics 产品线，首批产品包括面向家庭的飞行摄像头 Drone Cam，以及面向商业场所的轮式机器人 Rover Cam…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/465.htm"
+      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+      "desc": "价格、门槛全打穿",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/11/509146.html"
     },
     {
       "category": "巨头动态",
       "date": "11-11",
-      "title": "百度文心发布 ERNIE 5.5 Flash Preview 模型，11 月 25 日前开源权重",
-      "desc": "百度文心大模型今日发布 ERNIE 5.5 Flash Preview，这是基于此前发布的 Base 模型的首个后训练版本。该模型总参数 280B，激活参数 14B，支持 1M 上下文，官方称在编程、3D 建模、知识工作、内容创作等方面表现出色…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/451.htm"
+      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
+      "desc": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/11/509085.html"
     },
     {
-      "category": "算力硬件",
-      "date": "11-11",
-      "title": "DEEPX 2nm 低功耗 AI 芯片 DX-M2 实物芯片预计 2027 年初面世",
-      "desc": "韩国边缘能效 AI 芯片开发商 DEEPX 昨日宣布，其下一代芯片 DX-M2 荣获 CES 2027 人工智能类别创新奖。DX-M2 基于三星晶圆代工 2nm 工艺，集成 80TOPs NPU 算力，至高支持 128bit 的 LPDDR5X-9600 内存…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/442.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "11-11",
-      "title": "北京：建立具身智能机器人企业上市“一对一”服务机制，培育优势龙头企业",
-      "desc": "为加快推动北京市具身智能机器人产业高质量发展，北京市经济和信息化局今日印发《北京市具身智能机器人产业高质量发展行动方案（2026-2028 年）》。IT之家注意到，该《行动方案》提到建立具身智能机器人企业上市“一对一”服务机制，培育优势龙头企业…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/432.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "11-11",
-      "title": "Nordic 推出支持边缘 AI 推理的 Wi-Fi SoC「nRF71」系列，待机功耗最高降低 1/20",
-      "desc": "Nordic Semiconductor（IT之家注：诺迪克半导体）现已推出 nRF71 系列 Wi-Fi SoC，该产品内置 NPU，可直接在芯片上执行 AI 推理。据介绍，该系列芯片包含 nRF7120、nRF7120E 两种型号…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/414.htm"
-    },
-    {
-      "category": "产业合作",
-      "date": "11-11",
-      "title": "Adobe Photoshop 迎来 AI 进化：照片能重新打光，删物体还能清理倒影",
-      "desc": "美国当地时间昨日（11 月 10 日）召开的 Adobe MAX 2026 大会上，Adobe 宣布为 Photoshop、Premiere、Lightroom、Illustrator、InDesign 等创意软件带来一波 AI 新功能…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/403.htm"
+      "category": "巨头动态",
+      "date": "11-10",
+      "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
+      "desc": "",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/11/509032.html"
     },
     {
       "category": "智能应用",
-      "date": "11-11",
-      "title": "特斯拉推出 Cybertruck 遥控模型车、2.5 代人形机器人摆件，199 元起",
-      "desc": "特斯拉今日宣布在官网商城推出 Cybertruck 遥控模型车、全新 2.5 代特斯拉人形机器人摆件。IT之家从商品页面了解到，Tesla Cybertruck 遥控模型车 1:10 还原标志性不锈钢棱角造型，PC 材质车壳，尺寸为 56.5 x 25.0 x 20.5 cm，定价 1,769 元…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/401.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "11-11",
-      "title": "2026 世界计算大会 11 月 19 日长沙举行：首设太空计算论坛，具身智能机器人、脑机接口将亮相",
-      "desc": "湖南省政府新闻办今日召开新闻发布会，宣布 2026 世界计算大会将于 11 月 19 日至 21 日在长沙国际会议中心举行。本届大会以“计算万物湘约未来 —— 打造智能经济新形态”为主题，设置“1+5+N+1”共 21 场主题活动…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/399.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-11",
-      "title": "阿里 Qwen Code 1.0 发布：Qoder 与 Qwen Code Harness 融合开源",
-      "desc": "阿里今日官宣推出 Qwen Code 1.0 版本，Qoder 与 Qwen Code 融合开源。阿里把在 Qoder 中打磨的 Harness 能力融入 Qwen Code，随 Qwen Code 1.0 Preview 一起开放，为开发者提供可嵌入自身产品的 Agent 运行基础…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/025/393.htm"
+      "date": "11-10",
+      "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
+      "desc": "让每一次任务，都成为下一次进步的起点",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/11/508998.html"
     }
   ]
 }
