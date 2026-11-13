@@ -1,43 +1,83 @@
 {
-  "generated_at": "2026-11-12T15:27:05.607762+08:00",
+  "generated_at": "2026-11-13T14:58:31.233825+08:00",
   "sources": [
     "IT之家",
     "量子位"
   ],
   "window": "回溯 2 天",
-  "count": 4,
+  "count": 9,
   "news": [
     {
-      "category": "AI 产业",
-      "date": "11-11",
-      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
-      "desc": "价格、门槛全打穿",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/11/509146.html"
+      "category": "模型动态",
+      "date": "11-13",
+      "title": "迎接《GTA 6》发售：《幻兽帕鲁》开发商 Pocketpair 为全体员工安排 5 天“特别假期”",
+      "desc": "《幻兽帕鲁（Palworld）》开发商 Pocketpair 在 X 平台发文，称为迎接《侠盗猎车手 6》（GTA 6）发售，公司将安排为期 5 天的特别假期，让对这款游戏期待已久的员工能够放心游玩…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/734.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "11-13",
+      "title": "Anthropic IPO 认购需求约为 6 倍：拟募资最高 644 亿美元，目标估值约 1.4 万亿美元",
+      "desc": "Anthropic 计划进行的首次公开募股（IPO）认购需求持续增长，目前投资者提交的认购订单数量已达到可供认购股份数量的约 6 倍。根据 Anthropic 提交的文件，公司及其联合创始人计划通过 IPO 募资最高 644 亿美元（现汇率约合 4,305.19 亿元人民币）…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/671.htm"
+    },
+    {
+      "category": "融资并购",
+      "date": "11-13",
+      "title": "海康威视：海康机器人已完成股份制改制及上市辅导备案",
+      "desc": "海康威视今日（11 月 13 日）在互动平台表示，海康机器人已完成股份制改制及上市辅导备案，IPO 相关进展请以官方披露信息为准。IT之家查询公开资料获悉，海康机器人是面向全球的机器视觉和移动机器人产品及解决方案提供商，业务聚焦工业物联网、智慧物流和智能制造，前身为海康威视机器视觉业务部…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/667.htm"
     },
     {
       "category": "巨头动态",
-      "date": "11-11",
-      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
-      "desc": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/11/509085.html"
+      "date": "11-13",
+      "title": "主导苹果 M1 芯片的传奇架构师谈 AI 电力危机：用造 iPhone 芯片的“抠门”哲学建超算",
+      "desc": "在最新一期 Power On 访谈节目中，彭博社的马克 · 古尔曼（Mark Gurman）邀请苹果前 CPU 首席架构师杰拉德 · 威廉姆斯三世（Gerard Williams III）作客，探讨当前的 AI 浪潮…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/591.htm"
     },
     {
       "category": "巨头动态",
-      "date": "11-10",
-      "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
-      "desc": "",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/11/509032.html"
+      "date": "11-13",
+      "title": "阿里巴巴虾米 App 关停五年后以 AI 形态回归：“Happy 系列”快乐虾米正式上线，会员每月 30 元起",
+      "desc": "阿里巴巴旗下 AI 音乐创作平台快乐虾米（HappyShrimp）正式上线 iOS 与 Android 平台，登陆苹果 App Store 及各大安卓应用商店，目前 App Store 已经更新到 0.2.14 版本。应用描述快乐虾米 - 一款阿里巴巴 ATH 团队旗下的 AI 音乐创作产品…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/551.htm"
     },
     {
-      "category": "智能应用",
-      "date": "11-10",
-      "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
-      "desc": "让每一次任务，都成为下一次进步的起点",
+      "category": "算力硬件",
+      "date": "11-13",
+      "title": "Axelera AI 公布数据中心级 AIPU 芯片 Titania 架构，2027Q3 投产",
+      "desc": "荷兰芯片初创企业 Axelera AI 当地时间 12 日公布了其第三代 AIPU 芯片 Titania 的架构。其瞄准数据中心推理市场，预计 2027 年第 3 季度量产，已获得超 3 亿美元（IT之家注：现汇率约合 20.06 亿元人民币）的订单…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/544.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-13",
+      "title": "不靠补贴、不增加他人成本：微软承诺其 AI 扩张电费将自己买单",
+      "desc": "彭博社昨日（11 月 12 日）发布博文，报道称微软将寻求在不依赖政府补贴、不增加其他电力用户成本的情况下，为旗下 AI 数据中心供电。昨日在休斯顿举行的彭博新能源财经会议上，微软云运营与创新总裁诺埃尔 · 沃尔什（Noelle Walsh）表示：“我们不希望其他客户为我们的增长买单…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/533.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "11-13",
+      "title": "中芯国际赵海军：AI 算力供不应求，2027 年半导体代工产能将非常紧缺",
+      "desc": "在今天举行的中芯国际 2026 年第三季度业绩会上，中芯国际联合 CEO 赵海军表达了对半导体代工业未来发展的积极正面看法。他认为，目前 AI 发展“方兴未艾”，算力需求供不应求。目前行业共识是，2027 年将是产能非常紧缺的一年，预计持续到 2028 年中期至下半年…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/026/524.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "11-12",
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "desc": "「CAD拆解」",
       "source": "量子位",
-      "link": "https://www.qbitai.com/2026/11/508998.html"
+      "link": "https://www.qbitai.com/2026/11/509440.html"
     }
   ]
 }
