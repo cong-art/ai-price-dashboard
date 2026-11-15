@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:46:45.569535+08:00",
+  "generated_at": "2026-11-15T14:51:57.281935+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "巨头动态",
-      "date": "11-14",
-      "title": "谷歌高管借 Gemini AI 成功让苹果 iPhone Duo 运行微软 Win11",
-      "desc": "谷歌 AI Studio 产品与设计负责人阿马尔 · 雷希（Ammaar Reshi）于 11 月 12 日在 X 平台发布推文，分享了一段视频，演示在苹果首款折叠手机 iPhone Duo 上运行 Windows 11 系统，并在 GitHub 上开源 WindowsiOS 项目…",
+      "category": "AI 产业",
+      "date": "11-15",
+      "title": "失落 20 年的任天堂 DS 宝可梦游戏《PokéPark: Tsuri Taikai》重现，全球唯一可运行卡带现身",
+      "desc": "一名收藏爱好者 Daniel Quadri 近期意外获得了一份极为罕见的宝可梦游戏收藏品，即“目前已知唯一一份能够正常运行的任天堂 DS 游戏”《PokéPark: Tsuri Taikai》（PokéPark:Fishing Rally）…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/118.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-14",
-      "title": "微软 14 年 AI 老将离职：称创新难落地，降本研究未获认真考虑",
-      "desc": "科技媒体 Windows Latest 今天（11 月 14 日）发布博文，报道称在微软任职逾 14 年的 AI 科学家、AI Frontiers 实验室联合创始人约翰 · 兰福德（John Langford）已离职…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/078.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-14",
-      "title": "Outlook 等服务故障期间征集 AI 技巧，微软推文变成网友吐槽现场",
-      "desc": "科技媒体 Windows Latest 昨日（11 月 13 日）发布博文，报道称在 Outlook 等服务大面积宕机停服的情况下，微软官方账号 @MicrosoftLearn 不合时宜地询问：“初学者应该尽早养成哪一个 AI 使用习惯？”…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/072.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-14",
-      "title": "苹果推送 tvOS 27.2.1 更新，第二 / 第三代 Apple TV 4K 新增 Siri AI 支持",
-      "desc": "科技媒体 MacRumors 今天（11 月 14 日）发布博文，报道称苹果已推送 tvOS 27.2.1 以及 HomePod Software 27.2.1，内部开发代号均为 24K157…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/052.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "11-14",
-      "title": "实现“躺平式办公”：Mac 版 Perplexity 上线“AI 队友”，组建你的全天候数字员工",
-      "desc": "Perplexity 今天（11 月 14 日）发布公告，邀请付费 Max 订阅用户，在 Mac 平台版 Perplexity 应用上体验 AI 智能体功能“队友”（Teammates）。该功能此前仅支持 iOS 和网页端，如今进一步覆盖桌面办公场景…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/050.htm"
+      "link": "https://www.ithome.com/1/027/324.htm"
     },
     {
       "category": "开发者研究",
-      "date": "11-14",
-      "title": "DeepSeek 前端代码出现“额度耗尽”提示，开发者猜测将首次推出 C 端付费方案",
-      "desc": "有开发者在 chat.deepseek.com 的前端代码中发现了一整套额度管理逻辑，提示文案包括“使用额度已达上限，请额度恢复后再试”。此外，其代码还包含额度耗尽后的错误处理分支，以及“分享对话后继续聊”场景下对 quotas 数组中 is_exhausted 状态的检查…",
+      "date": "11-15",
+      "title": "GDC 调查：40% 游戏产业从业者在使用 AI，55% 对其持批评态度",
+      "desc": "游戏开发者大会（GDC）近日发布《游戏行业现状：2026 年 11 月》，对 2600 多名游戏产业从业者进行调查，其中 40% 受访者表示，他们会在工作中使用生成式 AI。据介绍，在使用 AI 的受访者中，57% 称他们每天都会使用相关工具。但问题在于，游戏行业人士对 AI 的态度都比较谨慎…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/038.htm"
+      "link": "https://www.ithome.com/1/027/323.htm"
     },
     {
-      "category": "融资并购",
-      "date": "11-14",
-      "title": "礼来 CEO 回应“AI 十年内攻克癌症”：愿景很美好，但不太可能",
-      "desc": "礼来（Eli Lilly）董事长兼首席执行官戴夫 · 里克斯（Dave Ricks）于 11 月 12 日在 X 平台发布推文，回应 Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）有关“AI 将在不到十年内攻克癌症等疾病”的预测，称这一愿景“令人向往”…",
+      "category": "监管动态",
+      "date": "11-15",
+      "title": "Epic CEO 炮轰“Steam 强制要求游戏标注 AI 使用情况”，称开发公司不接受 AI 将丧失竞争力",
+      "desc": "Epic Games 首席执行官蒂姆 · 斯威尼（Tim Sweeney）在接受外媒 GamesBeat 采访时，认为 Valve 要求开发者在 Steam 平台中“标注 AI 使用情况”的做法不合理。斯威尼表示，大型游戏开发商（独立游戏开发者及其细分领域不在此列）未来将因 AI 技术发生彻底改变…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/037.htm"
+      "link": "https://www.ithome.com/1/027/315.htm"
     },
     {
-      "category": "智能应用",
-      "date": "11-14",
-      "title": "特斯拉 Cybercab 面向个人用户开放销售：售 29990 美元，每月还需支付 299 美元自动驾驶订阅费用",
-      "desc": "特斯拉宣布开始向部分个人用户开放 Cybercab 无人驾驶汽车购买渠道，起售价为 29,990 美元（IT之家注：现汇率约合 20 万元人民币），首批车辆预计将于 2026 年 12 月交付…",
+      "category": "AI 产业",
+      "date": "11-15",
+      "title": "韩国税务师考试榜一考生自首，承认用微型摄像头与 AI 作弊",
+      "desc": "韩国 2026 年税务师资格考试的榜一考生承认，他使用了微型摄像头和生成式人工智能作弊。据报道，第 63 届税务师考试第一名考生 A 某近日接受一名律师采访时，承认自己的作弊行为。A 某表示，他在考试中利用微型摄像头拍摄考试题目，再将照片发给 AI 查看答案…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/034.htm"
+      "link": "https://www.ithome.com/1/027/303.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-15",
+      "title": "苹果智能家庭中枢 HomeView 首批评测出炉：Siri AI 问题频出，隐私问题引担忧",
+      "desc": "苹果首款智能家庭中枢 HomeView 已经于 11 月 13 日在海外上市，配备 7 英寸 Liquid Retina 显示屏、A18 芯片、人脸识别功能，但外界期待已久的 Siri AI 仍处于测试阶段，如今出炉的首批媒体评测、用户体验说明，苹果还有大量工作没有完成…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/027/294.htm"
+    },
+    {
+      "category": "算力硬件",
+      "date": "11-15",
+      "title": "华为麒麟 9050 系列芯片新一代巴龙 AI Modem 情报公开：首创融合通信架构、业界首发四卡三待",
+      "desc": "华为官方今日继续揭秘首款「逻辑折叠」技术 τ 芯片 —— 麒麟 9050 系列更多配置信息，今日最新公开了新一代巴龙 AI Modem 的情报。据介绍，新一代巴龙 AI Modem 首创融合通信架构，含 Modem AI 通信架构、多系统协同架构和星地一体融合架构…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/027/292.htm"
     },
     {
       "category": "模型动态",
-      "date": "11-14",
-      "title": "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型",
-      "desc": "开发者 Georgi Gerganov（X 账号为 @ggerganov）昨日（11 月 13 日）在 X 平台发布推文，宣布开源 AI 推理项目 llama.cpp 与底层机器学习引擎 ggml 的库版本迈入 1.0.0…",
+      "date": "11-15",
+      "title": "NINJUTSO 推出 TEN AIR PRO 鼠标：搭载 50K 传感器，599 元",
+      "desc": "电竞外设制造商 NINJUTSO 昨日推出了鼠标新品 TEN AIR PRO。这一型号搭载 AIMNINJA PRO 50 光学传感器，拥有 50000 cpi / DPI 的分辨率…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/027/019.htm"
+      "link": "https://www.ithome.com/1/027/280.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "11-15",
+      "title": "SK 集团会长崔泰源：我们所有子公司都要蜕变为 AI 企业",
+      "desc": "SK 集团会长崔泰源最近表示，他们希望打破现有框架，将 SK 集团所有子公司蜕变为 AI 企业。他认为 SK 集团应将业务范围从 AI 半导体、基础设施和能源进一步扩展至服务领域，构建出持续增长的“AI 飞轮”模式…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/027/277.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-15",
+      "title": "韩国电信运营商 LG U+ 明年进军 AI Token 业务，帮助企业降低 AI 转型成本",
+      "desc": "韩国电信运营商 LG U+ 将于明年进军 AI Token 业务，利用自主研发的 Token 优化技术，帮助企业降低 AI 转型（AX）成本。据介绍，这项服务拥有用于设计 Agent 任务执行路径的“Harness Engineering”、根据问题类型分配模型的“智能路由”…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/027/262.htm"
     }
   ]
 }
