@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:31:53.077151+08:00",
+  "generated_at": "2026-11-21T15:27:35.460301+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
-      "category": "巨头动态",
-      "date": "11-20",
-      "title": "约 14MB 内存运行 2.7 亿参数模型：谷歌工程师把 AI 装进打印机，每词元耗时约 60 秒",
-      "desc": "谷歌 DeepMind 技术团队成员奥马尔 · 圣塞维耶罗（Omar Sanseviero）于 11 月 17 日在 X 平台发布推文，在只占用 14.1MB 内存的情况下，成功让办公激光打印机运行 2.7 亿参数的 Gemma 3 270M 模型，每输出一个词元（Token）消耗约 60 秒…",
+      "category": "算力硬件",
+      "date": "11-21",
+      "title": "4299 元华擎 X870E TaiChi 太极 OCF 主板发售：22+2+1 相供电，支持 10400MHz 内存超频",
+      "desc": "华擎 X870E Taichi 太极 OCF 主板现已在京东上架开售，定价显示为 4299 元。京东华擎（ASRock）X870E TaiChi 太极 OCF 主板 DDR5 支持 AMD CPU 9800X3D/9850X3D（AMD X870E/Socket AM5)4299…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/953.htm"
+      "link": "https://www.ithome.com/1/030/355.htm"
     },
     {
       "category": "开发者研究",
-      "date": "11-20",
-      "title": "李书福：吉利旗下芯位科技筹备建设芯位大学，主动对接人工智能科技",
-      "desc": "11 月 20 日，李书福在三亚举行的 2026 年芯位教育论坛上透露，吉利旗下芯位科技筹备建设芯位大学。据悉，芯位大学由吉利人才集团支持其本、硕、博学科建设，吉利控股集团将全面开放产业应用场景，建设高水平全球型新型研究型大学…",
+      "date": "11-21",
+      "title": "韦布望远镜拍到却没看见：科学家从旧数据中发现遗漏巨行星，新算法将探测灵敏度提升 15 倍",
+      "desc": "美国西北大学（Northwestern University）研究团队开发了一种新的系外行星成像处理技术，从詹姆斯 · 韦布空间望远镜（JWST）此前拍摄的数据中，成功识别出一颗此前未能通过常规图像处理方法观测到的巨行星。研究人员表示，这项技术可将望远镜对暗弱行星的探测灵敏度提升 2 至 15 倍…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/913.htm"
-    },
-    {
-      "category": "算力硬件",
-      "date": "11-20",
-      "title": "马斯克太空计划遇阻：SpaceX 债主不允许将作为贷款抵押品的 AI 芯片发射上天",
-      "desc": "SpaceX 最新一笔以英伟达 AI 芯片为抵押的 430 亿美元（IT之家注：现汇率约合 2,877.55 亿元人民币）债务融资，正与其 CEO 埃隆 · 马斯克的太空 AI 数据中心计划产生冲突…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/896.htm"
-    },
-    {
-      "category": "模型动态",
-      "date": "11-20",
-      "title": "酷态科推出 5 号磁吸电能卡 Air：首销 259 元，5000mAh 电芯容量",
-      "desc": "酷态科今日推出 5 号磁吸电能卡 Air，将于 11 月 27 日 10:00 开售，日常价 299 元，首销权益价不高于 259 元。IT之家从官方介绍获悉，作为酷态科首款超薄磁吸，该产品薄约 0.77cm，轻约 115g，全面通过 2026 新国标认证，飞机 / 高铁均可携带…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/889.htm"
-    },
-    {
-      "category": "融资并购",
-      "date": "11-20",
-      "title": "消息称英伟达将豪掷逾 5 亿美元，收购“比 ChatGPT 更快的 AI”公司 Inception",
-      "desc": "科技媒体 The Information 今天（11 月 20 日）发布博文，报道称英伟达计划收购 AI 初创公司 Inception，目前双方已深入谈判，交易估值至少超过 5 亿美元（IT之家注：现汇率约合 33.46 亿元人民币），并可能附加与业绩挂钩的额外奖励…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/886.htm"
-    },
-    {
-      "category": "产业合作",
-      "date": "11-20",
-      "title": "微信短剧审核新规：单集最低时长上调至 1 分钟，AI 制作证明视频 12 月起必填",
-      "desc": "为持续建设优质短剧内容生态、提升用户观看体验，平台对短剧审核要求作出两项更新。IT之家整理如下：一、上调短剧单集最低时长公告称，为保护用户观看体验、建设优质短剧内容生态，平台将上调短剧单集最低时长标准：单集最低时长由原 45 秒调整至 1 分钟…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/883.htm"
-    },
-    {
-      "category": "算力硬件",
-      "date": "11-20",
-      "title": "高通携手 Cirrascale，启动自家推理加速器 AI200 客户评估",
-      "desc": "Qualcomm（高通）当地时间本月 17 日宣布，其携手 AI 私有云企业 Cirrascale，向部分客户开放 Dragonfly（飞龙）AI200 推理加速器的评估。客户可通过云环境探索其 AI 工作负载在该芯片上的表现…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/874.htm"
-    },
-    {
-      "category": "智能应用",
-      "date": "11-20",
-      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
-      "desc": "已开源Agnes Harness",
-      "source": "量子位",
-      "link": "https://www.qbitai.com/2026/11/511582.html"
+      "link": "https://www.ithome.com/1/030/354.htm"
     },
     {
       "category": "巨头动态",
-      "date": "11-20",
-      "title": "吉利董事长李书福：一般性的传统大学已不适应 AI 时代人才培养需求，必将诞生一批新型大学",
-      "desc": "吉利控股集团董事长李书福今日在 2026 芯位教育论坛上表示，AI 时代的大学生活与传统大学有着划时代的区别，知识传播与教授方法已经发生根本性改变。李书福说：“传统大学就像传统的百货公司、传统的超市，而人工智能时代诞生的大学，就像阿里巴巴、腾讯、京东、字节跳动…",
+      "date": "11-21",
+      "title": "达里奥 2010 年曾拒绝马斯克招揽，2016 年加入 OpenAI 后又出走创立 Anthropic",
+      "desc": "Anthropic CEO 达里奥 · 阿莫代伊（Dario Amodei）早在 2010 年就曾通过熟人结识埃隆 · 马斯克并受邀参观 SpaceX 办公室。据称，马斯克当时还向他发出了工作邀请，但达里奥最终选择拒绝。他认为自己的专业能力更适合计算生物学，而不是火箭工程…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/029/864.htm"
+      "link": "https://www.ithome.com/1/030/350.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-21",
+      "title": "黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制",
+      "desc": "科技媒体 Business Insider 昨日（11 月 20 日）报道，AI 公司 Anthropic 在上市后通过特殊股权设计，让包括 CEO 达里奥 · 阿莫代伊（Dario Amodei）在内的 7 位联合创始人共同掌握 50.1% 的股东投票权…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/348.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-21",
+      "title": "12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元",
+      "desc": "律师 u/TumbleweedNew6515 昨日（11 月 20 日）在 Reddit 社区发帖，斥资 9,450 美元（IT之家注：现汇率约合 63,239 元人民币）使用 12 张二手英伟达 V100 显卡搭建私人 AI 服务器，本地运行 DeepSeek-V4.1-Flash…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/346.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-21",
+      "title": "腾讯混元姚顺雨团队：Hy4 仍有很大改进空间，计划训练更大规模模型",
+      "desc": "11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和团队成员，在 Reddit 进行了一场持续 120 分钟的 AMA，回答全球开发者关于混元的“任何问题”。问答环节，有人询问：字节跳动、Kimi 等似乎都在往 3 万亿、甚至 5 万亿参数的超大模型推进…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/338.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-21",
+      "title": "拯救爆满的“下载”文件夹：微软 Win11 将推 AI 整理神器，授权后可查找 / 分类 / 移动 / 重命名文件",
+      "desc": "科技媒体 Windows Latest 昨日（11 月 20 日）发布博文，报道称在 Ignite 2026 活动中，微软展示 Copilot“本地文件操作”功能，在征得用户授权后可以查找、分类、移动或重命名本地文件…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/333.htm"
+    },
+    {
+      "category": "开发者研究",
+      "date": "11-21",
+      "title": "近 200 万条请求揭开 AI 隐私漏洞：“零数据保留”也会泄密",
+      "desc": "科技媒体 Ars Technica 今天（11 月 21 日）发布博文，报道称安全公司 Dragos 首席研究官 HD Moore 向多家 AI 服务商发送近 200 万条带有可追踪“诱饵”的请求，发现 AI 服务链存在黑客窃取提示词、转售商泄露数据及未遵守隐私设置等问题…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/322.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-21",
+      "title": "OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%",
+      "desc": "OpenAI 发布公告介绍了针对「对抗性蒸馏」（Adversarial Distillation）的防御措施。OpenAI 称其已加强 GPT-6.2 Astra 和 GPT-6.2 Sol 对内部推理思考链（Chain-of-Thought）的保护，以降低其他模型通过提取推理过程获取其能力的风险…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/319.htm"
     }
   ]
 }
