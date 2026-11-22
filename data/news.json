@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:27:35.460301+08:00",
+  "generated_at": "2026-11-22T15:09:12.032800+08:00",
   "sources": [
     "IT之家",
     "量子位"
@@ -8,76 +8,76 @@
   "count": 9,
   "news": [
     {
+      "category": "模型动态",
+      "date": "11-22",
+      "title": "TikTok 上线 AI 深度伪造检测工具，为创造者推出“肖像检测”功能",
+      "desc": "TikTok 宣布推出两项新工具，进一步推进人工智能透明度建设，让社区用户在 TikTok 上创作和接触人工智能内容时，拥有更高的知情度与掌控力。TikTok 推出了一款新的透明度工具，让任何人都能自主进行核验…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/581.htm"
+    },
+    {
+      "category": "巨头动态",
+      "date": "11-22",
+      "title": "腾讯 Chatterfly 输入法安卓版开启内测，支持语音转写、自动翻译等 AI 功能",
+      "desc": "腾讯 Chatterfly 输入法安卓版现已开启内测，iOS 版目前状态为“即将发布”。据介绍，Chatterfly 输入法除了将语音变成文字外，还能理解上下文，识别不同的意图和场景，还能听懂用户的需求，帮用户执行任务…",
+      "source": "IT之家",
+      "link": "https://www.ithome.com/1/030/576.htm"
+    },
+    {
       "category": "算力硬件",
-      "date": "11-21",
-      "title": "4299 元华擎 X870E TaiChi 太极 OCF 主板发售：22+2+1 相供电，支持 10400MHz 内存超频",
-      "desc": "华擎 X870E Taichi 太极 OCF 主板现已在京东上架开售，定价显示为 4299 元。京东华擎（ASRock）X870E TaiChi 太极 OCF 主板 DDR5 支持 AMD CPU 9800X3D/9850X3D（AMD X870E/Socket AM5)4299…",
+      "date": "11-22",
+      "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
+      "desc": "特斯拉今日宣布在美国市场推出 FSD v15，带来了全新可视化界面 ——“Tesla Reality View”（特斯拉实景视图）。随后全新的“Tesla Reality View”迅速引发网友热议。博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/355.htm"
+      "link": "https://www.ithome.com/1/030/563.htm"
     },
     {
-      "category": "开发者研究",
-      "date": "11-21",
-      "title": "韦布望远镜拍到却没看见：科学家从旧数据中发现遗漏巨行星，新算法将探测灵敏度提升 15 倍",
-      "desc": "美国西北大学（Northwestern University）研究团队开发了一种新的系外行星成像处理技术，从詹姆斯 · 韦布空间望远镜（JWST）此前拍摄的数据中，成功识别出一颗此前未能通过常规图像处理方法观测到的巨行星。研究人员表示，这项技术可将望远镜对暗弱行星的探测灵敏度提升 2 至 15 倍…",
+      "category": "监管动态",
+      "date": "11-22",
+      "title": "韩国高考 AI 作弊事件发酵，教育部长引咎辞职",
+      "desc": "韩国教育部长官崔教振辞去职务，为韩国 2027 年度大学修学能力考试（韩国高考）期间防范高科技作弊措施不足引发混乱而承担责任。近期，韩国发生多起利用人工智能工具作弊事件，引发民众广泛担忧…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/354.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-21",
-      "title": "达里奥 2010 年曾拒绝马斯克招揽，2016 年加入 OpenAI 后又出走创立 Anthropic",
-      "desc": "Anthropic CEO 达里奥 · 阿莫代伊（Dario Amodei）早在 2010 年就曾通过熟人结识埃隆 · 马斯克并受邀参观 SpaceX 办公室。据称，马斯克当时还向他发出了工作邀请，但达里奥最终选择拒绝。他认为自己的专业能力更适合计算生物学，而不是火箭工程…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/350.htm"
+      "link": "https://www.ithome.com/1/030/558.htm"
     },
     {
       "category": "巨头动态",
-      "date": "11-21",
-      "title": "黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制",
-      "desc": "科技媒体 Business Insider 昨日（11 月 20 日）报道，AI 公司 Anthropic 在上市后通过特殊股权设计，让包括 CEO 达里奥 · 阿莫代伊（Dario Amodei）在内的 7 位联合创始人共同掌握 50.1% 的股东投票权…",
+      "date": "11-22",
+      "title": "Anthropic 数学家 AI 攻克黎曼猜想？Lean 社区通过核验，数十人报告代码库编译正确",
+      "desc": "11 月 21 日，Lean 与 Mathlib 社区发布联合声明，称莱文特・阿尔波格（Levent Alpöge）以 Lean 库形式给出的黎曼猜想证明已经通过核验，该证明的代码约 1700 万行。（IT 之家注：Lean 是交互式定理证明器，可逐行机械核验数学推理是否符合逻辑公理…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/348.htm"
+      "link": "https://www.ithome.com/1/030/547.htm"
     },
     {
-      "category": "巨头动态",
-      "date": "11-21",
-      "title": "12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元",
-      "desc": "律师 u/TumbleweedNew6515 昨日（11 月 20 日）在 Reddit 社区发帖，斥资 9,450 美元（IT之家注：现汇率约合 63,239 元人民币）使用 12 张二手英伟达 V100 显卡搭建私人 AI 服务器，本地运行 DeepSeek-V4.1-Flash…",
+      "category": "产业合作",
+      "date": "11-22",
+      "title": "试题用于大模型测试？国家中医药管理局认证中心：未与任何大模型企业合作，亦未开展测评",
+      "desc": "11 月 21 日晚，国家中医药管理局中医师资格认证中心通过官方公众号发布声明称，该中心从未公开历年真题，未与任何大模型企业合作，亦未开展测评。声明称，近期部分人工智能大模型产品及其运营、推广主体宣称其大模型经过了中医类别医师资格考试试题测试等事宜…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/346.htm"
+      "link": "https://www.ithome.com/1/030/540.htm"
     },
     {
-      "category": "巨头动态",
-      "date": "11-21",
-      "title": "腾讯混元姚顺雨团队：Hy4 仍有很大改进空间，计划训练更大规模模型",
-      "desc": "11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和团队成员，在 Reddit 进行了一场持续 120 分钟的 AMA，回答全球开发者关于混元的“任何问题”。问答环节，有人询问：字节跳动、Kimi 等似乎都在往 3 万亿、甚至 5 万亿参数的超大模型推进…",
+      "category": "算力硬件",
+      "date": "11-22",
+      "title": "群联展示内置 NPU 与 64GB 内存的智能固态硬盘，可直接运行 AI 模型",
+      "desc": "群联在 SC26 大会中展示两款企业级固态硬盘，专为 AI 场景设计。其中一款甚至带有 NPU 和 64GB 内存，可以直接运行 AI 模型。IT之家从原报道获悉，其中一款产品 SSD 内置 NPU（神经网络引擎）、64GB 内存，带宽达到 130GB/s…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/338.htm"
+      "link": "https://www.ithome.com/1/030/524.htm"
     },
     {
-      "category": "巨头动态",
-      "date": "11-21",
-      "title": "拯救爆满的“下载”文件夹：微软 Win11 将推 AI 整理神器，授权后可查找 / 分类 / 移动 / 重命名文件",
-      "desc": "科技媒体 Windows Latest 昨日（11 月 20 日）发布博文，报道称在 Ignite 2026 活动中，微软展示 Copilot“本地文件操作”功能，在征得用户授权后可以查找、分类、移动或重命名本地文件…",
+      "category": "智能应用",
+      "date": "11-22",
+      "title": "加密聊天应用 Signal 默认屏蔽截图，防止 AI 智能体读取用户消息",
+      "desc": "开源端到端加密聊天应用 Signal 近日推出 iOS / Android 版更新，默认关闭应用程序内截图功能，以阻止 Siri AI 和 Gemini 等 AI 智能体读取用户私人消息…",
       "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/333.htm"
+      "link": "https://www.ithome.com/1/030/517.htm"
     },
     {
-      "category": "开发者研究",
+      "category": "智能应用",
       "date": "11-21",
-      "title": "近 200 万条请求揭开 AI 隐私漏洞：“零数据保留”也会泄密",
-      "desc": "科技媒体 Ars Technica 今天（11 月 21 日）发布博文，报道称安全公司 Dragos 首席研究官 HD Moore 向多家 AI 服务商发送近 200 万条带有可追踪“诱饵”的请求，发现 AI 服务链存在黑客窃取提示词、转售商泄露数据及未遵守隐私设置等问题…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/322.htm"
-    },
-    {
-      "category": "巨头动态",
-      "date": "11-21",
-      "title": "OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%",
-      "desc": "OpenAI 发布公告介绍了针对「对抗性蒸馏」（Adversarial Distillation）的防御措施。OpenAI 称其已加强 GPT-6.2 Astra 和 GPT-6.2 Sol 对内部推理思考链（Chain-of-Thought）的保护，以降低其他模型通过提取推理过程获取其能力的风险…",
-      "source": "IT之家",
-      "link": "https://www.ithome.com/1/030/319.htm"
+      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+      "desc": "还实现可变形物体操控全球首通",
+      "source": "量子位",
+      "link": "https://www.qbitai.com/2026/11/511779.html"
     }
   ]
 }
